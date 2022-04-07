@@ -9,7 +9,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
-<Table border "1" width=1350 height=2000>
+
+<Table border "1" width=1350 height=200>
 <tr>
 <td colspan="3" height=80> Home Do Site </td> 
 </tr>
