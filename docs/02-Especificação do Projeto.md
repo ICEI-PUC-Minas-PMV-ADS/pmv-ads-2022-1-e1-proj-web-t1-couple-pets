@@ -17,7 +17,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
         <th>Grãos</th>
     </tr>
     <tr>
-        <td rowspan="4" width=150>src="./img/joaopedro.png"</td>       
+        <td rowspan="4" width=150><img src="./img/joaopedro.png"</td>       
         <td>Alface</td>
         <td>Arroz</td>
     </tr>
