@@ -10,19 +10,24 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 
-<div class="logo">
-      <Table border "1" width=1350 height=300>
-<tr>
-<td colspan="3" height=80> Home Do Site </td> 
-</tr>
-<tr>
-<td rowspan="4" width=150> <img src="./img/joaopedro.png" /> </td> <td height=150> Home </td>
-<td rowspan="4" width=150> Imagem </td>
-</tr>
-<tr>
-      
+<table border="1">
+    <tr>
+        <th>Frutas</th>
+        <th>Verduras</th>
+        <th>Grãos</th>
+    </tr>
+    <tr>
+        <td>Maçã</td>
+        <td>Alface</td>
+        <td>Arroz</td>
+    </tr>
+    <tr>
+        <td>Laranja</td>
+        <td>Beterraba</td>
+        <td>Trigo</td>
+    </tr>
+</table>
 
-</div>
 
 ## Histórias de Usuários
 
