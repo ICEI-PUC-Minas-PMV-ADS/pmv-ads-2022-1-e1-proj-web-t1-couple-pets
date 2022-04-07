@@ -23,8 +23,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     </tr>
     <tr>
         <td>Laranja</td>
-        <td>Beterraba</td>
-        <td>Trigo</td>
+        <td>Beterraba</td>        
     </tr>
 </table>
 
