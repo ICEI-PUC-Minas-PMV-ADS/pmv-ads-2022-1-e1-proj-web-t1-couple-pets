@@ -9,7 +9,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
-
 <Table border "1" width=1350 height=200>
 <tr>
 <th colspan="3" right > João Pedro </td> 
