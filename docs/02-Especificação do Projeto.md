@@ -12,7 +12,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 
 <Table border "1" width=1350 height=200>
 <tr>
-<td colspan="3" left > João Pedro </td> 
+<td colspan="3" right > João Pedro </td> 
 </tr>
 <tr>
 <td rowspan="4" width=150> <img src="./img/joaopedro.png" /> </td> 
