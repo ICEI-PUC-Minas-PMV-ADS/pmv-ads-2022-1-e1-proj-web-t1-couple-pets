@@ -12,12 +12,12 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 
 <table border="1">
     <tr>
-        <th></th>
-        <th>João Pedro</th>
-        
+        <th>Frutas</th>
+        <th>Verduras</th>
+        <th>Grãos</th>
     </tr>
     <tr>
-        <td>Maçã</td>
+        <td rowspan="4" width=150></td>
         <td>Alface</td>
         <td>Arroz</td>
     </tr>
