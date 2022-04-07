@@ -9,7 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 <div class="logo">
-      <img src="./img/logo.png" />
+      <img src="./img/joaopedro.png" />
 
 </div>
 
