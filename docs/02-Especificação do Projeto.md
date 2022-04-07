@@ -9,7 +9,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 <div class="logo">
-      <img src="./img/joaopedro.png" />
+      <Table border "1" width=1350 height=2000>
+<tr>
+<td colspan="3" height=80> Home Do Site </td> 
+</tr>
+<tr>
+<td rowspan="4" width=150> <img src="./img/joaopedro.png" /> </td> <td height=150> Home </td>
+<td rowspan="4" width=150> Imagem </td>
+</tr>
+<tr>
+      
 
 </div>
 
