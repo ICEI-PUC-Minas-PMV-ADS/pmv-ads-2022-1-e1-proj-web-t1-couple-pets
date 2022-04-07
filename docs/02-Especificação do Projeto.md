@@ -12,9 +12,9 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 
 <table border="1">
     <tr>
-        <th>Frutas</th>
-        <th>Verduras</th>
-        <th>Grãos</th>
+        <th></th>
+        <th>João Pedro</th>
+        
     </tr>
     <tr>
         <td>Maçã</td>
