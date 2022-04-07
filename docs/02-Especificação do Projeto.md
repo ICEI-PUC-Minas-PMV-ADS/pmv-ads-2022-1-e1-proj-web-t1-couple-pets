@@ -10,13 +10,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 
-<table border="1">
-    <tr>
-        <td>Nome</td>
-        <td>Idade</td>
-        <td>Profissão</td>
-    </tr>
-
+<Table border "1" width=1350 height=2000>
+<tr>
+<td colspan="3" height=80> Home Do Site </td> 
+</tr>
+<tr>
+    
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
