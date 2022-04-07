@@ -7,9 +7,11 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
+
 <div class="logo">
-      <Table border "1" width=1350 height=2000>
+      <Table border "1" width=1350 height=300>
 <tr>
 <td colspan="3" height=80> Home Do Site </td> 
 </tr>
