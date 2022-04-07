@@ -13,9 +13,10 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 <tr>
 <td colspan="3" height=80> Home Do Site </td> 
 </tr>
-
-</table>
-
+<tr>
+<td rowspan="4" width=150> Imagem(invés de aperecer escrito imagem eu quero colocar a imagem, como eu faço? </td> <td height=150> Home </td>
+<td rowspan="4" width=150> Imagem </td>
+</tr>
 
 ## Histórias de Usuários
 
