@@ -17,9 +17,6 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 <td rowspan="4" width=150> 
  <img src="./img/joaopedro.png" /> 
  </td> 
- <td height=150> Home </td>
-<td rowspan="4" width=150> Imagem </td>
-</tr>
 
 ## Histórias de Usuários
 
