@@ -9,44 +9,26 @@ Isto posto é importante que exista uma plataforma onde os tutores possam buscar
 Em consultas às redes sociais bem como em sites como o OLX, é comum anúncios da comercialização de filhotes de cachorro que costumam ter poucas informações sobre o animal e seu tutor, o que dificulta a busca dos usuários e faz com os anúncios permaneçam abertos por muito tempo por falta de informações ou por não atingirem o público alvo. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+De acordo com o que foi proposto, o problema que se busca resolver com esse projeto é a falta de uma plataforma que unifique e simplifique as informações de busca para o parceiro do seu cachorro(a). 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O presente trabalho objetiva a elaboração de um site que facilite o encontro de um parceiro para cachorros e cachorras, através de uma plataforma simples que estimule o contato entre tutores. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar: 
+
+Permitir a inserção de dados e contatos do tutor, bem como informações e fotos do animal. 
+
+Fornecer mecanismo de busca por raça e sexo do animal para facilitar a navegação. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Com o propósito de auxiliar nessas buscas, a plataforma Couple Pet’s atende aos requisitos que mais importam na escolha de um parceiro para seu pet, baseado nos benefícios que os tutores estão procurando.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Dessa forma a plataforma se propõe a trazer ao tutor maior segurança em relação a outros portais que não tem esse objetivo. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em consulta às redes sociais e sites de vendas como o OLX, nos deparamos com vários anúncios em busca de um parceiro para reprodução de seus animais de estimação. Tais anúncios, costumam ter poucas informações sobre o animal e seu tutor, o que dificulta a busca, e faz com que os referidos anúncios permaneçam abertos por muito tempo, já que se encontram em plataformas inadequadas para o propósito. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo desta solução são pessoas que buscam outras pessoas que possuam pets da mesma raça para que possam assim encontrar um parceiro pet para cruzamento de acordo com as informações fornecidas para o site. 
