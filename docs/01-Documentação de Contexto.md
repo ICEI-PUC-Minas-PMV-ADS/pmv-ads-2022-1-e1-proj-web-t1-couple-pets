@@ -1,6 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+  Achar o parceiro ideal para seu cachorro(a) de estimação pode ser um transtorno. A falta de uma plataforma que ofereça o serviço de forma adequada pode gerar perda de tempo, prejuízos financeiros e até danos ao animal, haja vista não ser fácil encontrar um parceiro(a) compatível para realizar o cruzamento. 
+
+A reprodução feita de forma adequada é essencial para a saúde do animal, bem como a verificação do cartão de vacinação e exames do parceiro a ser escolhido.  
+
+Isto posto é importante que exista uma plataforma onde os tutores possam buscar parceiros para seus animais e ter acesso a informações importantes, tanto do animal como de seu tutor antes de marcar um encontro. 
+
+Em consultas às redes sociais bem como em sites como o OLX, é comum anúncios da comercialização de filhotes de cachorro que costumam ter poucas informações sobre o animal e seu tutor, o que dificulta a busca dos usuários e faz com os anúncios permaneçam abertos por muito tempo por falta de informações ou por não atingirem o público alvo. 
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
