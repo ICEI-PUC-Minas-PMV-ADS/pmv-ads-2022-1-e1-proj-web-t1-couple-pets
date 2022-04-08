@@ -20,7 +20,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     <td colspan="2" align="right"><b>João Pedro</b> </td>
 </tr>
 <tr>
-    <td>Idade:<b></b> 33 <br><br> <b>Ocupação:</b> advogado, e investidor em cripto moedas. <br><br>
+    <td><b>Idade:</b> 33 <br><br> <b>Ocupação:</b> advogado, e investidor em cripto moedas. <br><br>
         <b>Nome do pet:</b> Fox <br> <img src="./img/foxpet.png" width="90%">
     </td> 
     <td><b></b> Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
@@ -36,7 +36,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 <tr>
     <th rowspan="2"><img src="./img/laura.png" width="800"></th>
-    <td colspan="2" align="right"><b></b>Laura </td>
+    <td colspan="2" align="right"><b>Laura</b></td>
 </tr>
 <tr>
     <td><b>Idade:</b> 33 <br><br> <b>Ocupação:</b> Engenheira de Software, funcionária da empresa Amazon. <br><br>
