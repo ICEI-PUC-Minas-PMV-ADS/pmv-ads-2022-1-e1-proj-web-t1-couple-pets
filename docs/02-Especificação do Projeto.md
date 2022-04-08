@@ -21,7 +21,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 <tr>
     <td>Idade: 33 <br><br> Ocupação: advogado, e investidor em cripto moedas. <br><br>
-        Nome do pet: Fox <br> <img src="./img/foxpet.png" width="60%">
+        Nome do pet: Fox <br> <img src="./img/foxpet.png" width="90%">
     </td> 
     <td> Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
         menos um.
