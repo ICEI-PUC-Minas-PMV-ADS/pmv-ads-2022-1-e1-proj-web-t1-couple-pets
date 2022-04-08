@@ -35,7 +35,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     <td></td>
 </tr>
 <tr>
-    <th rowspan="2"><img src="./img/laura.png" width="1000"></th>
+    <th rowspan="2"><img src="./img/laura.png" width="600"></th>
     <td colspan="2" align="right">Laura </td>
 </tr>
 <tr>
