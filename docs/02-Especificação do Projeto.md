@@ -21,7 +21,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 <tr>
     <td>Idade: 33 <br><br> Ocupação: advogado, e investidor em cripto moedas. <br><br>
-        Nome do pet: Fox
+        Nome do pet: Fox <img src="./img/foxpet.png" width="100%">
     </td> 
     <td> Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
         menos um.
@@ -29,6 +29,23 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 </table>
 
+<table border="1" width="70%">
+<tr>
+    <th></th>
+    <td></td>
+</tr>
+<tr>
+    <th rowspan="2"><img src="./img/laura.png" width="100"></th>
+    <td colspan="2" align="right">Laura </td>
+</tr>
+<tr>
+    <td>Idade: 33 <br><br> Ocupação: Engenheira de Software, funcionária da empresa Amazon. <br><br>
+        Nome do pet: Lola <img src="./img/lolapetpet.png" width="100%">
+    </td> 
+    <td> Objetivos: À procura de um par, para ter filhotes e vender na intenção de aumentar a renda.
+    </td>  
+</tr>
+</table>
 
 ## Histórias de Usuários
 
