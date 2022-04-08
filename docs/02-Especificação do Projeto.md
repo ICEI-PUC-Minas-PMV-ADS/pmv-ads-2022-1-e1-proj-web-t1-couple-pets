@@ -10,22 +10,26 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 
-<table border="1">
-    <tr>
-        <th>Frutas</th>
-        <th>Verduras</th>
-        <th>Grãos</th>
-    </tr>
-    <tr>
-        <td rowspan="4" width=150><img src="./img/joaopedro.png"</td>       
-        <td>Alface</td>
-        <td>Arroz</td>
-    </tr>
-    <tr>
-        <td>Laranja</td>
-        <td>Beterraba</td>        
-    </tr>
-</table>
+             <table border="1" width="60%">
+                        <tr>
+                            <th></th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2"><img src="./img/joaopedro.png" width="100"></th>
+                            <td colspan="2" align="right">João Pedro </td>
+                        </tr>
+                        <tr>
+                            <td>Idade: 33 <br><br> Ocupação: advogado, e investidor em cripto moedas. <br><br>
+                                Nome do pet: Fox
+                            </td>
+
+                            <td>Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
+                                menos um.
+
+                            </td>
+                        </tr>
+                    </table>
 
 
 ## Histórias de Usuários
