@@ -17,13 +17,13 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 <tr>
     <th rowspan="2"><img src="./img/joaopedro.png" width="100%"></th>
-    <td colspan="2" align="right">João Pedro </td>
+    <td colspan="2" align="right"><b>João Pedro</b> </td>
 </tr>
 <tr>
-    <td>Idade: 33 <br><br> Ocupação: advogado, e investidor em cripto moedas. <br><br>
-        Nome do pet: Fox <br> <img src="./img/foxpet.png" width="90%">
+    <td>Idade:<b></b> 33 <br><br> <b>Ocupação:</b> advogado, e investidor em cripto moedas. <br><br>
+        <b>Nome do pet:</b> Fox <br> <img src="./img/foxpet.png" width="90%">
     </td> 
-    <td> Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
+    <td><b></b> Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
         menos um.
     </td>  
 </tr>
@@ -36,13 +36,13 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
 </tr>
 <tr>
     <th rowspan="2"><img src="./img/laura.png" width="800"></th>
-    <td colspan="2" align="right">Laura </td>
+    <td colspan="2" align="right"><b></b>Laura </td>
 </tr>
 <tr>
-    <td>Idade: 33 <br><br> Ocupação: Engenheira de Software, funcionária da empresa Amazon. <br><br>
-        Nome do pet: Lola <br> <img src="./img/lolapet.png" width="60%">
+    <td><b>Idade:</b> 33 <br><br> <b>Ocupação:</b> Engenheira de Software, funcionária da empresa Amazon. <br><br>
+        <b>Nome do pet:</b> Lola <br> <img src="./img/lolapet.png" width="60%">
     </td> 
-    <td> Objetivos: À procura de um par, para ter filhotes e vender na intenção de aumentar a renda.
+    <td> <b>Objetivos:</b> À procura de um par, para ter filhotes e vender na intenção de aumentar a renda.
     </td>  
 </tr>
 </table>
