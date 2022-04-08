@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 De acordo com pesquisas descobrimos as personas que se encontram com tal problema.
 
-<table border="1" width="60%">
+<table border="1" width="100%">
 <tr>
     <th></th>
     <td></td>
