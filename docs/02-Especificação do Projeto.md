@@ -16,7 +16,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     <td></td>
 </tr>
 <tr>
-    <th rowspan="2"><img src="./img/joaopedro.png" width="200%"></th>
+    <th rowspan="2"><img src="./img/joaopedro.png" width="100%"></th>
     <td colspan="2" align="right">João Pedro </td>
 </tr>
 <tr>
