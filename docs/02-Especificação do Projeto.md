@@ -20,10 +20,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     <td colspan="2" align="right">João Pedro </td>
 </tr>
 <tr>
-    <td>Idade: 33 <br><br> Ocupação: advogado, e investidor em cripto moedas. <br><br>
-        Nome do pet: Fox
-    </td>
-   
+    
 
     <td>Objetivos: Estou à procura de um par, para ter filhotes, na intenção de ficar com pelo
         menos um.
