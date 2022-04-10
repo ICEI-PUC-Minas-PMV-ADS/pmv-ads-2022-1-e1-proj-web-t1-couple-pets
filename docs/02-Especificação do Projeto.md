@@ -69,12 +69,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve oferecer um campo de preenchimento para o tipo de personalidade do animal. | MÉDIA | 
+|RF-002| O site deve apresentar, obrigatoriamente, 3 fotos do pet no cadastro.  | ALTA  |
+|RF-003| O site deve possibilitar ao usuário visualizar detalhes do perfil tanto do pet, quanto informações do tutor.  | ALTA | 
+|RF-004| O site deve oferecer um campo de preenchimento obrigatório para a inclusão da cidade que reside o usuário.    | ALTA |
+|RF-005|O site deve oferecer uma funcionalidade de filtro/pesquisa da raça do pet.  | ALTA | 
+|RF-006|O site deve oferecer uma funcionalidade de filtro/pesquisa da idade do pet. 
+   | ALTA |
+|RF-007| O site deve oferecer um campo de informações médicas do pet.    | BAIXA |
+|RF-008| O site deve oferecer um campo de preenchimento com os dados do dono do pet com as seguintes informações: Nome, e-mail, telefone e foto do dono (usuário). | ALTA | 
+|RF-009| O site deve oferecer um meio de comunicação por mensagem de texto via whatsapp.    | ALTA |
 
 
 
