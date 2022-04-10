@@ -53,13 +53,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Quero encontrar um parceiro pet que seja extrovertido.         | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|João Pedro | Quero encontrar um parceiro pet que seja extrovertido.         | Para ter maior chance de uma ninhada nesse mesmo traço de personalidade.           |
+|João Pedro      | Encontrar um parceiro pet na mesma região que reside.                | Para não ter que se deslocar por grandes distancias. |
+|Laura |Encontrar um parceiro pet da mesma raça e de até 8 anos.       | Para ter a mesma idade e raça de seu pet.               |
+|Laura  |Encontrar um parceiro pet com histórico médico bom e com todas as vacinas tomadas.          | Para ter ciencia da saúde do pet.              |
+|João Pedro  | Quero encontrar perfis com galería de fotos do animal.          | Para confirmar as características do animal informadas no perfil.               |
+|Laura  | Quero encontrar nos perfis, informações relevantes do dono de pets com foto.          | Para gerar confianca e credibilidade.             |
+|Laura  | Gostaria que o site de alguma forma unissem as duas partes, por um meio de comunicação via mensagem de texto ex: WhatsApp        | Para melhorar, facilitar e ter um meio de comunicação popular.               |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
