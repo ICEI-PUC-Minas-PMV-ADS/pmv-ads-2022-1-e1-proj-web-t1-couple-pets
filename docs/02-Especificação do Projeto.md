@@ -71,6 +71,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+
+
 
 
 ### Requisitos não Funcionais
