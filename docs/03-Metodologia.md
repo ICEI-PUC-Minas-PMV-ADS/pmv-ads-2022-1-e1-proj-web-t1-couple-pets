@@ -9,13 +9,7 @@ A Metodologia reflete as definições do ferramental utilizado pelo grupo tanto 
 
 Os artefatos do projeto são criados com base nas diversas plataformas e a conexão dos ambientes com sua respectiva finalidade é introduzida na tabela abaixo.
 
-AMBIENTE	PLATAFORMA E LINK DE ACESSO
-Repositório de código fonte	GitHub
-Documentos do projeto	GitHub
-Projeto de Interface e Wireframes	MarvelApp
-Gerenciamento do Projeto	Trello
 
-D
 
 ## Gerenciamento de Projeto
 
