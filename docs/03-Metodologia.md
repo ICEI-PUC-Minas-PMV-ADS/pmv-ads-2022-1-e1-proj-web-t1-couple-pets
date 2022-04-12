@@ -5,35 +5,17 @@
 
 A Metodologia reflete as definições do ferramental utilizado pelo grupo tanto para a manutenção dos códigos e diferentes artefatos como para a associação e compreensão do time no andamento do projeto. Portanto é necessário definir os objetivos, para que as partes envolvidas compreendam os padrões preestabelecidos a fim de garantir fácil entendimento, comunicação e a integração entre os sistemas seja desenvolvida de forma assertiva.
 
-## Controle de Versão
+## Artefatos do Projeto
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Os artefatos do projeto são criados com base nas diversas plataformas e a conexão dos ambientes com sua respectiva finalidade é introduzida na tabela abaixo.
 
-O projeto segue a seguinte convenção para o nome de branches:
+AMBIENTE	PLATAFORMA E LINK DE ACESSO
+Repositório de código fonte	GitHub
+Documentos do projeto	GitHub
+Projeto de Interface e Wireframes	MarvelApp
+Gerenciamento do Projeto	Trello
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+D
 
 ## Gerenciamento de Projeto
 
