@@ -5,7 +5,7 @@
 
 A Metodologia reflete as definições do ferramental utilizado pelo grupo tanto para a manutenção dos códigos e diferentes artefatos como para a associação e compreensão do time no andamento do projeto. Portanto é necessário definir os objetivos, para que as partes envolvidas compreendam os padrões preestabelecidos a fim de garantir fácil entendimento, comunicação e a integração entre os sistemas seja desenvolvida de forma assertiva.
 
-## Artefatos do Projeto
+## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são criados com base nas diversas plataformas e a conexão dos ambientes com sua respectiva finalidade é introduzida na tabela abaixo.
 
