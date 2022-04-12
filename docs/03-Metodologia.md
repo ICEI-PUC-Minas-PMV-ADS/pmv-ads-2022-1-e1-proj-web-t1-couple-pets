@@ -9,6 +9,12 @@ A Metodologia reflete as definições do ferramental utilizado pelo grupo tanto 
 
 Os artefatos do projeto são criados com base nas diversas plataformas e a conexão dos ambientes com sua respectiva finalidade é introduzida na tabela abaixo.
 
+|     AMBIENTE                    |   PLATAFORMA E LINK DE ACESSO                                                             |
+|---------------------------------|-------------------------------------------------------------------------------------------|
+|Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) |
+|Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) | 
+|Projeto de Interface e Wireframes| [MarvelApp](https://marvelapp.com/prototype/5e2jadg/)                                     |
+|Gerenciamento do Projeto         | [Trello](https://trello.com/b/me7Z0Ltz/kanban-airsoft/)                                   | 
 
 
 ## Gerenciamento de Projeto
