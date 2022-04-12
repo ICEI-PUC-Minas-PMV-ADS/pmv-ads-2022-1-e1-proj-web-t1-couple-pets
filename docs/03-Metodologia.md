@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A Metodologia reflete as definições do ferramental utilizado pelo grupo tanto para a manutenção dos códigos e diferentes artefatos como para a associação e compreensão do time no andamento do projeto. Portanto é necessário definir os objetivos, para que as partes envolvidas compreendam os padrões preestabelecidos a fim de garantir fácil entendimento, comunicação e a integração entre os sistemas seja desenvolvida de forma assertiva.
 
 ## Controle de Versão
 
