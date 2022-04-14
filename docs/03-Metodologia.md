@@ -21,12 +21,19 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte maneira:
+- **Scrum Master:** Silvia Cristina De Oliveira Teixeira
+- **Product Owner:** Leonardo Siqueira Menezes
+- **Equipe de Desenvolvimento:**
+    - Mariana Júlia Estevam Corrêa
+    - Rafael Alves de Souza
+    - Pedro Henrique Caetano Soares    
+    - Silvia Cristina De Oliveira Teixeira
+    - Leonardo Siqueira Menezes
+- **Equipe de Design**
+    - Matheus Henrique Garcia Queiroz.
+    - Lorran de França Marins.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
 
