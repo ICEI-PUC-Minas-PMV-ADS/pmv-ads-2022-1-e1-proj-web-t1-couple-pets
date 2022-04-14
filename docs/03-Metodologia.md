@@ -32,7 +32,7 @@ A equipe está organizada da seguinte maneira:
     - Leonardo Siqueira Menezes
 - **Equipe de Design**
     - Matheus Henrique Garcia Queiroz
-    - Lorran de França Marins.
+    - Lorran de França Marins....
 
 
 ### Processo
