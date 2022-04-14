@@ -31,8 +31,8 @@ A equipe está organizada da seguinte maneira:
     - Silvia Cristina De Oliveira Teixeira
     - Leonardo Siqueira Menezes
 - **Equipe de Design**
-    - Matheus Henrique Garcia Queiroz.
-    - Lorran de França Marins.
+    - Matheus Henrique Garcia Queiroz
+    - Lorran de França Marins
 
 
 ### Processo
