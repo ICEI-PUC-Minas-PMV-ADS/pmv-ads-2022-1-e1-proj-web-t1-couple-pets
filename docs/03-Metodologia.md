@@ -20,6 +20,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
+l
 
 Apresente a divisão de papéis entre os membros do grupo.
 
