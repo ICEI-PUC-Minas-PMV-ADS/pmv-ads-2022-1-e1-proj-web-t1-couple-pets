@@ -20,7 +20,18 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
-TESTANDO FJHasçoiflKHJ~PfgaoçglKÇ
+A equipe está organizada da seguinte maneira:
+- **Scrum Master:** Silvia Cristina De Oliveira Teixeira
+- **Product Owner:** Leonardo Siqueira Menezes
+- **Equipe de Desenvolvimento:**
+    - Mariana Júlia Estevam Corrêa
+    - Rafael Alves de Souza
+    - Pedro Henrique Caetano Soares    
+    - Silvia Cristina De Oliveira Teixeira
+    - Leonardo Siqueira Menezes..
+- **Equipe de Design**
+    - Matheus Henrique Garcia Queiroz
+    - Lorran de França Marins
 
 Apresente a divisão de papéis entre os membros do grupo.
 
