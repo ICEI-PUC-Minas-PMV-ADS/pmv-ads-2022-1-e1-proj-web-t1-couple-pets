@@ -33,7 +33,6 @@ A equipe está organizada da seguinte maneira:
     - Matheus Henrique Garcia Queiroz
     - Lorran de França Marins
 
-Apresente a divisão de papéis entre os membros do grupo.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
