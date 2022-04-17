@@ -20,7 +20,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 ## Gerenciamento de Código
 Optamos por utilizar o Git Flow para a gestão do código fonte do software desenvolvido pelo grupo. Desta maneira, conseguimos manter o controle do que está sendo produzido pela equipe, pois a manutenção pode ser realizada em branch, onde, ao mesmo tempo são corrigidas as falhas, implementando novas funcionalidades e total controle da funcionalidade do código. 
 
-![Personas](img/git_flow.PNG)
+![Personas](img/imagem_2022-04-12_195757256.png)
 
 
 ## Gerenciamento de Projeto
