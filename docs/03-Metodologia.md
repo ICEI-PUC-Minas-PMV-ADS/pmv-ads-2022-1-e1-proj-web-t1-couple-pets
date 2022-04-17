@@ -51,3 +51,4 @@ O quadro com as atividades, bem como o status de cada uma, está disponível par
 
 ![Personas](img/trelloprint1.png)
 
+
