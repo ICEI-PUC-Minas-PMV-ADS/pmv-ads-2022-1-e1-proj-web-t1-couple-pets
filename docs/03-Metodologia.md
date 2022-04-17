@@ -48,3 +48,6 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Tr
 - **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL https://trello.com/b/1pwYsDgb/couple-pets.
+
+(img/trelloprint.jpg)
+
