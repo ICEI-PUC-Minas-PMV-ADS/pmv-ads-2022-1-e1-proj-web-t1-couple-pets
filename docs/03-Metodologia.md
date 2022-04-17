@@ -50,3 +50,4 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Tr
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL https://trello.com/b/1pwYsDgb/couple-pets.
 
 (img/trelloprint.jpg)
+
