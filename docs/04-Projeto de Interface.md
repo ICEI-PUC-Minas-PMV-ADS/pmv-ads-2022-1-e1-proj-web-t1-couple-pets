@@ -7,11 +7,11 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## Fluxo do Usuário
 
+![Exemplo de Wireframe](img/Fluxograma.JPG)
+
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
-
-(img/Fluxograma.JPG)
 
 ## Wireframes
 
