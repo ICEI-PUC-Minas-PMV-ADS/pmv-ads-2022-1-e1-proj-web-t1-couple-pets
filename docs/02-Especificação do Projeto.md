@@ -69,7 +69,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve oferecer um campo de preenchimento para o tipo de personalidade do animal. | MÉDIA | 
+|RF-001| O site deve oferecer um campo de preenchimento com os dados  do pet com as seguintes informações: Nome, sexo, personalidade, idade e foto. | MÉDIA | 
 |RF-002| O site deve apresentar, obrigatoriamente, 3 fotos do pet no cadastro.  | ALTA  |
 |RF-003| O site deve possibilitar ao usuário visualizar detalhes do perfil tanto do pet, quanto informações do tutor.  | ALTA | 
 |RF-004| O site deve oferecer um campo de preenchimento obrigatório para a inclusão da cidade que reside o usuário.    | ALTA |
