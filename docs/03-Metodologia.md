@@ -14,7 +14,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 |Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) |
 |Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) | 
 |Projeto de Interface e Wireframes| [MarvelApp](https://marvelapp.com/prototype/5e2jadg/)                                     |
-|Gerenciamento do Projeto         | [Trello](https://trello.com/b/me7Z0Ltz/kanban-airsoft/)                                   | 
+|Gerenciamento do Projeto         | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1)                                   | 
 
 
 ## Gerenciamento de Código
