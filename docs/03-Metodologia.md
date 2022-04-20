@@ -20,7 +20,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 ## Gerenciamento de Código
 Optamos por utilizar o Git Flow para a gestão do código fonte do software desenvolvido pelo grupo. Desta maneira, conseguimos manter o controle do que está sendo produzido pela equipe, pois a manutenção pode ser realizada em branch, onde, ao mesmo tempo são corrigidas as falhas, implementando novas funcionalidades e total controle da funcionalidade do código. 
 
-![Personas](img/imagem_2022-04-12_195757256.png)
+![Gerenciamento de Código](img/imagem_2022-04-12_195757256.png)
 
 
 ## Gerenciamento de Projeto
@@ -48,5 +48,3 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 - **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1).
-
-
