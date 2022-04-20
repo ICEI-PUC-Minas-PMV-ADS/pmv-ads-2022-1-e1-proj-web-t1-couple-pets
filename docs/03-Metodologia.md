@@ -14,7 +14,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 |Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) |
 |Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) | 
 |Projeto de Interface e Wireframes| [MarvelApp](https://marvelapp.com/prototype/5e2jadg/)                                     |
-|Gerenciamento do Projeto         | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1)                                   | 
+|Gerenciamento do Projeto         | [GitHub Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1)                                   | 
 
 
 ## Gerenciamento de Código
@@ -39,7 +39,7 @@ A equipe está organizada da seguinte maneira:
     - Matheus Henrique Garcia Queiroz
     - Lorran de França Marins
 
-Para organização e distribuição das tarefas, será utilizado a ferramenta Trello, estruturado conforme listado abaixo:
+Para organização e distribuição das tarefas, será utilizado a ferramenta Projects do GitHub, estruturado conforme listado abaixo:
 - **Backlog:** Representa as tarefas que não estão previstas para serem realizadas no sprint em andamento.
 - **A Fazer:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
 - **Em Andamento:** Neste quadro estarão as tarefas que estão sendo realizadas.
@@ -47,8 +47,6 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Tr
 - **Em Impedimento:** Neste quadro estarão as tarefas que possuem algum impedimento que fazem com que a mesma não possa ser finalizada.
 - **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL https://trello.com/b/1pwYsDgb/couple-pets.
-
-![Personas](img/trelloprint1.png)
+O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1).
 
 
