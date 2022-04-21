@@ -49,6 +49,7 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1), e é apresentado, no estado atual, na figura abaixo:
 
+<<<<<<< HEAD
 ![QuadroKanban](img/imagem_Quadro KanBan.png)
 
 ### Ferramentas
@@ -58,3 +59,6 @@ Foram empregadas as seguintes ferramentas:
 - Editor de código: [Visual Studio Code](https://code.visualstudio.com/).
 - Ferramentas de comunicação: [Whatsapp](https://www.whatsapp.com) e [Discord](https://discord.com/).
 - Ferramenta de desenho de tela (_wireframing_): [Marvelapp](https://marvelapp.com/).
+=======
+![QuadroKanban](img/Quadro_KanBan.png)
+>>>>>>> f3d7f05aad4150c3238bac7113e083ac0725b0bb
