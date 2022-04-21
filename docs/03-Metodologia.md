@@ -49,4 +49,4 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1), e é apresentado, no estado atual, na figura abaixo:
 
-![QuadroKanban](img/imagem_Quadro KanBan.png)
+![QuadroKanban](docs/img/Quadro_KanBan.png)
