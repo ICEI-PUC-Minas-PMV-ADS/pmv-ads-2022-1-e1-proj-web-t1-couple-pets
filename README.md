@@ -1,6 +1,6 @@
 # COUPLE PET'S
 
-[CouplePets] (img/CouplePets.png)
+[CouplePets](img/CouplePets.png)
 
 CURSO ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
