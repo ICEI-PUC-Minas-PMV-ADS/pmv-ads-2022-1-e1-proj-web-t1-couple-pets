@@ -29,7 +29,7 @@ Inclua um diagrama da solução e descreva os módulos e as tecnologias que faze
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-[Tecnologias](img/tecnologias.png)
+[TECNOLOGIA](img/tecnologias.PNG)
 
 
 ## Hospedagem
