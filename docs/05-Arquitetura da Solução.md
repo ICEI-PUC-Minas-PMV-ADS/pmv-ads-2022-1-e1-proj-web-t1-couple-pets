@@ -21,19 +21,13 @@ A solução implementada conta com os seguintes módulos:
      - **Cadastro** - registro de dados cadastrais de cada usuário.
      - **Contatos** - lista de perfis encontrados que despertaram interesse.
  - **WhatsApp API** - plataforma que permite o redirecionamento do usuário para troca de mensagens pelo WhatsApp.
- - **Hospedagem** - Heroku.
-
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+ - **Hospedagem** - GitHub Pages.
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas foram: CSS, HTML, JavaScrip, WhatAapp API, MARVEL, Whimsical, Visual Studio Code, GitHub Pages.
 
-[TECNOLOGIA](img/tecnologias.PNG)
-
-
+![TECNOLOGIA](img/tecnologias.PNG)
 ## Hospedagem
 
-
-Hospedamos o site no GitHub Pages, o que facilita o desenvolvimento por conta da integração do GitHub Pages com nosso repositório.
+Hospedamos o site no GitHub Pages, o que facilita o desenvolvimento por conta da integração do GitHub Pages com nosso repositório. Segue o link para o site: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/).
 
