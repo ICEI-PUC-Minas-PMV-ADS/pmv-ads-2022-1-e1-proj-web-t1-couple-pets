@@ -1,6 +1,6 @@
 # COUPLE PET'S
 
-![logo](/img/CouplePets.png)
+![LOGO](ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/main/docs/img/logo.png)
 
 CURSO ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
