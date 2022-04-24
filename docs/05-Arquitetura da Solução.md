@@ -26,7 +26,7 @@ A solução implementada conta com os seguintes módulos:
 
 As tecnologias utilizadas foram: CSS, HTML, JavaScrip, WhatAapp API, MARVEL, Whimsical, Visual Studio Code, GitHub Pages.
 
-![TECNOLOGIA](img/Tecnologias.PNG)
+![TECNOLOGIA](img/Tecnologias.png)
 ## Hospedagem
 
 Hospedamos o site no GitHub Pages, o que facilita o desenvolvimento por conta da integração do GitHub Pages com nosso repositório. Segue o link para o site: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/).
