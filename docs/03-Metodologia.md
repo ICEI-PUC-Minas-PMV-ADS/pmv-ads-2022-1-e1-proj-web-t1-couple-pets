@@ -13,7 +13,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 |---------------------------------|-------------------------------------------------------------------------------------------|
 |Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) |
 |Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-tapunk/) | 
-|Projeto de Interface e Wireframes| [MarvelApp](https://marvelapp.com/prototype/5e2jadg/)                                     |
+|Projeto de Interface e Wireframes| [MarvelApp](https://marvelapp.com/prototype/2ece1d8g/screen/86338557)                                     |
 |Gerenciamento do Projeto         | [GitHub Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1)                                   | 
 
 

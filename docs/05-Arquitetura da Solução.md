@@ -24,7 +24,7 @@ A solução implementada conta com os seguintes módulos:
  - **Hospedagem** - GitHub Pages.
 ## Tecnologias Utilizadas
 
-As tecnologias utilizadas foram: CSS, HTML, JavaScrip, WhatAapp API, MARVEL, Whimsical, Visual Studio Code, GitHub Pages.
+As tecnologias utilizadas foram: CSS, HTML, JavaScript, WhatsApp API, MARVEL, Whimsical, Visual Studio Code, GitHub Pages.
 
 ![TECNOLOGIA](img/tecnologias.png)
 ## Hospedagem
