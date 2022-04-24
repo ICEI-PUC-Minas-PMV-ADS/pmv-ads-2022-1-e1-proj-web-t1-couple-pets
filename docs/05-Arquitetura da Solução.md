@@ -21,7 +21,7 @@ A solução implementada conta com os seguintes módulos:
      - **Cadastro** - registro de dados cadastrais de cada usuário.
      - **Contatos** - lista de perfis encontrados que despertaram interesse.
  - **WhatsApp API** - plataforma que permite o redirecionamento do usuário para troca de mensagens pelo WhatsApp.
- - **Hospedagem** - GitHub Pages.
+ - **Hospedagem** - Heroku.
 
 > **Links Úteis**:
 >
