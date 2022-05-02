@@ -11,17 +11,17 @@ CURSO ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
 ## Integrantes
 
-Pedro Henrique Caetano Soares
-
-Mariana Júlia Estevam Corrêa
-
-Rafael Alves de Souza
+Leonardo Siqueira Menezes
 
 Lorran de França Marins
 
+Mariana Júlia Estevam Corrêa
+
 Matheus Henrique Garcia Queiroz
 
-Leonardo Siqueira Menezes
+Pedro Henrique Caetano Soares
+
+Rafael Alves de Souza
 
 Silvia Cristina De Oliveira Teixeira
 
@@ -56,3 +56,4 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+

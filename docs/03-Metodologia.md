@@ -43,8 +43,6 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 - **Backlog:** Representa as tarefas que não estão previstas para serem realizadas no sprint em andamento.
 - **A Fazer:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
 - **Em Andamento:** Neste quadro estarão as tarefas que estão sendo realizadas.
-- **Em Teste:** Após concluído o desenvolvimento a tarefa deverá ser movida para este quadro, aonde será checado a qualidade da mesma.
-- **Em Impedimento:** Neste quadro estarão as tarefas que possuem algum impedimento que fazem com que a mesma não possa ser finalizada.
 - **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/projects/1), e é apresentado, no estado atual, na figura abaixo:
