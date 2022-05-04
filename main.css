@@ -36,7 +36,7 @@ main {
 }
 
 #main-pet-header {
-    background-color: #ABABAB;
+    background-color: rgba(127, 211, 248, 0.77);
     border-radius: 12px;
     width: 712px;
     height: 44px;
@@ -57,7 +57,7 @@ main {
 
 :root {
     --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
-    --cor-secundaria-ativo: rgba(127, 211, 248, 0.77);
+    --cor-secundaria-ativo: white;
     --cor-hover-ativo: rgba(92, 162, 192, 0.77);
 }
 
@@ -96,7 +96,19 @@ main {
     padding: 12px;
 }
 
+.botao-desativado {
+    background-color: var(--cor-secundaria-ativo);
+    outline: none;
+    color: black;
+    padding: 12px;
+}
+
 .botao-ativo:hover {
+    background-color: var(--cor-hover-ativo);
+
+}
+
+.botao-desativado:hover {
     background-color: var(--cor-hover-ativo);
 
 }
