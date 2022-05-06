@@ -119,7 +119,7 @@ main {
     float: left;
     width: 137px;
     height: 137px;
-    background: red;
+    background: #999;
     padding: 0px;
 }
 
@@ -152,9 +152,21 @@ main {
     float: left;
     width: 400px;
     height: 460px;
+    padding-top: 30px;
+
 }
 
 #main-form-perfil-bloco2-campo {
     padding-left: 15px;
     padding-top: 25px;
+    padding: 15px 0px 0px 15px;
+}
+
+#main-form-perfil-bloco2-campo-pais {
+    padding: 32px 0px 0px 15px;
+}
+
+#pais {
+    width: 189px;
+    height: 30px;
 }
