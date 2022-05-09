@@ -17,6 +17,9 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface. Segue link para teste. (https://marvelapp.com/start-user-test/xmTZMDZMvLJiOmxJQoMA)
 
+01- Homepage do site
 ![Wireframe](img/01Homepage.png)
-![Wireframe](img/tela_de_perfil.png)
+
+02- Perfil do Usuario
+![Wireframe](img/02Perfil.png)
 ![Wireframe](img/tela_de_cadastro_pet.png)
