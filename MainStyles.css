@@ -3,6 +3,7 @@ body {
     height: 100%;
     margin: 0 auto;
     line-height: 1;
+
 }
 
 main {
@@ -27,13 +28,17 @@ main {
 }
 
 #main-pet {
-    background-color: #F2F2F2;
+
     border-radius: 12px;
     width: 712px;
     height: 762px;
     float: right;
-
+    position: relative;
+    background-color: #F2F2F2;
 }
+
+
+
 
 #main-pet-header {
     background-color: rgba(127, 211, 248, 0.77);
