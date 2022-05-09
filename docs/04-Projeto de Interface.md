@@ -25,3 +25,12 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 03- Cadastro do Pet
 ![Wireframe](img/03cadastrarpets.png)
+
+04- Contatos
+![Wireframe](img/04Contatos.png)
+
+05- Resultado das buscas pelos pets
+![Wireframe](img/05resultadodabusca.png)
+
+06- Sobre o Site
+![Wireframe](img/06Sobreosite.png)
