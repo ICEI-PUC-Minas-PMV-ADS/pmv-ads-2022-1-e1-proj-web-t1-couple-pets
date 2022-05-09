@@ -15,7 +15,7 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface. Segue link para teste. (https://marvelapp.com/start-user-test/xmTZMDZMvLJiOmxJQoMA)
+São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface. Segue abaixo os Wirefremes das paginas do site:
 
 01- Homepage do site
 ![Wireframe](img/01Homepage.png)
