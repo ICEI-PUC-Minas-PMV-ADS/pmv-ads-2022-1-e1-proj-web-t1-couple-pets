@@ -22,4 +22,6 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 02- Perfil do Usuario
 ![Wireframe](img/02Perfil.png)
-![Wireframe](img/tela_de_cadastro_pet.png)
+
+03- Cadastro do Pet
+![Wireframe](img/03cadastrarpets.png)
