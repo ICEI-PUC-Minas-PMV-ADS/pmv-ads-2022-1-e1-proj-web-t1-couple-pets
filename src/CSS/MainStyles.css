@@ -175,3 +175,11 @@ main {
     width: 189px;
     height: 30px;
 }
+
+#main-pet-header-local {
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding: 10px 5px 5px 10px;
+    
+}
