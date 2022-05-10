@@ -167,11 +167,16 @@ main {
     padding: 15px 0px 0px 15px;
 }
 
-#main-form-perfil-bloco2-campo-pais {
-    padding: 32px 0px 0px 15px;
+#main-form-perfil-bloco2-campo2 {
+    padding: 25px 0px 0px 15px;
 }
 
 #pais {
     width: 189px;
     height: 30px;
+}
+
+#arquivo {
+    padding-left: 200px;
+    padding-top: 50px;
 }
