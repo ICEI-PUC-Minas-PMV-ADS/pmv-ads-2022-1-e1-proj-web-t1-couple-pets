@@ -1,12 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="../CSS/MainStyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Pets</title>
+    <title>Counple Pets</title>
 </head>
+
 <body>
-    
+    <header class="menu-principal">
+        <main>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(127, 211, 248, 0.77);">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../img/logo.png" width="285" height="103" alt></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Meus Pets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contatos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Sair</a>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Busque Pets"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </main>
+    </header>
+    <br clear="both">
+    <section id="base">
+        <article id="main-pet">
+            <div id="main-pet-header">
+                <article id="main-pet-header-titulo">
+                    <nav id=teste>
+                        <a>Meus Pets</a>
+                    </nav>
+                    <div id="main-pet-header-local">
+                    &nbsp; 
+                    <img src="../img/seta-1.png" width="15" height="10">
+                    &nbsp; 
+                    Cadastrar Pet </div>
+                </article>
+            </div>
+            <div id="main-pet-foto">
+                <div id="main-pet-foto2">
+                </div>
+                <div id="main-pet-bloco">
+
+                </div>
+            </div>
+            <div id="upload-photo">
+                <div id="upload-photo-area">
+                    <div id="div-input-file">
+                        <form action="/pagina-processa-dados-do-form" method="post">
+                            <div>
+                                <input type="file" id="name" name="anexo" />
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <br clear="both">
+            </div>
+            <form>
+
+                <div id="main-form-perfil-bloco1">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Nome do Pet
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Raça
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Gênero
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Data de Nascimento
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Local onde Vive
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Vacinas
+                        <span style="color: cadetblue" ;>*</span>
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Porte
+                        :
+                    </div>
+                    <br clear="both">
+                    <div id="main-form-perfil-bloco1-campo">
+                        Comportamento
+
+                        :
+                    </div>
+
+
+
+                </div>
+                <div id="main-form-perfil-bloco2">
+                    <div id="main-form-perfil-bloco2-campo">
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Macho
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Fêmea
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        <select name="viveiro" id="viveiro">
+                            <option value="Brasil" selected="selected">...Selecione</option>
+                            <option value="Afeganistão">Canil</option>
+                            <option value="África do Sul">Dentro de Casa</option>
+                            <option value="Albânia">Pátio</option>
+                        </select>
+                    </div>
+
+                    <div id="main-form-perfil-bloco2-campo-vacinas">
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Pequeno
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Médio
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3"> Grande
+                    </div>
+                    <div id="main-form-perfil-bloco2-campo">
+                        0
+                    </div>
+
+
+                </div>
+            </form>
+            </div>
+        </article>
+        <article id="perfil-info"></article>
+        <article id="main-humano">
+            <div id="main-human-header">
+                <article id="main-human-header-titulo">
+                    <div class="perfil">
+                        <div id="user-perfil">
+                            <h1>
+                                <div id="div-nome">João Pedro</div>
+                            </h1>
+                        </div>
+                    <nav class="button-group">
+                        <a href="#"><button class="botao botao-desativado">Perfil</button></a><br>
+                        <a href="#"><button class="botao botao-ativo">Meus Pets</button></a><br>
+                        <a href="#"><button class="botao botao-desativado">Contatos</button></a><br>
+                        <a href="#"><button class="botao botao-desativado">Sobre</button></a><br>
+                    </nav>
+                </article>
+            </div>
+        </article>
+    </section>
 </body>
+
 </html>
