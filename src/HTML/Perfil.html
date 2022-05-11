@@ -79,7 +79,7 @@
                     <div id="div-input-file">
                         <form action="/pagina-processa-dados-do-form" method="post">
                             <div id="arquivo">
-                                <input type="file" id="name" name="anexo" />
+                                <input type="file">
                             </div>
                         </form>
                     </div>
@@ -138,9 +138,11 @@
                 </div>
                 <div id="main-form-perfil-bloco2">
                     <div id="main-form-perfil-bloco2-campo">
+                        <label for="nome"></label>
                         <input type="text" name="nome" id="nome">
                     </div>
                     <div id="main-form-perfil-bloco2-campo">
+                        <label for="date"></label>
                         <input type="text" name="nome" id="nome">
                     </div>
                     <div id="main-form-perfil-bloco2-campo">
@@ -148,21 +150,32 @@
                         <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Feminino
                     </div>
                     <div id="main-form-perfil-bloco2-campo2">
-                        <input type="text" name="nome" id="nome">
+                        <label for="adress"></label>
+                        <input type="text" name="nome" id="nome" required>
                     </div>
                     <div id="main-form-perfil-bloco2-campo">
-                        <input type="text" name="nome" id="nome">
+                        <label for="tel"></label>
+                        <input type="text" name="nome" id="nome" required>
                     </div>
 
-                    <div id="main-form-perfil-bloco2-campo">
-                        <input type="text" name="nome" id="nome">
+                    <div id="estadocidade-campo">
+                        <select id="estado" onchange="buscaCidades(this.value)" required>
+                            <option value="">Selecione o Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                        </select>
+
                     </div>
                     <div id="main-form-perfil-bloco2-campo">
                         0
                     </div>
+                    <button class="button" type="submit">Concluído
+
+                    </button>
 
 
                 </div>
+
             </form>
             </div>
         </article>

@@ -180,3 +180,27 @@ main {
     padding-left: 200px;
     padding-top: 50px;
 }
+
+#estadocidade-campo {
+    padding: 25px 0px 0px 15px;
+
+}
+
+.button {
+    border-radius: 8px;
+    color: #F2F2F2;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+    background-color: var(--cor-primaria-ativo);
+    width: 100px;
+    height: 40px;
+
+}
+
+.button:hover {
+    background-color: var(--cor-hover-ativo);
+}
