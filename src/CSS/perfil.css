@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     line-height: 1;
 
@@ -58,7 +58,7 @@ main {
 }
 
 
-/* botoes */
+/* botoes e perfil barra lateral*/
 
 :root {
     --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
@@ -74,8 +74,6 @@ main {
     transition: background .3s;
     width: 200px;
     height: 46px;
-
-
 }
 
 .button-group {
@@ -132,6 +130,8 @@ main {
     padding: 30px;
 }
 
+/* campo de identificação dos campos */
+
 #main-form-perfil-bloco1 {
     padding-top: 30px;
     float: left;
@@ -153,6 +153,8 @@ main {
 
 }
 
+/* campos de preenchimento */
+
 #main-form-perfil-bloco2 {
     float: left;
     width: 400px;
@@ -161,19 +163,57 @@ main {
 
 }
 
-#main-form-perfil-bloco2-campo {
+#nome {
+    border-radius: 5px;
+}
+
+#bloco2-nome {
     padding-left: 15px;
     padding-top: 25px;
     padding: 15px 0px 0px 15px;
 }
 
-#main-form-perfil-bloco2-campo2 {
-    padding: 25px 0px 0px 15px;
+#bloco2-date {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding: 15px 0px 0px 15px;
 }
 
-#pais {
+#bloco2-genero {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding: 19px 0px 7px 20px;
+}
+
+#bloco2-adress {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding: 15px 0px 0px 15px;
+}
+
+#bloco2-telefone {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding: 15px 0px 0px 15px;
+}
+
+#bloco2-state {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding: 19px 0px 0px 19px;
+}
+
+#estado {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
     width: 189px;
-    height: 30px;
+    height: 28px;
+}
+
+#bloco2-numero {
+    padding: 24px 0px 0px 18px;
 }
 
 #arquivo {
@@ -181,10 +221,7 @@ main {
     padding-top: 50px;
 }
 
-#estadocidade-campo {
-    padding: 25px 0px 0px 15px;
 
-}
 
 .button {
     border-radius: 8px;
@@ -198,9 +235,24 @@ main {
     background-color: var(--cor-primaria-ativo);
     width: 100px;
     height: 40px;
+    position: absolute;
 
 }
 
 .button:hover {
     background-color: var(--cor-hover-ativo);
+}
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+
+
 }

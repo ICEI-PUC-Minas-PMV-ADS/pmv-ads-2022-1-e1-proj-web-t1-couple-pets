@@ -36,14 +36,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">Sair</a>
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+
                             </li>
 
                         </ul>
@@ -56,6 +49,7 @@
                 </div>
             </nav>
         </main>
+
     </header>
     <br clear="both">
     <section id="base">
@@ -137,28 +131,28 @@
 
                 </div>
                 <div id="main-form-perfil-bloco2">
-                    <div id="main-form-perfil-bloco2-campo">
+                    <div id="bloco2-nome">
                         <label for="nome"></label>
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" placeholder="Ex: João Pedro">
                     </div>
-                    <div id="main-form-perfil-bloco2-campo">
+                    <div id="bloco2-date">
                         <label for="date"></label>
                         <input type="text" name="nome" id="nome">
                     </div>
-                    <div id="main-form-perfil-bloco2-campo">
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Masculino
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Feminino
+                    <div id="bloco2-genero">
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Masculino
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Feminino
                     </div>
-                    <div id="main-form-perfil-bloco2-campo2">
+                    <div id="bloco2-adress">
                         <label for="adress"></label>
                         <input type="text" name="nome" id="nome" required>
                     </div>
-                    <div id="main-form-perfil-bloco2-campo">
+                    <div id="bloco2-telefone">
                         <label for="tel"></label>
                         <input type="text" name="nome" id="nome" required>
                     </div>
 
-                    <div id="estadocidade-campo">
+                    <div id="bloco2-state">
                         <select id="estado" onchange="buscaCidades(this.value)" required>
                             <option value="">Selecione o Estado</option>
                             <option value="AC">Acre</option>
@@ -166,7 +160,7 @@
                         </select>
 
                     </div>
-                    <div id="main-form-perfil-bloco2-campo">
+                    <div id="bloco2-numero">
                         0
                     </div>
                     <button class="button" type="submit">Concluído
@@ -200,6 +194,8 @@
             </div>
         </article>
     </section>
+
+
 </body>
 
 </html>
