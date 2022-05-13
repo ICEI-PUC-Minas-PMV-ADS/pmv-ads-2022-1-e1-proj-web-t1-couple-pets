@@ -1,0 +1,210 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 1;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 1024px;
+    position: relative;
+}
+
+.navbar-brand {
+    width: 30%;
+}
+
+.menu-principal {
+    background-color: rgb(127, 212, 248);
+}
+
+
+#base {
+    margin: 0 auto;
+    width: 1024px;
+    position: relative;
+}
+
+#main-pet {
+
+    border-radius: 12px;
+    width: 712px;
+    height: 762px;
+    float: right;
+    position: relative;
+    background-color: #F2F2F2;
+}
+
+
+
+
+#main-pet-header {
+    background-color: rgba(127, 211, 248, 0.77);
+    border-radius: 12px;
+    width: 712px;
+    height: 44px;
+}
+
+#teste {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding-top: 5px;
+    padding-left: 13px;
+
+}
+
+
+/* botoes */
+
+:root {
+    --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
+    --cor-secundaria-ativo: white;
+    --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+}
+
+.botao {
+
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    width: 200px;
+    height: 46px;
+
+
+}
+
+.button-group {
+    padding-top: 55px;
+}
+
+#user-perfil h1 {
+    font-size: 18px;
+    padding-top: 190px;
+}
+
+.perfil {
+
+    background-color: #F2F2F2;
+    width: 180px;
+    height: 180px;
+}
+
+.botao-ativo {
+    background-color: var(--cor-primaria-ativo);
+    outline: none;
+    color: white;
+    padding: 12px;
+}
+
+.botao-desativado {
+    background-color: var(--cor-secundaria-ativo);
+    outline: none;
+    color: black;
+    padding: 12px;
+}
+
+.botao-ativo:hover {
+    background-color: var(--cor-hover-ativo);
+
+}
+
+.botao-desativado:hover {
+    background-color: var(--cor-hover-ativo);
+
+}
+
+/* perfil info's */
+
+#main-pet-foto2 {
+    float: left;
+    width: 137px;
+    height: 137px;
+    background: #999;
+    padding: 0px;
+}
+
+#main-pet-foto {
+    padding: 30px;
+}
+
+#bloco1 {
+    width: 200px;
+    padding-top: 30px;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+    color: #414141;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.Cadastro-bloco1 {
+    float: right;
+    position: relative;
+    right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+/*Campo de Preenchimento Bloco2*/
+
+#bloco2 {
+
+   height: 400px;
+}
+
+#bloco2-nomepet {
+    padding: 41px 0px 0px 225px;
+}
+
+#bloco2-raça {
+    padding: 20px 0px 0px 225px;
+}
+
+#bloco2-genero {
+    padding: 19px 0px 7px 225px;
+}
+
+#bloco2-vacinas {
+    padding: 20px 0px 0px 225px;
+}
+
+#bloco2-nascimento {
+    padding: 15px 0px 0px 225px;
+}
+
+#bloco2-vive{
+    padding: 20px 0px 0px 225px;
+}
+
+#bloco2-porte {
+    padding: 19px 0px 7px 225px;
+}
+
+#bloco2-comportamento {
+    padding: 20px 0px 0px 225px;
+}
+
+.button {
+    border-radius: 8px;
+    color: #F2F2F2;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 110px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-primaria-ativo);
+    width: 100px;
+    height: 40px;
+
+}
+
+.button:hover {
+    background-color: var(--cor-hover-ativo);
+}
