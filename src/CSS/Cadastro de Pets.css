@@ -27,6 +27,30 @@ main {
     position: relative;
 }
 
+input[type="file"] {
+    display: none;
+}
+
+.button-file {
+    border-radius: 8px;
+    color: #F2F2F2;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+    background-color: var(--cor-primaria-ativo);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 170px;
+    height: 45px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.button-file:hover {
+    background-color: var(--cor-hover-ativo);
+}
 #main-pet {
 
     border-radius: 12px;
@@ -47,7 +71,7 @@ main {
     height: 44px;
 }
 
-#teste {
+#main-pet-header-titulo {
     font-size: 20px;
     font-weight: bold;
     color: black;
@@ -55,6 +79,14 @@ main {
     padding-top: 5px;
     padding-left: 13px;
 
+}
+
+#main-pet-header-sub-titulo {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    padding-top: 11px;
+    padding-left: 13px;
 }
 
 
@@ -79,12 +111,11 @@ main {
 }
 
 .button-group {
-    padding-top: 55px;
+    padding-top: 25px;
 }
 
-#user-perfil h1 {
-    font-size: 18px;
-    padding-top: 190px;
+#nome-do-perfil {
+    padding: 19px 0px 0px 39px;
 }
 
 .perfil {

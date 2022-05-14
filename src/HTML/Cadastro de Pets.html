@@ -51,19 +51,20 @@
     <section id="base">
         <article id="main-pet">
             <div id="main-pet-header">
-                <article id="main-pet-header-titulo">
-                    <nav id=teste>
+                <article>
+                    <div id=main-pet-header-titulo>
                         <a>Meus Pets</a>
-                    </nav>
-                    <div id="main-pet-header-local">
                     &nbsp; 
                     <img src="../img/seta-1.png" width="15" height="10">
-                    &nbsp; 
-                    Cadastrar Pet </div>
+                    &nbsp;
+                    </div>
+                    <div id="main-pet-header-sub-titulo"> 
+                        <a>Cadastrar Pet</a></div>
                 </article>
             </div>
             <div id="main-pet-foto">
                 <div id="main-pet-foto2">
+                    <img src="">
                 </div>
                 <div id="main-pet-bloco">
 
@@ -74,7 +75,8 @@
                     <div id="div-input-file">
                         <form action="/pagina-processa-dados-do-form" method="post">
                             <div>
-                                <input type="file" id="name" name="anexo" />
+                                <label for="arquivo" class="button-file">Enviar Arquivo</label>
+                                <input type="file" name="arquivo" id="arquivo">
                             </div>
                         </form>
                     </div>
@@ -136,47 +138,96 @@
                 </div>
                 <div id="bloco2">
 
-                    <div id="bloco2-nomepet" class="Cadastro-bloco2">
+                    <div id="bloco2-nomepet">
                         <input type="text" name="nome" id="nome" required>
                     </div>
 
-                    <div id="bloco2-raça" class="Cadastro-bloco2">
-                        <input type="text" name="nome" id="nome" required>
+                    <div id="bloco2-raça">
+                        <select id="RACA" name="RACA">
+                            <option value="...Selecione" selected="selected">Selecione...</option>
+                            <option value="1">Afghan Hound</option>
+                            <option value="2">Airedale Terrier</option>
+                            <option value="3">Akita Inu</option>
+                            <option value="4">American Pitbull</option>
+                            <option value="5">Bassethound</option>
+                            <option value="6">Beagle</option>
+                            <option value="7">Bichon Frisé</option>
+                            <option value="8">Boxer</option>
+                            <option value="9">Bull Terrier</option>
+                            <option value="10">Bulldog</option>
+                            <option value="11">Bullmastiff</option>
+                            <option value="12">Chihuahua</option>
+                            <option value="13">Chow Chow</option>
+                            <option value="14">Cocker</option>
+                            <option value="15">Collie</option>
+                            <option value="16">Dálmata</option>
+                            <option value="17">Dobermann</option>
+                            <option value="18">Dogue Alemão</option>
+                            <option value="19">Fila</option>
+                            <option value="20">Fox Terrier Duro</option>
+                            <option value="21">Fox Terrier Liso</option>
+                            <option value="22">Foxhound</option>
+                            <option value="23">Golden Retriever</option>
+                            <option value="24">Husky</option>
+                            <option value="25">Labrador</option>
+                            <option value="26">Lhasa Apso</option>
+                            <option value="27">Maltês</option>
+                            <option value="28">Mastiff</option>
+                            <option value="29">O.E.Sheepdog</option>
+                            <option value="30">Pastor Alemão</option>
+                            <option value="31">Pequinês</option>
+                            <option value="32">Pinscher</option>
+                            <option value="33">Pointer Inglês</option>
+                            <option value="34">Poodle</option>
+                            <option value="35">Rottweiler</option>
+                            <option value="36">São Bernardo</option>
+                            <option value="37">Schnauzer</option>
+                            <option value="38">Setter</option>
+                            <option value="39">Shar Pei</option>
+                            <option value="40">Shih Tzu</option>
+                            <option value="41">Spitz Alemão</option>
+                            <option value="42">Staff Bull Terrier</option>
+                            <option value="43">Teckel</option>
+                            <option value="44">Terrier Brasileiro</option>
+                            <option value="45">Vira-Lata</option>
+                            <option value="46">West Highland White Terrier</option>
+                            <option value="47">Yorkshire Terrier</option>
+                            <option value="99">Outra</option></select>
                     </div>
 
-                    <div id="bloco2-genero" required class="Cadastro-bloco2">
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Macho
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Fêmea
+                    <div id="bloco2-genero">
+                        <INPUT TYPE="RADIO" NAME="OPÇAO-GENERO" VALUE="op1" required> Macho
+                        <INPUT TYPE="RADIO" NAME="OPÇAO-GENERO" VALUE="op2" required> Fêmea
                     </div>
 
-                    <div id="bloco2-nascimento" class="Cadastro-bloco2">
-                        <input type="text" name="nome" id="nome">
+                    <div id="bloco2-nascimento">
+                        <input id="date" type="date">
                     </div>
 
-                    <div id="bloco2-vive" class="Cadastro-bloco2">
+                    <div id="bloco2-vive">
                         <select name="local-onde-vive" id="local-onde-vive">
-                            <option value="selected" selected="selected">...Selecione</option>
+                            <option value="...Selecione" selected="selected">Selecione...</option>
                             <option value="Canil">Canil</option>
                             <option value="Dentro de Casa">Dentro de Casa</option>
                             <option value="Pátio">Pátio</option>
                         </select>
                     </div>
 
-                    <div id="bloco2-vacinas" class="Cadastro-bloco2">
+                    <div id="bloco2-vacinas">
                         <input type="text" name="vacinas" id="vacinas">
                     </div>
 
-                    <div id="bloco2-porte" class="Cadastro-bloco2">
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Pequeno
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Médio
-                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op3" required> Grande
+                    <div id="bloco2-porte">
+                        <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op1" required> Pequeno
+                        <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op2" required> Médio
+                        <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op3" required> Grande
                     </div>
 
-                    <div id="bloco2-comportamento" class="Cadastro-bloco2">
+                    <div id="bloco2-comportamento">
                         <select name="Comportamento" id="Comportamento">
-                            <option value="...Selecione" selected="selected">...Selecione</option>
+                            <option value="...Selecione" selected="selected">Selecione...</option>
                             <option value="Agitado">Agitado</option>
-                            <option value="Agrecivo">Agrecivo</option>
+                            <option value="Agressivo">Agressivo</option>
                             <option value="Calmo">Calmo</option>
                             <option value="Dócil">Dócil</option>
                             <option value="Extrovertido">Extrovertido</option>
@@ -194,11 +245,11 @@
         <article id="main-humano">
             <div id="main-human-header">
                 <article id="main-human-header-titulo">
-                    <div class="perfil">
-                        <div id="user-perfil">
-                            <h1>
-                                <div id="div-nome">João Pedro</div>
-                            </h1>
+                        <div>
+                            <img src="../img/joaopedro.png" style="display: block; margin-left: 8px; margin-right: auto; width: 190px; border-radius: 30%;">
+                            <h4>
+                                <div id="nome-do-perfil">João Pedro</div>
+                            </h4>
                         </div>
                     <nav class="button-group">
                         <a href="#"><button class="botao botao-desativado">Perfil</button></a><br>
