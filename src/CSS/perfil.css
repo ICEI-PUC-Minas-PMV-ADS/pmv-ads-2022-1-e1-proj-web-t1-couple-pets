@@ -172,9 +172,12 @@ main {
 }
 
 #bloco2-date {
-    padding-left: 15px;
-    padding-top: 25px;
     padding: 15px 0px 0px 15px;
+}
+
+#date {
+    width: 189px;
+    height: 30px;
 }
 
 #bloco2-genero {
