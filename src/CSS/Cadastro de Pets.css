@@ -115,7 +115,9 @@ input[type="file"] {
 }
 
 #nome-do-perfil {
-    padding: 19px 0px 0px 39px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 25px 0px 0px 50px;
 }
 
 .perfil {
@@ -199,7 +201,7 @@ input[type="file"] {
 }
 
 #bloco2-genero {
-    padding: 19px 0px 7px 225px;
+    padding: 24px 0px 6px 225px;
 }
 
 #bloco2-vacinas {
@@ -215,7 +217,7 @@ input[type="file"] {
 }
 
 #bloco2-porte {
-    padding: 19px 0px 7px 225px;
+    padding: 21px 0px 7px 225px;
 }
 
 #bloco2-comportamento {
