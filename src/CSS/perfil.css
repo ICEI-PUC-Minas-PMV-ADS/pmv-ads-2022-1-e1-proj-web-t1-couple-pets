@@ -258,3 +258,15 @@ input[type="file"] {
 .button:hover {
     background-color: var(--cor-hover-ativo);
 }
+
+#container {
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+    padding: 0px 0px 0px 95px;
+    width: 137px;
+    height: 137px;
+    color: white;
+}
