@@ -247,7 +247,6 @@ input[type="file"] {
     margin-left: 50px;
     border: none;
     cursor: pointer;
-    transition: background .3s;
     background-color: var(--cor-primaria-ativo);
     width: 100px;
     height: 40px;
