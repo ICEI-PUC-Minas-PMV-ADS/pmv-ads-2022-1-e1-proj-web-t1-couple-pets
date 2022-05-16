@@ -51,6 +51,7 @@ input[type="file"] {
 .button-file:hover {
     background-color: var(--cor-hover-ativo);
 }
+
 #main-pet {
 
     border-radius: 12px;
@@ -87,6 +88,12 @@ input[type="file"] {
     color: rgb(51, 51, 51);
     padding-top: 11px;
     padding-left: 13px;
+    text-decoration: none;
+}
+
+.cadastro {
+    border: none;
+    background-color: rgba(127, 211, 248, 0.05);
 }
 
 
@@ -189,7 +196,7 @@ input[type="file"] {
 
 #bloco2 {
 
-   height: 400px;
+    height: 400px;
 }
 
 #bloco2-nomepet {
@@ -212,7 +219,7 @@ input[type="file"] {
     padding: 15px 0px 0px 225px;
 }
 
-#bloco2-vive{
+#bloco2-vive {
     padding: 20px 0px 0px 225px;
 }
 
