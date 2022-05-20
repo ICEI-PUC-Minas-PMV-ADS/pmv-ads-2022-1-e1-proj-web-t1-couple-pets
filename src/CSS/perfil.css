@@ -41,7 +41,7 @@ main {
 
 
 #main-pet-header {
-    background-color: rgba(127, 211, 248, 0.77);
+    background-color: rgb(127, 212, 248);
     border-radius: 12px;
     width: 712px;
     height: 44px;
@@ -61,7 +61,7 @@ main {
 /* botoes e perfil barra lateral*/
 
 :root {
-    --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
+    --cor-primaria-ativo: rgb(127, 212, 248);
     --cor-secundaria-ativo: white;
     --cor-hover-ativo: rgba(92, 162, 192, 0.77);
 }
