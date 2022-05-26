@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos                           | 1) Acessar o Navegador
                                   | 2) Informar o endereço do Site                                                            |
                                   | 3) Visualizar a página principal                                                          |
-|Critérios de Êxito               | ●	Deve haver uma requisição AJAX no painel NETWORK das ferramentas do Desenvolvedor (recurso do Navegador). |
+|Critérios de Êxito               | Deve haver uma requisição AJAX no painel NETWORK das ferramentas do Desenvolvedor (recurso do Navegador).                                                               |
 
 
 
