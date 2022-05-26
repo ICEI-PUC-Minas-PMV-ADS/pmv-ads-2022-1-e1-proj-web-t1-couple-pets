@@ -13,7 +13,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |     Caso de Teste               |       CT-01  - Visualizar Página Inicial                                                  |
 |---------------------------------|-------------------------------------------------------------------------------------------|
-|Requisitos Associados            |  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e local para login dos usuários já cadastrados.                                                                                                                  | 
+|Requisitos Associados            |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.                                                                                                                                   | 
 |Objetivo do Teste                | Acessar a página Inicial                                                                  | 
 |Passos                           | 1) Acessar o Navegador
                                   | 2) Informar o endereço do Site                                                            |
