@@ -1,272 +1,249 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    line-height: 1;
+    margin: 0;
 
 }
 
-main {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabecalho"
+        "conteudo"
+        "periferico"
+        "rodape";
+    grid-gap: 5px 0px;
+
 }
 
-.navbar-brand {
-    width: 30%;
+header {
+    grid-area: cabecalho;
+}
+
+.logo {
+    width: 285px;
+    height: 103px;
+}
+
+div.container-fluid logo {
+    float: left;
+}
+
+div.content {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    width: 95%;
+}
+
+.content {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+
+nav.perfil {
+    background-color: rgb(127, 212, 248);
+    border-radius: 12px;
+}
+
+nav.perfil h2 {
+    width: 95%;
+    background-color: rgb(127, 212, 248);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.alinhamento {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-noticia {
+    grid-area: conteudo;
+    padding-top: 10px;
+    float: left;
+}
+
+.campo {
+    padding: 0px 0px 11px 10px;
+}
+
+.button-sub {
+    padding-top: 0px;
 }
 
 .menu-principal {
-    background-color: rgb(127, 212, 248);
+    display: block;
+
 }
 
+.menu-principal ul li {
 
-#base {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+    padding: 10px;
+    background: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#main-pet {
-
-    border-radius: 12px;
-    width: 712px;
-    height: 762px;
-    float: right;
-    position: relative;
-    background-color: #F2F2F2;
-}
-
-
-
-
-#main-pet-header {
-    background-color: rgb(127, 212, 248);
-    border-radius: 12px;
-    width: 712px;
-    height: 44px;
-}
-
-#teste {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+.menu-principal>ul {
     float: left;
-    padding-top: 5px;
-    padding-left: 13px;
-
 }
 
-
-/* botoes e perfil barra lateral*/
-
-:root {
-    --cor-primaria-ativo: rgb(127, 212, 248);
-    --cor-secundaria-ativo: white;
-    --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+.campo {
+    grid-area: conteudo;
+    padding: 3px 0px 10px 0px;
 }
 
-.botao {
-
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background .3s;
-    width: 200px;
-    height: 46px;
+.bloco2-genero {
+    padding: 14px 0px 0px 2px;
 }
 
-.button-group {
-    padding-top: 30px;
+.bloco2-adress {
+    padding: 20px 0px 10px 0px;
 }
 
-#user-perfil h1 {
-    font-size: 18px;
-    padding: 15px 0px 0px 15px;
+.bloco2-tel {
+    padding: 10px 0px 10px 0px;
 }
 
-
-
-.botao-ativo {
-    background-color: var(--cor-primaria-ativo);
-    outline: none;
-    color: white;
-    padding: 12px;
+.bloco2-state {
+    padding: 5px 0px 27px 4px;
 }
 
-.botao-desativado {
-    background-color: var(--cor-secundaria-ativo);
-    outline: none;
-    color: black;
-    padding: 12px;
+aside {
+    grid-area: periferico;
 }
 
-.botao-ativo:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-.botao-desativado:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-/* perfil info's */
-
-#main-pet-foto2 {
-    float: left;
-    width: 137px;
-    height: 137px;
-    background: #999;
-    padding: 0px;
-}
-
-#main-pet-foto {
-    padding: 30px;
-}
-
-/* campo de identificação dos campos */
-
-#main-form-perfil-bloco1 {
-    padding-top: 30px;
-    float: left;
-    width: 210px;
-    height: 100%;
-    border-right: 1px solid #e8e8e8;
-    color: #414141;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-#main-form-perfil-bloco1-campo {
-
-    float: right;
-    position: relative;
-    right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-/* campos de preenchimento */
-
-#main-form-perfil-bloco2 {
-    float: left;
-    width: 400px;
-    height: 460px;
-    padding-top: 30px;
-
-}
-
-
-
-#bloco2-nome {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-date {
-    padding: 15px 0px 0px 15px;
-}
-
-#date {
-    width: 189px;
-    height: 30px;
-}
-
-#bloco2-genero {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 19px 0px 7px 20px;
-}
-
-#bloco2-adress {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-telefone {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-state {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 19px 0px 0px 19px;
-}
-
-#estado {
-
-
-    text-align: center;
-    width: 189px;
-    height: 28px;
-}
-
-#bloco2-numero {
-    padding: 24px 0px 0px 18px;
-}
-
-
-input[type="file"] {
+aside>.box-lateral {
     display: none;
 }
 
-
-
-.button-file {
-    border-radius: 8px;
-    color: #F2F2F2;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    transition: background .3s;
-    background-color: var(--cor-primaria-ativo);
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 30px;
-    width: 170px;
-    height: 45px;
-    padding: 10px 0px 0px 0px;
-    text-align: center;
+.box-noticia p,
+.box-noticia h2 {
+    margin-top: 0px;
 }
 
-.button-file:hover {
-    background-color: var(--cor-hover-ativo);
+h2 {
+    margin-top: 0px;
 }
 
-.button {
-    border-radius: 8px;
-    color: #F2F2F2;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    border: none;
-    cursor: pointer;
-    transition: background .3s;
-    background-color: var(--cor-primaria-ativo);
-    width: 100px;
-    height: 40px;
-    position: absolute;
-
+.box-lateral ul {
+    list-style: none;
+    padding: 5px;
 }
 
-.button:hover {
-    background-color: var(--cor-hover-ativo);
-}
 
-#container {
-    position: absolute;
-}
 
-h1 {
-    position: absolute;
-    padding: 0px 0px 0px 95px;
-    width: 137px;
-    height: 137px;
-    color: white;
+@media (min-width: 962px) {
+    body {
+        margin: 0px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 120px 1fr 120px;
+        grid-template-areas: "cabecalho cabecalho"
+            "periferico conteudo "
+            "rodape rodape";
+        grid-gap: 20px 30px;
+    }
+
+    .menu-principal {
+        float: right;
+        padding: 50px 40px 0px 0px;
+    }
+
+    .menu-principal>ul>li {
+        display: inline-block;
+        background-color: rgb(127, 212, 248);
+    }
+
+    .campo {
+        grid-area: conteudo;
+        padding: 3px 0px 10px 30px;
+    }
+
+    .bloco2-genero {
+        padding: 14px 0px 0px 30px;
+    }
+
+    .bloco2-adress {
+        padding: 20px 0px 10px 30px;
+    }
+
+    .bloco2-tel {
+        padding: 10px 0px 10px 30px;
+    }
+
+    .bloco2-state {
+        padding: 5px 0px 27px 34px;
+    }
+
+    div.box-lateral {
+        background-color: white;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    div.box-lateral ul li {
+        padding: 5px;
+    }
+
+    /* botoes e perfil barra lateral WEB*/
+    aside>.box-lateral {
+        display: list-item;
+    }
+
+    :root {
+        --cor-primaria-ativo: rgb(127, 212, 248);
+        --cor-secundaria-ativo: white;
+        --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+    }
+
+    .botao {
+
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        width: 200px;
+        height: 46px;
+    }
+
+    .button-group {
+        padding-top: 30px;
+    }
+
+    .botao-ativo {
+        background-color: var(--cor-primaria-ativo);
+        outline: none;
+        color: white;
+        padding: 12px;
+    }
+
+    .botao-desativado {
+        background-color: var(--cor-secundaria-ativo);
+        outline: none;
+        color: black;
+        padding: 12px;
+    }
+
+    .botao-ativo:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    .botao-desativado:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    footer {
+        grid-area: rodape;
+    }
 }

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0">
-    <link rel="stylesheet" href="perfil.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Couple Pets</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>Layout grid</title>
 </head>
 
 <body>
-    <header class="menu-principal">
-        <main>
+    <div class="wrapper">
+        <header>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
-                <div class="container-fluid" style="background-color: rgba(127, 211, 248, 0.77);">
-                    <a class="navbar-brand" href="#"><img src="./src/img/logo.png" width="285" height="103"
-                            alt="logo"></a>
+                <div class="container-fluid">
+                    <a class="logo" href="#"><img src="./src/img/logo.png" alt="logo"
+                            style="width: 285px; height: 103px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,76 +30,56 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Perfil.html">Perfil</a>
+                                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Meus Pets</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos</a>
+                                <a class="nav-link" href="#">Contato</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="PaginaInicial.html">Sair</a>
-                                </a>
-
+                                <a class="nav-link" href="#">Sair</a>
                             </li>
-
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Busque Pets"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
             </nav>
-        </main>
+        </header>
 
-    </header>
-    <br clear="both">
-    <section id="base">
-        <article id="main-pet">
-            <div id="main-pet-header">
-                <article id="main-pet-header-titulo">
-                    <nav id=teste>
-                        <a>Perfil</a>
+        <aside>
+
+            <div class="box-lateral nav-lateral">
+                <ul>
+                    <a href="#"><button class="botao botao-ativo">Perfil</button></a><br>
+                    <a href="#"><button class="botao botao-desativado">Meus
+                            Pets</button></a><br>
+                    <a href="#"><button class="botao botao-desativado">Contatos</button></a><br>
+                    <a href="#"><button class="botao botao-desativado">Sobre</button></a><br>
+                </ul>
+            </div>
+        </aside>
+        <form class="content" action="">
+            <div class="">
+                <div class="perfil">
+                    <nav class="perfil">
+                        <h2>Perfil</h2>
                     </nav>
-                </article>
-            </div>
-            <div id="main-pet-foto">
-                <div id="main-pet-foto2" style=" border-radius: 30%;">
-
-                    <figure id="container">
-                        <h1 style="font-size: 15px;">1/1</h1>
-
-                        <img src="../img/joaopedro.png" style="display: block; width: 137px; border-radius: 30%;" />
-
-
-                    </figure>
-
-                </div>
-                <div id="main-pet-bloco">
-
                 </div>
             </div>
-            <div id="upload-photo">
-
-                <div id="upload-photo-area">
-                    <div id="div-input-file">
-                        <form action="/pagina-processa-dados-do-form" method="post">
-                            <div>
-                                <label for="arquivo" class="button-file">Enviar Arquivo</label>
-                                <input type="file" name="arquivo" id="arquivo">
-                            </div>
-                        </form>
+            <div class="content alinhamento">
+                <div class=" ">
+                    <div class="enviar-photo">
+                        <form action=""></form>
+                        <label for=""></label>
+                        <input type="file">
                     </div>
-
                 </div>
-                <br clear="both">
-            </div>
-            <form>
-
-                <div id="main-form-perfil-bloco1">
+                <div class="box-noticia">
                     <div id="main-form-perfil-bloco1-campo">
                         Nome
                         <span style="color: cadetblue" ;>*</span>
@@ -139,72 +122,53 @@
 
                         :
                     </div>
-
-
-
                 </div>
-                <div id="main-form-perfil-bloco2">
-                    <div id="bloco2-nome">
-                        <label for="nome"></label>
+                <div class="box-noticia">
+                    <div class="bloco2-nome campo">
+                        <label for="nome "></label>
                         <input type="text" name="nome" id="nome" placeholder="Ex: João Pedro" required>
                     </div>
-                    <div id="bloco2-date">
+                    <div class="bloco2-date campo">
                         <label for="date"></label>
                         <input type="date" name="nome" id="date">
                     </div>
-                    <div id="bloco2-genero">
+                    <div class="bloco2-genero campo">
                         <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Masculino
                         <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Feminino
                     </div>
-                    <div id="bloco2-adress">
+                    <div class="bloco2-adress ">
                         <label for="adress"></label>
                         <input type="text" name="nome" id="nome" required>
                     </div>
-                    <div id="bloco2-telefone">
+                    <div class="bloco2-tel">
                         <label for="tel"></label>
                         <input type="tel" name="nome" id="nome" required>
                     </div>
 
-                    <div id="bloco2-state">
+                    <div class="bloco2-state ">
                         <select id="estado" onchange="buscaCidades(this.value)" required>
                             <option value="">Selecione o Estado</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                         </select>
-
                     </div>
-                    <div id="bloco2-numero">
+                    <div class="bloco2-numero campo">
                         0
                     </div>
-                    <button class="button" type="submit">Concluído
-
-                    </button>
-
-
+                    <button class="button-sub" type="submit">Concluído</button>
                 </div>
 
-            </form>
             </div>
-        </article>
-        <article id="perfil-info"></article>
-        <article id="main-humano">
-            <div id="main-human-header">
-                <article id="main-human-header-titulo">
-
-                    <nav class="button-group">
-                        <a href="#"><button class="botao botao-ativo">Perfil</button></a><br>
-                        <a href="#"><button class="botao botao-desativado">Meus
-                                Pets</button></a><br>
-                        <a href="./src/HTML/Contatos.html"><button
-                                class="botao botao-desativado">Contatos</button></a><br>
-                        <a href="#"><button class="botao botao-desativado">Sobre</button></a><br>
-                    </nav>
-                </article>
+        </form>
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
             </div>
-        </article>
-    </section>
-
-
+            <!-- Copyright -->
+        </footer>
+    </div>
 </body>
 
 </html>
