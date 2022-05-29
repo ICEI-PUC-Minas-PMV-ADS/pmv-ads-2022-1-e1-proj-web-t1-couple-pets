@@ -16,8 +16,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisitos Associados            |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.                                                                                                                                   | 
 |Objetivo do Teste                | Acessar a página Inicial                                                                   | 
 |Passos                           | 1) Acessar o Navegador
+<<<<<<< HEAD
 2) Informar o endereço do Site
 3) Visualizar a página principal                                                           |
+=======
+                                    2) Informar o endereço do Site                                                            |
+                                    3) Visualizar a página principal                                                          |
+>>>>>>> 1d2d4ef1626e6f2882218bf9c959a89b70019320
 |Critérios de Êxito               | Deve haver uma requisição AJAX no painel NETWORK das ferramentas do Desenvolvedor (recurso do Navegador).|
 
 
