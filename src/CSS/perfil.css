@@ -1,10 +1,4 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: auto;
-    margin: 0;
-
-}
+body {}
 
 .wrapper {
     display: grid;
@@ -22,6 +16,15 @@ header {
     grid-area: cabecalho;
 }
 
+aside {
+    grid-area: conteudo;
+
+}
+
+div.footer {
+    grid-area: rodape;
+}
+
 .logo {
     width: 285px;
     height: 103px;
@@ -31,15 +34,45 @@ div.container-fluid logo {
     float: left;
 }
 
-div.content {
-    background-color: #f2f2f2;
-    border-radius: 12px;
-    width: 95%;
+.box-lateral {
+    display: none;
+}
+
+#nome {
+    width: auto;
+    max-width: 115px;
+}
+
+.campo {
+    padding: 3px 0px 10px 5px;
+}
+
+.bloco2-genero {
+    padding: 14px 0px 0px 5px;
+    font-size: 13px;
+}
+
+.bloco2-adress {
+    padding: 20px 0px 10px 5px;
+}
+
+.bloco2-tel {
+    padding: 10px 0px 10px 5px;
+}
+
+.bloco2-state {
+    padding: 5px 0px 27px 5px;
+}
+
+.enviar {
+    width: auto;
 }
 
 .content {
     background-color: #f2f2f2;
     border-radius: 12px;
+    padding-top: 5px;
+
 }
 
 nav.perfil {
@@ -56,111 +89,124 @@ nav.perfil h2 {
     border-radius: 12px;
 }
 
+.box-noticia1 {
+
+    padding: 0px 0px 0px 5px;
+    flex-direction: column;
+}
+
+.box-noticia2 {
+    float: left;
+    padding: 0px 0px 0px 5px;
+    flex-direction: column;
+}
+
 .alinhamento {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
-.box-noticia {
-    grid-area: conteudo;
-    padding-top: 10px;
-    float: left;
-}
-
-.campo {
-    padding: 0px 0px 11px 10px;
-}
-
-.button-sub {
-    padding-top: 0px;
-}
-
-.menu-principal {
-    display: block;
-
-}
-
-.menu-principal ul li {
-
-    padding: 10px;
-    background: white;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-principal>ul {
-    float: left;
-}
-
-.campo {
-    grid-area: conteudo;
-    padding: 3px 0px 10px 0px;
-}
-
-.bloco2-genero {
-    padding: 14px 0px 0px 2px;
-}
-
-.bloco2-adress {
-    padding: 20px 0px 10px 0px;
-}
-
-.bloco2-tel {
-    padding: 10px 0px 10px 0px;
-}
-
-.bloco2-state {
-    padding: 5px 0px 27px 4px;
-}
-
-aside {
-    grid-area: periferico;
-}
-
-aside>.box-lateral {
-    display: none;
-}
-
-.box-noticia p,
-.box-noticia h2 {
-    margin-top: 0px;
-}
-
-h2 {
-    margin-top: 0px;
-}
-
-.box-lateral ul {
-    list-style: none;
-    padding: 5px;
+.enviar-foto {
+    padding: 0px 0px 0px 5px;
+    text-align: center;
 }
 
 
-
-@media (min-width: 962px) {
+@media (min-width: 991px) {
     body {
         margin: 0px;
+        width: 100%;
     }
 
-    .wrapper {
-        display: grid;
-        grid-template-columns: 300px 1fr;
-        grid-template-rows: 120px 1fr 120px;
-        grid-template-areas: "cabecalho cabecalho"
-            "periferico conteudo "
-            "rodape rodape";
-        grid-gap: 20px 30px;
-    }
-
-    .menu-principal {
-        float: right;
-        padding: 50px 40px 0px 0px;
-    }
-
-    .menu-principal>ul>li {
-        display: inline-block;
+    header {
         background-color: rgb(127, 212, 248);
+        ;
+    }
+
+    main {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    nav.perfil {
+        background-color: rgb(127, 212, 248);
+        border-radius: 12px;
+    }
+
+    nav.perfil h2 {
+        width: 95%;
+        background-color: rgb(127, 212, 248);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .box-noticia {
+
+        padding-top: 10px;
+        float: left;
+    }
+
+    #nome {
+        min-width: 200px;
+    }
+
+    div>ul>li.sobre {
+        display: none;
+    }
+
+    /* Grid */
+    .grid {
+        display: grid;
+        max-width: 1024px;
+    }
+
+    .grid-template {
+        grid-template:
+            "sidenav content" 300fr;
+    }
+
+    .item-content {}
+
+    .gap {
+        gap: 20px;
+    }
+
+    .column-gap {
+        gap: 2px;
+        column-gap: 40px;
+    }
+
+    .row-gap {
+        gap: 2px;
+        row-gap: 20px;
+    }
+
+    .margin {}
+
+    .content {
+        grid-area: content;
+        margin-top: 10px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .sidenav {
+        grid-area: sidenav;
+    }
+
+    .nav-lateral {
+        margin-top: 10px;
+    }
+
+
+    /* Grid Item */
+    .item {}
+
+    .grid {
+        margin: 0 auto;
     }
 
     .campo {
@@ -188,10 +234,13 @@ h2 {
         background-color: white;
         box-shadow: none;
         text-align: center;
+        display: list-item;
+        list-style: none;
     }
 
-    div.box-lateral ul li {
-        padding: 5px;
+    div.box-lateral ul {
+        padding: 0px;
+        margin: 0px;
     }
 
     /* botoes e perfil barra lateral WEB*/
@@ -244,6 +293,6 @@ h2 {
     }
 
     footer {
-        grid-area: rodape;
+        padding-top: 10px;
     }
 }
