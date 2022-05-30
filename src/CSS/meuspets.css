@@ -40,46 +40,40 @@ div.container-fluid logo {
     display: none;
 }
 
-#nome {
-    width: auto;
-    max-width: 125px;
-}
-
-#state {
-    width: 125px;
-    height: 30px;
-}
-
-.bloco2-date {
-    padding: 17px 0px 0px 5px;
-}
-
-.bloco2-genero {
-    padding: 26px 0px 0px 5px;
-    font-size: 13px;
-}
-
-.bloco2-adress {
-    padding: 20px 0px 10px 5px;
-}
-
-.bloco2-tel {
-    padding: 10px 0px 10px 5px;
-}
-
-.bloco2-state {
-    padding: 4px 0px 27px 5px;
-}
-
-.enviar {
-    width: auto;
-}
 
 .content {
     background-color: #f2f2f2;
     border-radius: 12px;
-    padding-top: 5px;
+    padding: 5px 0px 10px 0px;
+}
 
+.pet {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+div>ul>li>p {
+    float: right;
+}
+
+.info-pet>ul>li {
+    list-style: none;
+    text-align: right;
+
+    padding-right: 5px;
+}
+
+.info-pet>ul {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
 }
 
 nav.perfil {
@@ -94,40 +88,26 @@ nav.perfil h2 {
     margin-right: auto;
     padding: 10px;
     border-radius: 12px;
+    font-size: auto;
+    color: rgb(250, 250, 250);
+    font-size: 16px;
 }
 
-.box-noticia1 {
-    padding: 20px 0px 0px 5px;
-    flex-direction: column;
+nav.perfil>h2>a {
+    text-decoration: none;
+    color: black
 }
 
-.box-noticia2 {
-    float: left;
-    padding: 20px 0px 0px 5px;
-    flex-direction: column;
+div.pet {
+    background-color: white;
+    border-radius: 12px;
+    margin: auto;
+    width: 99%;
+    margin: 10px 5px 0px 0px;
 }
 
-.alinhamento {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
 
-.enviar-foto {
-    padding: 0px 0px 0px 5px;
-    text-align: center;
-}
 
-.button-sub {
-    border-radius: 10px;
-    background-color: rgb(127, 212, 248);
-    outline: white;
-    border: none;
-    padding: 8px;
-    color: white;
-    margin: 20px 0px 20px 0px;
-}
 
 @media (min-width: 991px) {
     body {
@@ -157,6 +137,12 @@ nav.perfil h2 {
         margin-right: auto;
         padding: 10px;
         border-radius: 12px;
+    }
+
+    div.pet {
+        background-color: white;
+        border-radius: 12px;
+        margin: 10px 5px 0px 0px;
     }
 
     .box-noticia {
@@ -198,12 +184,10 @@ nav.perfil h2 {
         row-gap: 20px;
     }
 
-
-
     .content {
         grid-area: content;
         margin-top: 10px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 10px 0px;
     }
 
     .sidenav {
@@ -219,34 +203,6 @@ nav.perfil h2 {
         margin: 0 auto;
     }
 
-    .campo {
-        grid-area: conteudo;
-        padding: 3px 0px 10px 30px;
-    }
-
-    #state {
-        width: 199px;
-    }
-
-    .bloco2-date {
-        padding: 9px 0px 6px 30px;
-    }
-
-    .bloco2-genero {
-        padding: 14px 0px 0px 30px;
-    }
-
-    .bloco2-adress {
-        padding: 20px 0px 10px 30px;
-    }
-
-    .bloco2-tel {
-        padding: 10px 0px 10px 30px;
-    }
-
-    .bloco2-state {
-        padding: 5px 0px 27px 34px;
-    }
 
     div.box-lateral {
         background-color: white;
