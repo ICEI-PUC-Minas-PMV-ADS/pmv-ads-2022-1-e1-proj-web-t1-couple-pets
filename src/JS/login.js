@@ -1,5 +1,5 @@
 function logar() {
-    //email senha
+
     var email = document.getElementById("email").value;
     var password = document.getElementById("pwd").value;
 
@@ -9,6 +9,6 @@ function logar() {
         location.href = "/src/HTML/Perfil.html";
     } else {
         alert('Usuário ou senha incorretos');
+    
     }
 }
-
