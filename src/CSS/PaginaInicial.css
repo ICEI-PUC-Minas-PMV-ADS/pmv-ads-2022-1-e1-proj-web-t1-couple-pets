@@ -20,16 +20,11 @@ body {
     border-radius: 10px;
 }
 
- .text-input{
-  width:300px
-}
-
 .form-inline {  
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
-
 
 .form-inline input {
   vertical-align: middle;
@@ -52,8 +47,8 @@ body {
 
 /*vertical form*/
 .oil{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /*header*/
