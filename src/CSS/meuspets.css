@@ -44,24 +44,26 @@ div.container-fluid logo {
 .content {
     background-color: #f2f2f2;
     border-radius: 12px;
-    padding-top: 5px;
+    padding: 5px 0px 10px 0px;
 }
 
 .pet {
-    float: right;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    width: 99%;
 }
 
 div>ul>li>p {
     float: right;
 }
 
-div>ul>li {
+.info-pet>ul>li {
     list-style: none;
+    text-align: right;
+
+    padding-right: 5px;
 }
 
 .info-pet>ul {
@@ -71,7 +73,7 @@ div>ul>li {
     justify-content: center;
     text-align: left;
     flex-direction: column;
-    margin: 3px;
+    padding: 0px 0px 0px 0px;
 }
 
 nav.perfil {
@@ -101,6 +103,7 @@ div.pet {
     border-radius: 12px;
     margin: auto;
     width: 99%;
+    margin: 10px 5px 0px 0px;
 }
 
 
@@ -139,8 +142,7 @@ div.pet {
     div.pet {
         background-color: white;
         border-radius: 12px;
-        margin: auto;
-        width: 99%;
+        margin: 10px 5px 0px 0px;
     }
 
     .box-noticia {
@@ -185,7 +187,7 @@ div.pet {
     .content {
         grid-area: content;
         margin-top: 10px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 10px 0px;
     }
 
     .sidenav {
