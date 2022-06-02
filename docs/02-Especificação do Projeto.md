@@ -39,7 +39,7 @@ De acordo com pesquisas descobrimos as personas que se encontram com tal problem
     <td colspan="2" align="right"><b>Laura</b></td>
 </tr>
 <tr>
-    <td><b>Idade:</b> 33 <br><br> <b>Ocupação:</b> Engenheira de Software, funcionária da empresa Amazon. <br><br>
+    <td><b>Idade:</b> 28 <br><br> <b>Ocupação:</b> Engenheira de Software, funcionária da empresa Amazon. <br><br>
         <b>Nome do pet:</b> Lola <br> <img src="./img/lolapet.png" width="60%">
     </td> 
     <td> <b>Objetivos:</b> À procura de um par, para ter filhotes e vender na intenção de aumentar a renda.
