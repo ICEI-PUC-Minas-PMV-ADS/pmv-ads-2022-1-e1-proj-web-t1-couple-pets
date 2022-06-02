@@ -1,250 +1,331 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    line-height: 1;
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabecalho"
+        "conteudo"
+        "periferico"
+        "rodape";
+    grid-gap: 5px 0px;
 
 }
 
-main {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+header {
+    grid-area: cabecalho;
 }
 
-.navbar-brand {
-    width: 30%;
+aside {
+    grid-area: conteudo;
+
 }
 
-.menu-principal {
-    background-color: rgb(127, 212, 248);
+div.footer {
+    grid-area: rodape;
 }
 
-
-#base {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+.logo {
+    width: 285px;
+    height: 103px;
 }
 
-input[type="file"] {
-    display: none;
-}
-
-.button-file {
-    border-radius: 8px;
-    color: #F2F2F2;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    transition: background .3s;
-    background-color: var(--cor-primaria-ativo);
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 30px;
-    width: 170px;
-    height: 45px;
-    padding: 10px 0px 0px 0px;
+.fotoperfil {
     text-align: center;
 }
 
-.button-file:hover {
-    background-color: var(--cor-hover-ativo);
-}
-
-#main-pet {
-
-    border-radius: 12px;
-    width: 712px;
-    height: 762px;
-    float: right;
-    position: relative;
-    background-color: #F2F2F2;
-}
-
-
-
-
-#main-pet-header {
-    background-color: rgba(127, 211, 248, 0.77);
-    border-radius: 12px;
-    width: 712px;
-    height: 44px;
-}
-
-#main-pet-header-titulo {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+div.container-fluid logo {
     float: left;
+}
+
+.box-lateral {
+    display: none;
+}
+
+.bloco2-raça {
+    padding: 20px 0px 0px 5px;
+}
+
+.bloco2-date {
+    padding: 20px 0px 0px 7px;
+}
+
+.bloco2-genero {
+    padding: 26px 0px 0px 5px;
+    font-size: 13px;
+}
+
+.bloco2-vive {
+    padding: 25px 0px 10px 5px;
+}
+
+.bloco2-vacinas {
+    padding: 11px 0px 10px 5px;
+}
+
+.bloco2-porte {
+    padding: 10px 0px 27px 5px;
+}
+
+.enviar {
+    width: auto;
+}
+
+.content {
+    background-color: #f2f2f2;
+    border-radius: 12px;
     padding-top: 5px;
-    padding-left: 13px;
 
 }
 
-#main-pet-header-sub-titulo {
-    font-size: 16px;
-    font-weight: bold;
-    color: rgb(51, 51, 51);
-    padding-top: 11px;
-    padding-left: 13px;
-    text-decoration: none;
+nav.perfil {
+    background-color: rgb(127, 212, 248);
+    border-radius: 12px;
 }
 
-.cadastro {
-    border: none;
-    background-color: rgba(127, 211, 248, 0.05);
+nav.perfil h2 {
+    width: 95%;
+    background-color: rgb(127, 212, 248);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
 }
 
-
-/* botoes */
-
-:root {
-    --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
-    --cor-secundaria-ativo: white;
-    --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+.box-noticia1 {
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
 }
 
-.botao {
-
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background .3s;
-    width: 200px;
-    height: 46px;
-
-
-}
-
-.button-group {
-    padding-top: 25px;
-}
-
-#nome-do-perfil {
-    font-size: larger;
-    font-weight: bold;
-    padding: 25px 0px 0px 50px;
-}
-
-.perfil {
-
-    background-color: #F2F2F2;
-    width: 180px;
-    height: 180px;
-}
-
-.botao-ativo {
-    background-color: var(--cor-primaria-ativo);
-    outline: none;
-    color: white;
-    padding: 12px;
-}
-
-.botao-desativado {
-    background-color: var(--cor-secundaria-ativo);
-    outline: none;
-    color: black;
-    padding: 12px;
-}
-
-.botao-ativo:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-.botao-desativado:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-/* perfil info's */
-
-#main-pet-foto2 {
+.box-noticia2 {
     float: left;
-    width: 137px;
-    height: 137px;
-    background: #999;
-    padding: 0px;
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
 }
 
-#main-pet-foto {
-    padding: 30px;
-}
-
-#bloco1 {
-    width: 200px;
-    padding-top: 30px;
-    float: left;
-    height: 100%;
-    border-right: 1px solid #e8e8e8;
-    color: #414141;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-.Cadastro-bloco1 {
-    float: right;
-    position: relative;
-    right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-/*Campo de Preenchimento Bloco2*/
-
-#bloco2 {
-
-    height: 400px;
-}
-
-#bloco2-nomepet {
-    padding: 41px 0px 0px 225px;
-}
-
-#bloco2-raça {
-    padding: 20px 0px 0px 225px;
-}
-
-#bloco2-genero {
-    padding: 24px 0px 6px 225px;
-}
-
-#bloco2-vacinas {
-    padding: 20px 0px 0px 225px;
-}
-
-#bloco2-nascimento {
-    padding: 15px 0px 0px 225px;
-}
-
-#bloco2-vive {
-    padding: 20px 0px 0px 225px;
-}
-
-#bloco2-porte {
-    padding: 21px 0px 7px 225px;
-}
-
-#bloco2-comportamento {
-    padding: 20px 0px 0px 225px;
-}
-
-.button {
-    border-radius: 8px;
-    color: #F2F2F2;
+.alinhamento {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
-    margin-left: 110px;
-    border: none;
-    cursor: pointer;
-    background-color: var(--cor-primaria-ativo);
-    width: 100px;
-    height: 40px;
-
 }
 
-.button:hover {
-    background-color: var(--cor-hover-ativo);
+.enviar-foto {
+    padding: 0px 0px 0px 5px;
+    text-align: center;
+}
+
+.button-sub {
+    border-radius: 10px;
+    background-color: rgb(127, 212, 248);
+    outline: white;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+@media (min-width: 991px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+
+    header {
+        background-color: rgb(127, 212, 248);
+        ;
+    }
+
+    main {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    nav.perfil {
+        background-color: rgb(127, 212, 248);
+        border-radius: 12px;
+    }
+
+    nav.perfil h2 {
+        width: 95%;
+        background-color: rgb(127, 212, 248);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .fotoperfil {
+        display: none;
+    }
+
+    .box-noticia {
+
+        padding-top: 10px;
+        float: left;
+    }
+
+    #nome {
+        min-width: 200px;
+    }
+
+    div>ul>li.sobre {
+        display: none;
+    }
+
+    /* Grid */
+    .grid {
+        display: grid;
+        max-width: 1024px;
+    }
+
+    .grid-template {
+        grid-template:
+            "sidenav content" 300fr;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    .column-gap {
+        gap: 2px;
+        column-gap: 40px;
+    }
+
+    .row-gap {
+        gap: 2px;
+        row-gap: 20px;
+    }
+
+
+
+    .content {
+        grid-area: content;
+        margin-top: 10px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .sidenav {
+        grid-area: sidenav;
+    }
+
+    .nav-lateral {
+        margin-top: 10px;
+    }
+
+    /* Grid Item */
+    .grid {
+        margin: 0 auto;
+    }
+
+    .campo {
+        grid-area: conteudo;
+        padding: 3px 0px 10px 30px;
+    }
+
+    #state {
+        width: 199px;
+    }
+
+    .bloco2-raça {
+        padding: 5px 0px 0px 34px;
+    }
+    
+    .bloco2-date {
+        padding: 20px 0px 0px 30px;
+    }
+    
+    .bloco2-genero {
+        padding: 26px 0px 0px 35px;
+        font-size: 13px;
+    }
+    
+    .bloco2-vive {
+        padding: 25px 0px 10px 35px;
+    }
+    
+    .bloco2-vacinas {
+        padding: 11px 0px 10px 35px;
+    }
+    
+    .bloco2-porte {
+        padding: 15px 0px 27px 35px;
+        font-size: 13px;
+    }
+
+    .bloco2-comportamento {
+        padding: 0px 0px 25px 35px;
+    }
+    
+
+    div.box-lateral {
+        background-color: white;
+        box-shadow: none;
+        text-align: center;
+        display: list-item;
+        list-style: none;
+    }
+
+    div.box-lateral ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* botoes e perfil barra lateral WEB*/
+    aside>.box-lateral {
+        display: list-item;
+    }
+
+    :root {
+        --cor-primaria-ativo: rgb(127, 212, 248);
+        --cor-secundaria-ativo: white;
+        --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+    }
+
+    .botao {
+
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        width: 200px;
+        height: 46px;
+    }
+
+    .button-group {
+        padding-top: 30px;
+    }
+
+    .botao-ativo {
+        background-color: var(--cor-primaria-ativo);
+        outline: none;
+        color: white;
+        padding: 12px;
+    }
+
+    .botao-desativado {
+        background-color: var(--cor-secundaria-ativo);
+        outline: none;
+        color: black;
+        padding: 12px;
+    }
+
+    .botao-ativo:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    .botao-desativado:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    footer {
+        bottom: 0;
+        height: 55px;
+        position: fixed;
+        width: 100%;
+    }
 }
