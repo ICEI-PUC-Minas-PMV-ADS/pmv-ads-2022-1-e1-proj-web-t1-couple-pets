@@ -114,9 +114,21 @@ nav.perfil h2 {
     text-align: center;
 }
 
+img#blah {    
+    object-fit: cover;
+    object-position: top;
+    
+}
+
 .enviar-foto {
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 5px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 .button-sub {
