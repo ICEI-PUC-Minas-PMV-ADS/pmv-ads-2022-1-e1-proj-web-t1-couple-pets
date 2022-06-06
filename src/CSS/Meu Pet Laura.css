@@ -45,7 +45,7 @@ div.container-fluid {
 }
 
 .bloco2-raça {
-    padding: 26px 0px 0px 5px;
+    padding: 20px 0px 0px 5px;
 }
 
 .bloco2-date {
@@ -54,6 +54,7 @@ div.container-fluid {
 
 .bloco2-genero {
     padding: 26px 0px 0px 5px;
+    font-size: 13px;
 }
 
 .bloco2-vive {
@@ -198,6 +199,8 @@ nav.perfil h2 {
         row-gap: 20px;
     }
 
+
+
     .content {
         grid-area: content;
         margin-top: 10px;
@@ -236,6 +239,7 @@ nav.perfil h2 {
     
     .bloco2-genero {
         padding: 26px 0px 0px 35px;
+        font-size: 13px;
     }
     
     .bloco2-vive {
