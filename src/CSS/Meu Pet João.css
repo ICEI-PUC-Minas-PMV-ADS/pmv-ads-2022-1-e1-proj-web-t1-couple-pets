@@ -45,7 +45,7 @@ div.container-fluid {
 }
 
 .bloco2-raça {
-    padding: 20px 0px 0px 5px;
+    padding: 26px 0px 0px 5px;
 }
 
 .bloco2-date {
@@ -54,7 +54,6 @@ div.container-fluid {
 
 .bloco2-genero {
     padding: 26px 0px 0px 5px;
-    font-size: 13px;
 }
 
 .bloco2-vive {
@@ -69,8 +68,9 @@ div.container-fluid {
     padding: 10px 0px 27px 5px;
 }
 
-.enviar {
-    width: auto;
+.fotopet {
+    width: 150px;
+    height: auto;
 }
 
 .content {
@@ -112,8 +112,14 @@ nav.perfil h2 {
 }
 
 .enviar-foto {
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 5px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 .button-sub {
@@ -199,8 +205,6 @@ nav.perfil h2 {
         row-gap: 20px;
     }
 
-
-
     .content {
         grid-area: content;
         margin-top: 10px;
@@ -239,7 +243,6 @@ nav.perfil h2 {
     
     .bloco2-genero {
         padding: 26px 0px 0px 35px;
-        font-size: 13px;
     }
     
     .bloco2-vive {

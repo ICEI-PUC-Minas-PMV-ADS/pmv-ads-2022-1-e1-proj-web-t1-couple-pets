@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../CSS/Cadastro de Pets.css">
+    <link rel="stylesheet" href="../CSS/Meu Pet João.css">
     <title>Couple Pet</title>
 </head>
 
@@ -19,8 +19,7 @@
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
                 <div class="container-fluid">
-                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo"
-                            style="max-width: 285px; max-height: 103px"></a>
+                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo" style="max-width: 285px; max-height: 103px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -76,16 +75,14 @@
                 <div class="">
                     <div class="perfil">
                         <nav class="perfil">
-                            <h2>Meu Pet > Cadastrar Pet</h2>
+                            <h2>Meu Pet</h2>
                         </nav>
                     </div>
                 </div>
                 <div class="content">
-                    <form action="" id="bloco">
-                        <div>
-                            <div class="enviar-foto">
-                                <input type="file" class="enviar" required>
-                            </div>
+                    <form id="bloco">
+                        <div class="enviar-foto">
+                            <img src="../img/foxpet.png" alt="profile-image" id="blah" style="width: 190px; height: 190px; border-radius: 20%;">
                         </div>
                         <div class="alinhamento">
                             <div class="box-noticia1">
@@ -134,104 +131,36 @@
                                 <br clear="both">
                                 <div id="main-form-perfil-bloco1-campo">
                                     Comportamento
-
                                     :
                                 </div>
                             </div>
                             <div class="box-noticia2">
                                 <div class="bloco2-nome campo">
-                                    <label for="nome "></label>
-                                    <input type="text" name="nome" id="nome" placeholder="Ex: João Pedro" required>
+                                    Fox
                                 </div>
                                 <div class="bloco2-raça">
-                                    <select id="RACA" name="RACA">
-                                        <option value="...Selecione" selected="selected">Selecione...</option>
-                                        <option value="1">Afghan Hound</option>
-                                        <option value="2">Airedale Terrier</option>
-                                        <option value="3">Akita Inu</option>
-                                        <option value="4">American Pitbull</option>
-                                        <option value="5">Bassethound</option>
-                                        <option value="6">Beagle</option>
-                                        <option value="7">Bichon Frisé</option>
-                                        <option value="8">Boxer</option>
-                                        <option value="9">Bull Terrier</option>
-                                        <option value="10">Bulldog</option>
-                                        <option value="11">Bullmastiff</option>
-                                        <option value="12">Chihuahua</option>
-                                        <option value="13">Chow Chow</option>
-                                        <option value="14">Cocker</option>
-                                        <option value="15">Collie</option>
-                                        <option value="16">Dálmata</option>
-                                        <option value="17">Dobermann</option>
-                                        <option value="18">Dogue Alemão</option>
-                                        <option value="19">Fila</option>
-                                        <option value="20">Fox Terrier Duro</option>
-                                        <option value="21">Fox Terrier Liso</option>
-                                        <option value="22">Foxhound</option>
-                                        <option value="23">Golden Retriever</option>
-                                        <option value="24">Husky</option>
-                                        <option value="25">Labrador</option>
-                                        <option value="26">Lhasa Apso</option>
-                                        <option value="27">Maltês</option>
-                                        <option value="28">Mastiff</option>
-                                        <option value="29">O.E.Sheepdog</option>
-                                        <option value="30">Pastor Alemão</option>
-                                        <option value="31">Pequinês</option>
-                                        <option value="32">Pinscher</option>
-                                        <option value="33">Pointer Inglês</option>
-                                        <option value="34">Poodle</option>
-                                        <option value="35">Rottweiler</option>
-                                        <option value="36">São Bernardo</option>
-                                        <option value="37">Schnauzer</option>
-                                        <option value="38">Setter</option>
-                                        <option value="39">Shar Pei</option>
-                                        <option value="40">Shih Tzu</option>
-                                        <option value="41">Spitz Alemão</option>
-                                        <option value="42">Staff Bull Terrier</option>
-                                        <option value="43">Teckel</option>
-                                        <option value="44">Terrier Brasileiro</option>
-                                        <option value="45">Vira-Lata</option>
-                                        <option value="46">West Highland White Terrier</option>
-                                        <option value="47">Yorkshire Terrier</option>
-                                        <option value="99">Outra</option>
-                                    </select>
+                                   Chow Chow
                                 </div>
-                                <div class="bloco2-date ">
-                                    <label for="date"></label>
-                                    <input type="date" name="nome" id="nome">
+                                <div class="bloco2-date">
+                                    18/04/2015
                                 </div>
-                                <div class="bloco2-genero ">
-                                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Macho
-                                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Fêmea
+                                <div class="bloco2-genero">
+                                    Macho
                                 </div>
                                 <div class="bloco2-vive ">
-                                    <select name="local-onde-vive" id="local-onde-vive">
-                                        <option value="...Selecione" selected="selected">Selecione...</option>
-                                        <option value="Canil">Canil</option>
-                                        <option value="Dentro de Casa">Dentro de Casa</option>
-                                        <option value="Pátio">Pátio</option>
-                                    </select>
+                                    Dentro de Casa
                                 </div>
                                 <div class="bloco2-vacinas">
-                                    <input type="text" name="vacinas" id="vacinas">
+                                    (V10/V8), antirrábica
                                 </div>
 
                                 <div class="bloco2-porte">
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op1" required> Pequeno
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op2" required> Médio
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op3" required> Grande
+                                    Médio
                                 </div>
                                 <div class="bloco2-comportamento campo">
-                                    <select name="Comportamento" id="Comportamento">
-                                        <option value="...Selecione" selected="selected">Selecione...</option>
-                                        <option value="Agitado">Agitado</option>
-                                        <option value="Agressivo">Agressivo</option>
-                                        <option value="Calmo">Calmo</option>
-                                        <option value="Dócil">Dócil</option>
-                                        <option value="Extrovertido">Extrovertido</option>
-                                    </select>
+                                    Dócil
                                 </div>
-                                <button class="button-sub" type="submit">Concluído</button>
+                                <button class="button-sub" href="../HTML/Cadastro de Pets.html" type="submit">Editar</button>
                             </div>
                         </div>
                     </form>
