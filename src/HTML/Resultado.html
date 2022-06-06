@@ -14,9 +14,10 @@
 <body>
     <header class="menu-principal">
         <main>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(127, 211, 248, 0.77);">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="../img/logo.png" width="285" height="103" alt></a>
+                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo"
+                            style="max-width: 285px; max-height: 103px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -25,23 +26,23 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Perfil</a>
+                                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Meus Pets</a>
+                                <a class="nav-link" href="Meus Pets.html">Meus Pets</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos</a>
+                                <a class="nav-link" href="Contatos.html">Contato</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Sair</a>
-                                </a>
-
+                                <a class="nav-link" href="PaginaInicial.html">Sair</a>
                             </li>
-
+                            <li class="nav-item sobre">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Busque Pets"
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Busque pets"
                                 aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
@@ -104,17 +105,16 @@
             </form>
             </div>
         </article>
-        <article id="perfil-info"></article>
-        <article id="main-humano">
-            <div id="main-human-header">
-                <article id="main-human-header-titulo">
-
-                    <nav class="button-group">
-                        <a href="#"><button class="botao botao-desativado">Perfil</button></a><br>
-                        <a href="#"><button class="botao botao-desativado">Meus Pets</button></a><br>
-                        <a href="#"><button class="botao botao-desativado">Contatos</button></a><br>
-                        <a href="#"><button class="botao botao-desativado">Sobre</button></a><br>
-                    </nav>
+        <section class="wrapper grid grid-template row-gap">
+            <div class="box-lateral nav-lateral">
+                <ul>
+                    <a href="Perfil.html"><button class="botao botao-ativo">Perfil</button></a><br>
+                    <a href="Meus Pets.html"><button class="botao botao-desativado">Meus
+                            Pets</button></a><br>
+                    <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
+                    <a href="#"><button class="botao botao-desativado">Sobre</button></a><br>
+                </ul>
+            </div>
                 </article>
             </div>
         </article>
