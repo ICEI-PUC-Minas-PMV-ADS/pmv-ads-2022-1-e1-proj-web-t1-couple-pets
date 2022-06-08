@@ -216,6 +216,7 @@ img#blah {
         grid-area: content;
         margin-top: 10px;
         padding: 0px 0px 20px 0px;
+        min-width: 600px;
     }
 
     .sidenav {

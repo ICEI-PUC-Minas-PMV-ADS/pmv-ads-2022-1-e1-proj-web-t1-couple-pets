@@ -60,11 +60,6 @@ nav.perfil h2 {
     border-radius: 12px;
 }
 
-nav.perfil h2 a {
-    text-decoration: none;
-    color: white;
-}
-
 .box-noticia1 {
     padding: 20px 0px 0px 5px;
     flex-direction: column;
@@ -91,7 +86,7 @@ nav.perfil h2 a {
     min-height: 130px;
     margin: 0px 5px 5px 5px;
     padding-top: 5px;
-    min-width: 301px;              
+    min-width: 301px;               
 }
 
 .button-sub {
@@ -133,15 +128,6 @@ nav.perfil h2 a {
         margin-right: auto;
         padding: 10px;
         border-radius: 12px;
-    }
-
-    nav.perfil h2 a {
-        text-decoration: none;
-        color: white;
-    }
-
-    label {
-        font-weight: bold
     }
 
     .box-noticia {
