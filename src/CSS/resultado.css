@@ -1,259 +1,269 @@
 body {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    line-height: 1;
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabecalho"
+        "conteudo"
+        "periferico"
+        "rodape";
+    grid-gap: 5px 0px;
 
 }
 
-main {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+header {
+    grid-area: cabecalho;
 }
 
-.navbar-brand {
-    width: 30%;
+aside {
+    grid-area: conteudo;
+
 }
 
-.menu-principal {
-    background-color: rgb(127, 212, 248);
+div.footer {
+    grid-area: rodape;
 }
 
-
-#base {
-    margin: 0 auto;
-    width: 1024px;
-    position: relative;
+.logo {
+    width: 285px;
+    height: 103px;
 }
 
-#main-pet {
-
-    border-radius: 12px;
-    width: 712px;
-    height: 762px;
-    float: right;
-    position: relative;
-    background-color: #F2F2F2;
-}
-
-
-
-
-#main-pet-header {
-    background-color: rgba(127, 211, 248, 0.77);
-    border-radius: 12px;
-    width: 712px;
-    height: 44px;
-}
-
-#teste {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+div.container-fluid logo {
     float: left;
-    padding-top: 5px;
-    padding-left: 13px;
-
 }
 
-
-/* botoes e perfil barra lateral*/
-
-:root {
-    --cor-primaria-ativo: rgba(127, 211, 248, 0.77);
-    --cor-secundaria-ativo: white;
-    --cor-hover-ativo: rgba(92, 162, 192, 0.77);
-}
-
-.botao {
-
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background .3s;
-    width: 200px;
-    height: 46px;
-}
-
-.button-group {
-    padding-top: 30px;
-}
-
-#user-perfil h1 {
-    font-size: 18px;
-    padding: 15px 0px 0px 15px;
-}
-
-
-
-.botao-ativo {
-    background-color: var(--cor-primaria-ativo);
-    outline: none;
-    color: white;
-    padding: 12px;
-}
-
-.botao-desativado {
-    background-color: var(--cor-secundaria-ativo);
-    outline: none;
-    color: black;
-    padding: 12px;
-}
-
-.botao-ativo:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-.botao-desativado:hover {
-    background-color: var(--cor-hover-ativo);
-
-}
-
-/* perfil info's */
-
-#main-pet-foto2 {
-    float: left;
-    width: 137px;
-    height: 92px;
-    background: #999;
-    padding: 0px;
-}
-
-#main-pet-foto {
-    padding: 30px;
-}
-
-/* campo de identificação dos campos */
-
-#main-form-perfil-bloco1 {
-    padding-top: 30px;
-    float: left;
-    width: 210px;
-    height: 100%;
-    border-right: 1px solid #e8e8e8;
-    color: #414141;
-    font-weight: bold;
-    font-size: 12px;
-}
-
-#main-form-perfil-bloco1-campo {
-
-    float: right;
-    position: relative;
-    right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-/* campos de preenchimento */
-
-#main-form-perfil-bloco2 {
-    float: left;
-    width: 400px;
-    height: 460px;
-    padding-top: 30px;
-
-}
-
-
-
-#bloco2-nome {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-date {
-    padding: 15px 0px 0px 15px;
-}
-
-#date {
-    width: 189px;
-    height: 30px;
-}
-
-#bloco2-genero {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 19px 0px 7px 20px;
-}
-
-#bloco2-adress {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-telefone {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 15px 0px 0px 15px;
-}
-
-#bloco2-state {
-    padding-left: 15px;
-    padding-top: 25px;
-    padding: 19px 0px 0px 19px;
-}
-
-#estado {
-
-
-    text-align: center;
-    width: 189px;
-    height: 28px;
-}
-
-#bloco2-numero {
-    padding: 24px 0px 0px 18px;
-}
-
-
-input[type="file"] {
+.box-lateral {
     display: none;
 }
 
+.content {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding-top: 5px;
+}
 
+nav.perfil {
+    background-color: rgb(127, 212, 248);
+    border-radius: 12px;
+}
 
-.button-file {
-    border-radius: 8px;
-    color: #F2F2F2;
+nav.perfil h2 {
+    width: 95%;
+    background-color: rgb(127, 212, 248);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.box-noticia1 {
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
+}
+
+.box-noticia2 {
+    float: left;
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
+}
+
+.alinhamento {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    border: none;
-    cursor: pointer;
-    transition: background .3s;
-    background-color: var(--cor-primaria-ativo);
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 30px;
-    width: 170px;
-    height: 45px;
-    padding: 10px 0px 0px 0px;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.button-file:hover {
-    background-color: var(--cor-hover-ativo);
+.contatos {
+    background-color: white;
+    border-radius: 12px;
+    min-height: 130px;
+    margin: 0px 5px 5px 5px;
+    padding-top: 5px;
+    min-width: 301px;               
 }
 
-.button {
-    border-radius: 8px;
-    color: #F2F2F2;
-    justify-content: center;
-    margin-top: 120px;
-    margin-left: 50px;
+.button-sub {
+    border-radius: 10px;
+    background-color: rgb(127, 212, 248);
+    outline: white;
     border: none;
-    cursor: pointer;
-    background-color: var(--cor-primaria-ativo);
-    width: 100px;
-    height: 40px;
-    position: absolute;
-
+    padding: 8px;
+    color: white;
+    margin-bottom: 5px;
 }
 
-.button:hover {
-    background-color: var(--cor-hover-ativo);
+
+@media (min-width: 991px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+
+    header {
+        background-color: rgb(127, 212, 248);
+        ;
+    }
+
+    main {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    nav.perfil {
+        background-color: rgb(127, 212, 248);
+        border-radius: 12px;
+    }
+
+    nav.perfil h2 {
+        width: 95%;
+        background-color: rgb(127, 212, 248);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .box-noticia {
+
+        padding-top: 10px;
+        float: left;
+    }
+
+    #nome {
+        min-width: 200px;
+    }
+
+    div>ul>li.sobre {
+        display: none;
+    }
+
+    /* Grid */
+    .grid {
+        display: grid;
+        max-width: 1024px;
+    }
+
+    .grid-template {
+        grid-template:
+            "sidenav content" 300fr;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    .column-gap {
+        gap: 2px;
+        column-gap: 40px;
+    }
+
+    .row-gap {
+        gap: 2px;
+        row-gap: 20px;
+    }
+
+    .content {
+        grid-area: content;
+        margin-top: 10px;
+        padding: 0px 0px 5px 0px;
+        min-width: 600px;
+    }
+
+    .sidenav {
+        grid-area: sidenav;
+    }
+
+    .nav-lateral {
+        margin-top: 10px;
+    }
+
+    /* Grid Item */
+    .grid {
+        margin: 0 auto;
+    }
+  
+    div.box-lateral {
+        background-color: white;
+        box-shadow: none;
+        text-align: center;
+        display: list-item;
+        list-style: none;
+    }
+
+    div.box-lateral ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contatos {
+        background-color: white;
+        border-radius: 12px;
+        min-height: 130px;
+        margin: 0px 5px 5px 5px;  
+        padding-top: 5px;             
+    }
+
+    .contatos p {
+        margin: 0px;
+    }
+
+    /* botoes e perfil barra lateral WEB*/
+    aside>.box-lateral {
+        display: list-item;
+    }
+
+    :root {
+        --cor-primaria-ativo: rgb(127, 212, 248);
+        --cor-secundaria-ativo: white;
+        --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+    }
+
+    .botao {
+
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        width: 200px;
+        height: 46px;
+    }
+
+    .button-group {
+        padding-top: 30px;
+    }
+
+    .botao-ativo {
+        background-color: var(--cor-primaria-ativo);
+        outline: none;
+        color: white;
+        padding: 12px;
+    }
+
+    .botao-desativado {
+        background-color: var(--cor-secundaria-ativo);
+        outline: none;
+        color: black;
+        padding: 12px;
+    }
+
+    .botao-ativo:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    .botao-desativado:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    footer {
+        padding-top: 10px;
+    }
 }
