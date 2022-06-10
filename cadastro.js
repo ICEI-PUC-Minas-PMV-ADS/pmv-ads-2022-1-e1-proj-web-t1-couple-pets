@@ -7,10 +7,10 @@ function cadastro() {
     var myPassword = document.getElementById("myPassword").value;
 
     if(EmailCadastro == "pedro@gmail.com" && myPassword == "admin"){
-        location.href = "/src/HTML/Perfil.html";
+        location.href = "./src/HTML/Perfil.html";
 
     }else if (EmailCadastro == "laura@gmail.com" && myPassword == "laura"){
-        location.href = "/src/HTML/Perfil.html";
+        location.href = "./src/HTML/Perfil.html";
 
     }else{
         alert('insira um email e senha para cadastro');
