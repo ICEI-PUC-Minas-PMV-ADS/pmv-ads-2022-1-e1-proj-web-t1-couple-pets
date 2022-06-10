@@ -140,9 +140,9 @@
                                 <div class="bloco2-genero ">
                                     <form id="gender" class="pe" onclick="Salvar ();">
                                         <input type="radio" name="gender" id="rMale"
-                                            onchange="localStorage.setItem('gender', 'male');" checked> Male<br>
+                                            onchange="localStorage.setItem('gender', 'Masculino');" > Masculino
                                         <input type="radio" name="gender" id="rFemale"
-                                            onchange="localStorage.setItem('gender', 'female');"> Female<br>
+                                            onchange="localStorage.setItem('gender', 'Feminino');"> Feminino
                                     </form>
                                 </div>
                                 <div class="bloco2-adress ">
@@ -177,7 +177,7 @@
                         function Salvar() {
                             localStorage.setItem("nome", document.getElementById("nome").value);
                             localStorage.setItem("dtaNasc", document.getElementById("dtaNasc").value);
-                            localStorage.setItem("gender", document.getElementsByName("gender").checked);
+                            localStorage.setItem("gender", document.getElementsByName("gender", checked).value);
                             localStorage.setItem("endereco", document.getElementById("endereco").value);
                             localStorage.setItem("tel", document.getElementById("tel").value);
                             localStorage.setItem("cidade", document.getElementById("cidade").value);

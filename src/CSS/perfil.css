@@ -67,6 +67,27 @@ div.container-fluid logo {
     padding: 10px 0px 10px 5px;
 }
 
+#nome {
+    min-width: 146px;
+}
+
+#dtaNasc {
+    min-width: 146px;
+}
+
+#endereco {
+    width: 146px;
+}
+
+#tel {
+    width: 146px;
+}
+
+#cidade {
+    min-width: 146px;
+}
+
+
 .bloco2-state {
     padding: 4px 0px 27px 5px;
 }
@@ -178,6 +199,22 @@ img#blah {
     }
 
     #nome {
+        min-width: 200px;
+    }
+
+    #dtaNasc {
+        min-width: 200px;
+    }
+
+    #endereco {
+        min-width: 200px;
+    }
+
+    #tel {
+        min-width: 200px;
+    }
+
+    #cidade {
         min-width: 200px;
     }
 
