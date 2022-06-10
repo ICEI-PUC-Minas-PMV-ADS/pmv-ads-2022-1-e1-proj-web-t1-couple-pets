@@ -65,6 +65,10 @@ nav.perfil h2 {
     flex-direction: column;
 }
 
+label {
+    font-weight: bolder;
+}
+
 .box-noticia2 {
     float: left;
     padding: 20px 0px 0px 5px;

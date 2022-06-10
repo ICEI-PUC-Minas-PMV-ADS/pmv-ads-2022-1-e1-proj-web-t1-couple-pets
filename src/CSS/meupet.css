@@ -70,6 +70,10 @@ nav.perfil h2 a {
     flex-direction: column;
 }
 
+label {
+    font-weight: bold
+}
+
 .box-noticia2 {
     float: left;
     padding: 20px 0px 0px 5px;
@@ -140,9 +144,7 @@ nav.perfil h2 a {
         color: white;
     }
 
-    label {
-        font-weight: bold
-    }
+    
 
     .box-noticia {
 
