@@ -56,7 +56,7 @@ function troubleshoot(email, pwd){
 				break;
 			};
 			if(j==userArray.length-1 || userArray.length==0){
-				alert("Nenhuma conta encontrada. Clique no link Criar conta para registrar um novo nome de usuário");
+				alert("Nenhuma conta encontrada. Clique no link faça já seu cadastro para registrar um novo nome de usuário com senha");
 				document.getElementById('email').value = "";
 				document.getElementById('pwd').value = "";
 			};
