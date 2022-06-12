@@ -16,7 +16,7 @@ function armazenar(){
       alert('Por favor, insira um email e uma senha');
 
   }else if(pwd.value.length > 8){
-      alert('Senha deverá ter no mínimo 8 caracteres');
+      alert('Senha deverá ter no máximo 8 caracteres');
 
   }else if(!pwd.value.match(aoMenosUmNumero)){
       alert('A senha deve ter ao menos 1 número');
