@@ -39,7 +39,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) Concluir cadastro do Usuario
 |Resultado:  | Passos 1 e 2 realizados com sucesso|
              | Passos 3 e 4 não responsivo|
-|Resultado:  |A página se comportará como esperado e surgirá os campos para preenchimento do usuario para a conclusão do seu cadastro.|
+|Resultado:  | ![Printtela](img/ct3.png) .|
 
 
 
