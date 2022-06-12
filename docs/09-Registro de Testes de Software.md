@@ -41,6 +41,18 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Evidência:  | ![Printtela](img/ct3.png)|
 
 
+|  **Caso de Teste**  |  **CT-04 – Cadastro de pet**  |
+|--|--|
+|Requisitos Associados:	|RF-04 - O site deve permitir ao usuário cadastrar seu pet com o preenchimento de informações sobre o animal  |
+|Objetivo do Teste:	 |Possibilitar o cadastro do pet do usuario com a inserção de informações prestadas pelo usuario para a conclusão do perfil do pet|
+|Passos:	 |1) Visualizar a página principal
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) Acessar cadastro de pet
+||5) realizar cadastro do pet
+||6) concluir cadastro do pet
+|Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
+|Evidência:  | |
 
 
 
