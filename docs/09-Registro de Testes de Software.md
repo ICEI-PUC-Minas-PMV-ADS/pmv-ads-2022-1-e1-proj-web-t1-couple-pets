@@ -93,7 +93,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) acessar a pagina sobre
 ||5) visualizar a pagina contendo informações sobre o site
 |Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o sit|Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  ||
+|Evidência:  |![Printtela](img/ct7.png)|
 
 
 
