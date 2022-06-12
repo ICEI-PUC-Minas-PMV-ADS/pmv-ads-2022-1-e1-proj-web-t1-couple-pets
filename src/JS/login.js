@@ -44,7 +44,7 @@ function entrar(){
 
   if(eMailUsuario.value == emailArmazenado && usuarioPw.value == senhaArmazenada){
       alert('Você entrou!');
-      location.href = "/src/HTML/Perfil.html";
+      location.href = "../HTML/Perfil.html";
   }else{
       alert('Usuário ou senha não encontrados');
   }
