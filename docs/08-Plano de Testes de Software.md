@@ -95,3 +95,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) diminuir a tela do navegador
 ||3) visualizar a pagina do site de maneira eficiente funcional e inteligível
 |Critérios de Êxito:  |A página se comportará como esperado e se adaptará ao tamanho da tela imposta.
+
+| **Caso de Teste** | **CT-09 – O Site Apresentar Navegabilidade** | 
+|--|--| 
+|Requisitos Associados:	|RF-02 - O site deve ser intuitivo. | 
+|Objetivo do Teste:	 |Verificar se as páginas apresentam uma navegabilidade que possa mostrar ao usuário de onde ele veio, como voltar e qual passo dar a seguir.  | 
+|Passos:	 |1) Acessar qualquer página do site. 
+||2) Verificar a disponibilidade dos botões e se são funcionais. 
+||3) Verificar o desempenho ao buscar informações dentro da página. 
+||4) Verificar se há organização das informações disponíveis para que haja uma navegação de forma intuitiva.
+|Critérios de Êxito:  |Deve organizar as informações disponíveis para que o visitante navegue de forma intuitiva e saiba de onde ele veio, como voltar e qual passo dar a seguir.|Resultado:  |Aplicação concluída com sucesso|
