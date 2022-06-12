@@ -79,8 +79,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) clicar no perfil selecionado e visualizar o perfil do pet encontrado
 ||5) visualizar link para o envio de mensagens
 ||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
-||Resultado:   | Aplicação concluída com sucesso |
+|Resultado:  |Aplicação concluída com sucesso|
 |Evidência:  ||
+
 
 
 
