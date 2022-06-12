@@ -17,14 +17,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Objetivo do Teste:  | Acessar a página Inicial.  | 
 |Passos:  | 1) Acessar o Navegador  
 ||2) Informar o endereço do Site  
-||3) Visualizar a página principal  |
+||3) Visualizar a página inicial  |
 |Critérios de Êxito:  | o sistema se comportará como esperado acessando o endereço do site inserido e o usuario visualizará a home page do site.|
 
 |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
 |--|--|
 |Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil  |
 |Objetivo do Teste:	 |Verificar se os dados do perfil do usuário estão condizentes com as informações prestadas pelo usuário.  |
-|Passos:	 |1) Visualizar a página principal
+|Passos:	 |1) Visualizar a página inicial
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
 |Critérios de Êxito:  |A página se comportará como esperado e surgirá os dados fornecidos pelo usuário em seu perfil.|
@@ -33,10 +33,25 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |--|--|
 |Requisitos Associados:	|RF-03 - O site deve permitir ao usuário visualizar a pagina de cadastro do site  |
 |Objetivo do Teste:	 |Possibilitar o cadastro do usuário com a inserção de informações prestadas por ele para a conclusão de seu perfil  |
-|Passos:	 |1) Visualizar a página principal
+|Passos:	 |1) Visualizar a página inicial
 ||2) Inserir usuário e senha nos campos determinados para o inicio de seu cadastro 
-||3) Acessar perfil do usuário
-|Critérios de Êxito:  |A página se comportará como esperado e surgirá os dados fornecidos pelo usuário em seu perfil.|
+||3) Acessar perfil de cadastro de informações do usuario e preencher com as informações
+||4) Concluir cadastro do Usuario
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá os campos para preenchimento do usuario para a conclusão do seu cadastro.|
+
+
+|  **Caso de Teste**  |  **CT-04 – Cadastro de pet**  |
+|--|--|
+|Requisitos Associados:	|RF-04 - O site deve permitir ao usuário cadastrar seu pet com o preenchimento de informações sobre o animal  |
+|Objetivo do Teste:	 |Possibilitar o cadastro do pet do usuario com a inserção de informações prestadas pelo usuario para a conclusão do perfil do pet|
+|Passos:	 |1) Visualizar a página principal
+||2) Inserir usuário e senha nos campos determinados
+||5) Acessar perfil do usuário
+||6) Acessar cadastro de pet
+||7) realizar cadastro do pet
+||8) concluir cadastro do pet
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá os campos para preenchimento do usuario para a conclusão do seu cadastro do pet|
+
 
 |  **Caso de Teste**  |  **CT-03 – Enviar mensagem para perfil encontrado**  |
 |--|--|
