@@ -75,3 +75,23 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) visualizar link para o envio de mensagens
 ||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
 |Critérios de Êxito:  |A página de remeter para o aplicativo WhatsApp para o envio de mensagens|
+
+|  **Caso de Teste**  |  **CT-07 – Visualizar pagina Sobre**  |
+|--|--|
+|Requisitos Associados:	|RF-07 - O site deve permitir ao usuário acessar a pagina sobre e visulaizar as informações sobre a utlidade do site |
+|Objetivo do Teste:	 |Possibilitar o usuario encontrar informações sobre o site e qual sua utilidade para o mesmo |
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) acessar a pagina sobre
+||5) visualizar a pagina contendo informações sobre o site
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o site
+
+|  **Caso de Teste**  |  **CT-08 – Responsividade do site**  |
+|--|--|
+|Requisitos Associados:	|RF-08 - O site deve permitir ao usuário acessar as paginas do site de forma responsiva |
+|Objetivo do Teste:	 |Possibilitar o usuario a adaptação a qualquer ferramenta que estejam usando para facilitar a visualização do site |
+|Passos:	 |1) Visualizar a página inicial
+||2) diminuir a tela do navegador
+||5) visualizar a pagina do site de maneira eficiente funcional e inteligível
+|Critérios de Êxito:  |A página se comportará como esperado e se adaptará ao tamanho da tela imposta.
