@@ -104,5 +104,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) diminuir a tela do navegador
 ||3) visualizar a pagina do site de maneira eficiente funcional e inteligível
 |Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o sit|Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  ||
+|Evidência:  |![Printtela](img/ct8.png)|
 
