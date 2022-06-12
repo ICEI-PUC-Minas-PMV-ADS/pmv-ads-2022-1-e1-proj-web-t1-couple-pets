@@ -1,12 +1,18 @@
-# Registro de Testes de Software
+Registro de Testes de Software
+Os resultados obtidos nos testes de software realizados são descritos na Tabela a seguir.
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+● Site publicado na Internet
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+● Navegador da Internet – Chrome e Edge
 
-## Avaliação
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+|  **Caso de Teste**  |  **CT-01  - Visualizar Página Inicial**  |
+|--|--|
+|Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
+|Objetivo do Teste:  | Acessar a página Inicial.  | 
+|Passos:  | 1) Acessar o Navegador  
+||2) Informar o endereço do Site  
+||3) Visualizar a página inicial  |
+|Resultado:  | o sistema se comportará como esperado acessando o endereço do site inserido e o usuario visualizará a home page do site.|
+|Evidência:  | o sistema se comportará como esperado acessando o endereço do site inserido e o usuario visualizará a home page do site.|
