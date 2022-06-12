@@ -46,25 +46,32 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Objetivo do Teste:	 |Possibilitar o cadastro do pet do usuario com a inserção de informações prestadas pelo usuario para a conclusão do perfil do pet|
 |Passos:	 |1) Visualizar a página principal
 ||2) Inserir usuário e senha nos campos determinados
-||5) Acessar perfil do usuário
-||6) Acessar cadastro de pet
-||7) realizar cadastro do pet
-||8) concluir cadastro do pet
+||3) Acessar perfil do usuário
+||4) Acessar cadastro de pet
+||5) realizar cadastro do pet
+||6) concluir cadastro do pet
 |Critérios de Êxito:  |A página se comportará como esperado e surgirá os campos para preenchimento do usuario para a conclusão do seu cadastro do pet|
 
-
-|  **Caso de Teste**  |  **CT-03 – Enviar mensagem para perfil encontrado**  |
+|  **Caso de Teste**  |  **CT-05 – Resultado de pesquisa de pet**  |
 |--|--|
-|Requisitos Associados:	|RF-03 - O site deve permitir ao usuário enviar mensagem para o perfil encontrado através de um link para o WhatsApp.  |
+|Requisitos Associados:	|RF-05 - O site deve permitir ao usuário visualizar o perfil do pet idealizado  |
+|Objetivo do Teste:	 |Possibilitar a visualização do perfil do pet pesquisado com as informações pertinentes|
+|Passos:	 |1) Visualizar a página principal
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) Acessar busca de pet
+||5) encontrar pet idealizado
+||6) acessar perfil do pet
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá o perfil do pet com as informações prestadas pelo tutor|
+
+|  **Caso de Teste**  |  **CT-06 – Enviar mensagem para perfil encontrado**  |
+|--|--|
+|Requisitos Associados:	|RF-06 - O site deve permitir ao usuário enviar mensagem para o perfil encontrado através de um link para o WhatsApp.  |
 |Objetivo do Teste:	 |Verificar se o link de acesso de WhatsApp é funcional e remete o usuário para o aplicativo de WhatsApp possibilitando iniciar a conversa com o outro usuário do site.  |
-|Passos:	 |1) Acessar o Navegador
-||2) Informar o endereço do Site
-||3) Visualizar a página principal
-||4) Inserir usuário e senha nos campos determinados
-||5) Acessar perfil do usuário
-||6) Acessar perfil do pet
-||7) realizar uma busca pelo pet desejado
-||8) encontrar o perfil selecionado
-||9) clicar no perfil selecionado e visualizar o perfil do pet
-||10) visualizar link para o envio de mensagens
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) clicar no perfil selecionado e visualizar o perfil do pet encontrado
+||5) visualizar link para o envio de mensagens
+||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
 |Critérios de Êxito:  |A página de remeter para o aplicativo WhatsApp para o envio de mensagens|
