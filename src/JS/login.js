@@ -49,3 +49,15 @@ function entrar(){
       alert('Usuário ou senha não encontrados');
   }
 }
+
+function deslogar() {
+    
+    localStorage.removeItem('cidade');
+    localStorage.removeItem('dtaNasc');
+    localStorage.removeItem('endereco');
+    localStorage.removeItem('gender');
+    localStorage.removeItem('nome');
+    localStorage.removeItem('tel');
+    
+    window.location.href = "PaginaInicial.html"
+  }
