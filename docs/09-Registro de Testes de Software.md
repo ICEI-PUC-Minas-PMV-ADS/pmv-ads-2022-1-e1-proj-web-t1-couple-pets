@@ -83,7 +83,17 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Evidência:  |![Printtela](img/ct6.1.png)  ![Printtela](img/ct6.2.png)|
 
 
-
+|  **Caso de Teste**  |  **CT-07 – Visualizar pagina Sobre**  |
+|--|--|
+|Requisitos Associados:	|RF-07 - O site deve permitir ao usuário acessar a pagina sobre e visulaizar as informações sobre a utlidade do site |
+|Objetivo do Teste:	 |Possibilitar o usuario encontrar informações sobre o site e qual sua utilidade para o mesmo |
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) acessar a pagina sobre
+||5) visualizar a pagina contendo informações sobre o site
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o sit|Resultado:  |Aplicação concluída com sucesso|
+|Evidência:  ||
 
 
 
