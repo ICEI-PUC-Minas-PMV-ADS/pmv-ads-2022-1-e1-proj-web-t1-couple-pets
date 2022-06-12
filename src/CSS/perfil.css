@@ -141,6 +141,14 @@ img#blah {
     
 }
 
+input[type="file"] {
+    display: none;        
+}
+
+label {
+    cursor: pointer;
+}
+
 .enviar-foto {
     padding: 0px 0px 0px 5px;    
     display: flex;
