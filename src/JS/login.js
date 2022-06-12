@@ -2,9 +2,9 @@ function armazenar(){
 
   var email = document.getElementById('email');
   var pwd = document.getElementById('pwd');
-  var lowerCaseLetters = /[a-z]/g;
-  var upperCaseLetters = /[A-Z]/g;
-  var numbers = /[0-9]/g;
+  var letrasMinusculas = /[a-z]/g;
+  var letrasMaiusculas = /[A-Z]/g;
+  var aoMenosUmNumero = /[0-9]/g;
 
   if(email.value.length == 0){
       alert('Por favor, insira um email');
@@ -18,13 +18,13 @@ function armazenar(){
   }else if(pwd.value.length > 8){
       alert('Senha deverá ter no mínimo 8 caracteres');
 
-  }else if(!pwd.value.match(numbers)){
+  }else if(!pwd.value.match(aoMenosUmNumero)){
       alert('A senha deve ter ao menos 1 número');
 
-  }else if(!pwd.value.match(upperCaseLetters)){
+  }else if(!pwd.value.match(letrasMaiusculas)){
       alert('A senha deve ter ao menos uma letra maiúscula');
 
-  }else if(!pwd.value.match(lowerCaseLetters)){
+  }else if(!pwd.value.match(letrasMinusculas)){
       alert('A senha deve ter ao menos uma letra minúscula');
 
   }else{
