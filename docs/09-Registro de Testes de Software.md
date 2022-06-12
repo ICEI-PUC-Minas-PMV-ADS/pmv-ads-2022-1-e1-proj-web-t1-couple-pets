@@ -51,7 +51,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) Acessar cadastro de pet
 ||5) realizar cadastro do pet
 ||6) concluir cadastro do pet
-|Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
+|Resultado:  |Passos 1, 2 e 3 realizados com sucesso , Passos 4, 5 e 6 não responsivo|
 |Evidência:  | ![Printtela](img/ct4.png)|
 
 
@@ -65,6 +65,24 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) Acessar busca de pet
 ||5) encontrar pet idealizado
 ||6) acessar perfil do pet
-|Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
+|Resultado:  |Passos 1, 2 e 3 realizados com sucesso , Passos 4, 5 e 6 não responsivo|
 |Evidência:  |![Printtela](img/ct5.png)|
+
+
+|  **Caso de Teste**  |  **CT-06 – Enviar mensagem para perfil encontrado**  |
+|--|--|
+|Requisitos Associados:	|RF-06 - O site deve permitir ao usuário enviar mensagem para o perfil encontrado através de um link para o WhatsApp.  |
+|Objetivo do Teste:	 |Verificar se o link de acesso de WhatsApp é funcional e remete o usuário para o aplicativo de WhatsApp possibilitando iniciar a conversa com o outro usuário do site.  |
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) clicar no perfil selecionado e visualizar o perfil do pet encontrado
+||5) visualizar link para o envio de mensagens
+||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
+||Resultado:  |Passos 1,2 e 3 realizados com sucesso , Passos 4, 5 e 6 não responsivo|
+|Evidência:  ||
+
+
+
+
 
