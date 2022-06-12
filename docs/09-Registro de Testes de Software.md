@@ -66,5 +66,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) encontrar pet idealizado
 ||6) acessar perfil do pet
 |Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
-|Evidência:  ||
+|Evidência:  |![Printtela](img/ct5.png)|
 
