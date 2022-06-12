@@ -15,9 +15,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Informar o endereço do Site  
 ||3) Visualizar a página inicial  |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | 
-
-[Printtela](img/ct1.png) 
+|Evidência:  | [Printtela](img/ct1.png) 
 
 
- 
+ |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
+|--|--|
+|Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil  |
+|Objetivo do Teste:	 |Verificar se os dados do perfil do usuário estão condizentes com as informações prestadas pelo usuário.  |
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
+||3) Acessar perfil do usuário
+|resultado:  ||
