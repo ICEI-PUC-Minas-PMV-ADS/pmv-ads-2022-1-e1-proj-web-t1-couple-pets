@@ -58,6 +58,7 @@ function deslogar() {
     localStorage.removeItem('gender');
     localStorage.removeItem('nome');
     localStorage.removeItem('tel');
+    localStorage.removeItem('imagem-recente');
     
     window.location.href = "PaginaInicial.html"
   }
