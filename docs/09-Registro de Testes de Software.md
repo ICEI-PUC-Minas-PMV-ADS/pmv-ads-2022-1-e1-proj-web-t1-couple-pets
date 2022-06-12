@@ -15,7 +15,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Informar o endereço do Site  
 ||3) Visualizar a página inicial  |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | [Printtela](img/ct1.png) 
+|Evidência:  | ![Printtela](img/ct1.png) 
 
 
  |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
 |Resultado:  | Aplicação concluída com sucesso|
-|resultado:  | ![QuadroKanban](img/Quadro_KanBan.png) ![Printtela](img/ct2.png)|
+|resultado:  | ![Printtela](img/ct2.png)|
 
 
 |  **Caso de Teste**  |  **CT-03 - Visualizar cadastro do  usúario**  |
