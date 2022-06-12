@@ -93,5 +93,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Objetivo do Teste:	 |Possibilitar o usuario a adaptação a qualquer ferramenta que estejam usando para facilitar a visualização do site |
 |Passos:	 |1) Visualizar a página inicial
 ||2) diminuir a tela do navegador
-||5) visualizar a pagina do site de maneira eficiente funcional e inteligível
+||3) visualizar a pagina do site de maneira eficiente funcional e inteligível
 |Critérios de Êxito:  |A página se comportará como esperado e se adaptará ao tamanho da tela imposta.
