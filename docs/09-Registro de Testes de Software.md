@@ -52,7 +52,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) realizar cadastro do pet
 ||6) concluir cadastro do pet
 |Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
-|Evidência:  | |
+|Evidência:  | ![Printtela](img/ct4.png)|
 
 
 
