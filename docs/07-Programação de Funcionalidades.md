@@ -7,3 +7,104 @@ Nesta seção é apresentada a tela Home-Page e apenas uma das funcionalidades d
 A tela principal apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, na Home-Page temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Home-Page:
 
 ![tela de Home-Page](img/ct1.png)
+
+
+### Artefatos da funcionalidade 
+
+* index.html
+*   <script src="../JS/login.js"></script>
+*   <script src="../JS/cadastro.js"></script>.html
+* style.css
+
+### Estrutura de Dados 
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/PaginaInicial.css">
+    <script src="../JS/login.js"></script>
+    <script src="../JS/cadastro.js"></script>
+    <title>Couple Pets</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../img/logo.png" width=200px>
+    </div>
+
+    <div id="section">
+        <div class="h1">
+            <p>
+            <h1>Está em busca de um parceiro para o seu pet?</h1>
+            </p>
+        </div>
+
+        <p>
+        <h2>Com o propósito de auxiliar nessas buscas, a plataforma Couple Pet's atende aos requisitos que mais importam
+            na escolha desse parceiro, baseado nos benefícios que os tutores estão procurando </h2>
+             
+        <h2>Faça já o seu cadastro e descubra como</h2>
+        </p>
+
+
+        <!-- horizontal -->
+
+        <form class="form-inline">
+            
+            <input type="email" id="myEmail" placeholder="Email">
+            <input type="password" id="myPassword" placeholder="Senha">
+            <button type="button" class="btn btn-primary btn-lg" onclick="cadastro()">Cadastrar</button>
+
+        </form>
+
+    </div>
+
+    
+
+    <div id=vl>
+    </div>
+
+
+    <div id="col">
+        <div class="h1">
+            <h1>Já possui uma conta?</h1>
+            <h3>Faça o Login</h3>
+        </div>
+
+        <div class="container">
+            <form class="form-inline">
+                <div class="oil">
+                    <input type="email" id="email" placeholder="E-mail">
+                    <input type="password" id="pwd" placeholder="Senha">
+                </div>
+            </form>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2"></label>
+            <div class="col-sm-10">
+            </div>
+        </div>
+        <div class="form-group row">
+            <button type="submit" class="btn btn-primary btn-lg" onclick="logar()">Enviar</button>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        </footer>
+</body>
+
+</html>
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/HTML/PaginaInicial.html 
+2.	Abrirá a página inicial do site.
+
+
+
