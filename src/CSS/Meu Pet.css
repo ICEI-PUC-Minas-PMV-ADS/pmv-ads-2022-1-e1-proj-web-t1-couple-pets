@@ -32,7 +32,7 @@ div.footer {
     height: 103px;
 }
 
-div.container-fluid logo {
+div.container-fluid {
     float: left;
 }
 
@@ -44,6 +44,14 @@ div.container-fluid logo {
     background-color: #f2f2f2;
     border-radius: 12px;
     padding-top: 5px;
+
+}
+
+.submit-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 nav.perfil {
@@ -60,42 +68,37 @@ nav.perfil h2 {
     border-radius: 12px;
 }
 
-nav.perfil h2 a {
-    text-decoration: none;
-    color: white;
-}
-
 .box-noticia1 {
-    padding: 20px 0px 0px 5px;
+    font-weight: bolder;
+    padding-right: 5px;
+    text-align: right;    
     flex-direction: column;
-}
-
-label {
-    font-weight: bold
+    border-right: 1px solid gray;
+    float: right;
 }
 
 .box-noticia2 {
-    float: left;
-    padding: 20px 0px 0px 5px;
-    flex-direction: column;
+    padding-left: 5px;
+    text-align: left;    
+    flex-direction: column; 
+}
+
+.box-noticia2 p {
+    margin: 0px;
 }
 
 .alinhamento {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
-    align-items: center;
+    font-size: 13px;
 }
 
-.contatos {
-    background-color: white;
-    border-radius: 12px;
-    min-height: 130px;
-    margin: 0px 5px 5px 5px;
-    padding-top: 5px;
-    min-width: 301px;              
+.enviar-foto {
+    padding: 0px 0px 0px 5px;
+    text-align: center;
 }
 
 .button-sub {
@@ -104,10 +107,14 @@ label {
     outline: white;
     border: none;
     padding: 8px;
-    color: white;
-    margin-bottom: 5px;
+    color: white;   
+    margin: 20px 0px;  
 }
 
+.button-sub>a {
+    text-decoration: none;
+    color: white;
+}
 
 @media (min-width: 991px) {
     body {
@@ -139,17 +146,23 @@ label {
         border-radius: 12px;
     }
 
-    nav.perfil h2 a {
-        text-decoration: none;
-        color: white;
-    }
-
-    
-
     .box-noticia {
 
         padding-top: 10px;
         float: left;
+    }
+
+    .box-noticia2>div>p {
+        padding: 20px 0px 0px 0px; 
+        margin: 0px;
+    }
+
+    .box-noticia2 p {
+        margin: 0px;
+    }
+
+    .box-noticia2 {
+        width: 20%;
     }
 
     #nome {
@@ -158,6 +171,14 @@ label {
 
     div>ul>li.sobre {
         display: none;
+    }
+
+    .submit-b {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 
     /* Grid */
@@ -188,8 +209,7 @@ label {
     .content {
         grid-area: content;
         margin-top: 10px;
-        padding: 0px 0px 5px 0px;
-        min-width: 600px;
+        padding: 0px 0px 20px 0px;
     }
 
     .sidenav {
@@ -204,7 +224,46 @@ label {
     .grid {
         margin: 0 auto;
     }
-  
+
+    .campo {
+        grid-area: conteudo;
+        padding: 3px 0px 10px 30px;
+    }
+
+    #state {
+        width: 199px;
+    }
+
+    .bloco2-raça {
+        padding: 5px 0px 0px 34px;
+    }
+    
+    .bloco2-date {
+        padding: 20px 0px 0px 30px;
+    }
+    
+    .bloco2-genero {
+        padding: 26px 0px 0px 35px;
+    }
+    
+    .bloco2-vive {
+        padding: 25px 0px 10px 35px;
+    }
+    
+    .bloco2-vacinas {
+        padding: 11px 0px 10px 35px;
+    }
+    
+    .bloco2-porte {
+        padding: 15px 0px 27px 35px;
+        font-size: 13px;
+    }
+
+    .bloco2-comportamento {
+        padding: 0px 0px 25px 35px;
+    }
+    
+
     div.box-lateral {
         background-color: white;
         box-shadow: none;
@@ -215,18 +274,6 @@ label {
 
     div.box-lateral ul {
         padding: 0px;
-        margin: 0px;
-    }
-
-    .contatos {
-        background-color: white;
-        border-radius: 12px;
-        min-height: 130px;
-        margin: 0px 5px 5px 5px;  
-        padding-top: 5px;             
-    }
-
-    .contatos p {
         margin: 0px;
     }
 
@@ -280,6 +327,9 @@ label {
     }
 
     footer {
-        padding-top: 10px;
+        bottom: 0;
+        height: 55px;
+        position: fixed;
+        width: 100%;
     }
 }
