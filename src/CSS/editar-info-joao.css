@@ -166,6 +166,11 @@ nav.perfil h2 {
     .nav-lateral {
         margin-top: 10px;
     }    
+
+    .box-noticia2 {
+        width: 20%;
+    }
+
     .box-noticia2>div>p {
         padding: 20px 0px 0px 0px; 
         margin: 0px;

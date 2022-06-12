@@ -82,8 +82,7 @@
                         </div>
                         <div>
                             <div class="enviar-foto">
-                                <img src="../img/joaopedro.png" alt="foto-perfil"
-                                    style="width: 190px; border-radius: 20%;">
+                                <img id="imgPreview" src="../img/user-profile.png" alt="preview" style="width: 190px; height: 190px; border-radius: 20%;">                                    
                             </div>
                         </div>
                         <div class="alinhamento">
@@ -110,12 +109,12 @@
                                 
                             </div>
                             <div class="box-noticia2">
-                                <p id="nome"></p>
-                                <p id="dtaNasc"></p>
-                                <p id="gender"></p>
-                                <p id="endereco"></p>
-                                <p id="tel"></p>
-                                <p id="cidade"></p>
+                                <p id="nome">...</p>
+                                <p id="dtaNasc">...</p>
+                                <p id="gender">...</p>
+                                <p id="endereco">...</p>
+                                <p id="tel">...</p>
+                                <p id="cidade">...</p>                               
                                 
                             </div>
                         </div>
@@ -142,14 +141,21 @@
     </div>
     <script>
         function Carregar () {
-            document.getElementById("nome").innerHTML = "<p>" + localStorage.getItem("nome"); + "</p>";
-            document.getElementById("dtaNasc").innerHTML = "<p>" + localStorage.getItem("dtaNasc"); + "</p>";
-            document.getElementById("gender").innerHTML = "<p>" + localStorage.getItem("gender"); + "</p>";
-            document.getElementById("endereco").innerHTML = "<p>" + localStorage.getItem("endereco"); + "</p>";
-            document.getElementById("tel").innerHTML = "<p>" + localStorage.getItem("tel"); + "</p>";
-            document.getElementById("cidade").innerHTML = "<p>" + localStorage.getItem("cidade"); + "</p>";
-            document.getElementById("nome").innerHTML = "<p>" + localStorage.getItem("nome"); + "</p>";
-        }        
+            document.getElementById("nome").innerHTML = localStorage.getItem("nome");
+            document.getElementById("dtaNasc").innerHTML = localStorage.getItem("dtaNasc");
+            document.getElementById("gender").innerHTML = localStorage.getItem("gender");
+            document.getElementById("endereco").innerHTML = localStorage.getItem("endereco");
+            document.getElementById("tel").innerHTML = localStorage.getItem("tel");
+            document.getElementById("cidade").innerHTML = localStorage.getItem("cidade");
+            document.getElementById("nome").innerHTML = localStorage.getItem("nome");
+        }
+        
+        document.addEventListener("DOMContentLoaded", () => {
+            const dadoUrlImagemRecente = localStorage.getItem("imagem-recente");
+            if (dadoUrlImagemRecente) {
+                document.querySelector("#imgPreview").setAttribute("src", dadoUrlImagemRecente);
+            }
+        });
     </script>
 
 

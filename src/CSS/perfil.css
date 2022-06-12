@@ -222,6 +222,14 @@ img#blah {
         display: none;
     }
 
+    input[type="file"] {
+        display: none;        
+    }
+    
+    label {
+        cursor: pointer;
+    }
+
     /* Grid */
     .grid {
         display: grid;
