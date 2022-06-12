@@ -60,7 +60,12 @@ nav.perfil h2 {
     text-align: left;    
     flex-direction: column;     
 }
+
+.box-noticia2 p {
+    margin: 0px;
+}
 .alinhamento {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,9 +82,22 @@ nav.perfil h2 {
     outline: white;
     border: none;
     padding: 8px;
-    color: white;
-    margin: 20px 0px 20px 0px;
+    color: white;   
+    margin: 20px 0px;     
 }
+.button-sub>a {
+    text-decoration: none;
+    color: white;
+}
+.submit-b {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
 @media (min-width: 991px) {
     body {
         margin: 0px;
@@ -139,7 +157,8 @@ nav.perfil h2 {
     .content {
         grid-area: content;
         margin-top: 10px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 5px 0px;
+        min-width: 600px;
     }
     .sidenav {
         grid-area: sidenav;
@@ -147,8 +166,24 @@ nav.perfil h2 {
     .nav-lateral {
         margin-top: 10px;
     }    
+
+    .box-noticia2 {
+        width: 20%;
+    }
+
     .box-noticia2>div>p {
         padding: 20px 0px 0px 0px; 
+        margin: 0px;
+    }
+    .submit-b {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box-noticia2 p {
         margin: 0px;
     }
     /* Grid Item */
@@ -207,4 +242,5 @@ nav.perfil h2 {
     footer {
         padding-top: 10px;
     }
+
 }

@@ -5,22 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/meupet.css">
-    <title>Couple Pets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Meu Pet.css Pet.css">
+    <script src="../JS/login.js"></script>
+
+    <title>Couple Pet</title>
 </head>
 
-<body>
+<body onload="Carregar();">
     <header>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
                 <div class="container-fluid">
-                    <a class="logo" href="editar-info-joao.html"><img src="../img/logo.png" alt="logo"
-                            style="max-width: 285px; max-height: 103px"></a>
+                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo" style="max-width: 285px; max-height: 103px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -29,19 +27,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="editar-info-joao.html">Perfil</a>
+                                <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  active" href="Meu Pet.html">Meu Pet</a>
+                                <a class="nav-link active" href="Meu Pet.html">Meu Pet</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Contatos.html">Contato</a>
-                            </li>                            
-                            <li class="nav-item sobre">
-                                <a class="nav-link" href="Sobre.html">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="PaginaInicial.html">Sair</a>
+                                <a class="nav-link" onclick= "deslogar()" href="PaginaInicial.html">Sair</a>
+                            </li>
+                            <li class="nav-item sobre">
+                                <a class="nav-link" href="#">Sobre</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -58,51 +56,68 @@
         <section class="wrapper grid grid-template row-gap">
             <div class="box-lateral nav-lateral">
                 <ul>
-                    <a href="editar-info-joao.html"><button class="botao botao-desativado">Perfil</button></a><br>
-                    <a href="Meu Pet.html"><button class="botao botao-ativo">Meu
-                            Pet</button></a><br>
+                    <a href="Perfil.html"><button class="botao botao-desativado">Perfil</button></a><br>
+                    <a href="Meu Pet.html"><button class="botao botao-ativo">Meu Pet</button></a><br>
                     <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
                     <a href="Sobre.html"><button class="botao botao-desativado">Sobre</button></a><br>
                 </ul>
             </div>
             <section class="content">
                 <div class="">
-                    <div>
+                    <div class="perfil">
                         <nav class="perfil">
-                            <h2>Meu Pet <a href="Cadastro de Pets.html"> > Cadastrar pet</a></h2>
+                            <h2>Meu Pet</h2>
                         </nav>
                     </div>
                 </div>
                 <div class="content">
-                    <form action="" id="bloco ">
-                        <article class="contatos alinhamento">
-                            <article class="contatos alinhamento">
-                                <img src="../img/foxpet.png" style="display: block; width: 137px; height: 140px; border-radius: 10%; " />    
-                                <p>
-                                    <label for="">Nome:</label> Fox
-                                    
-                                </p>
-                                <p>
-                                    <label for="">Raça:</label> Chow Chow
-                                    
-                                </p>
-                                <p>
-                                    <label for="">Comportamento:</label> Dócil
-                                    
-                                </p>
-                                <p>
-                                    <label for="">Porte:</label> Grande
-                                    
-                                </p>     
-                                <p>
-                                    <label for="">Vacinas:</label> Leishmaniose
-                                    
-                                </p>
-                                <br>                        
-                                <a href="Cadastro de Pet.html"><input type="button" class="button-sub" value="Editar Pet"></a>
-                            </article>               
-                        </article>                         
-                    </form>                    
+                    <form id="bloco">
+                        <div class="enviar-foto">
+                            <img src="../img/foxpet.png" alt="profile-image" id="blah" 
+                                style="width: 190px; height: 190px; border-radius: 20%;">
+                        </div>
+                        <div class="alinhamento">
+                            <div class="box-noticia1">
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Nome do Pet:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Raça:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Data de nascimento:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Gênero:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Local onde Vive:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Vacinas:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Porte:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Comportamento:
+                                </div>
+                            </div>
+                            <div class="box-noticia2">
+                                <p id="nome"></p>
+                                <p id="racas"></p>
+                                <p id="dtaNasc"></p>
+                                <p id="gender"></p>
+                                <p id="localVive"></p>
+                                <p id="vacinas"></p>
+                                <p id="porte"></p>
+                                <p id="comportamento"></p>
+                            </div>
+                        </div>
+                        <div class="submit-b">
+                            <button class="button-sub" type="submit"><a href="/index.html">Editar
+                                    informações</a></button>
+                    </form>
                 </div>
             </section>
         </section>
@@ -111,12 +126,24 @@
         <footer class="bg-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2022 Copyright:
+                © 2020 Copyright:
                 <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
             </div>
             <!-- Copyright -->
         </footer>
     </div>
+    <script>
+        function Carregar () {
+            document.getElementById("nome").innerHTML = "<p>" + localStorage.getItem("nome"); + "</p>";
+            document.getElementById("racas").innerHTML = "<p>" + localStorage.getItem("racas"); + "</p>";
+            document.getElementById("dtaNasc").innerHTML = "<p>" + localStorage.getItem("dtaNasc"); + "</p>";
+            document.getElementById("gender").innerHTML = "<p>" + localStorage.getItem("gender"); + "</p>";
+            document.getElementById("localVive").innerHTML = "<p>" + localStorage.getItem("localVive"); + "</p>";
+            document.getElementById("vacinas").innerHTML = "<p>" + localStorage.getItem("vacinas"); + "</p>";
+            document.getElementById("porte").innerHTML = "<p>" + localStorage.getItem("porte"); + "</p>";
+            document.getElementById("comportamento").innerHTML = "<p>" + localStorage.getItem("comportamento"); + "</p>";
+        }        
+    </script>
 
 
 </body>
