@@ -22,12 +22,21 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
 |--|--|
-|Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil e o perfil do pet.  |
-|Objetivo do Teste:	 |Verificar se os dados do perfil do usuário e do pet estão condizentes com as informações prestadas pelo usuário.  |
+|Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil  |
+|Objetivo do Teste:	 |Verificar se os dados do perfil do usuário estão condizentes com as informações prestadas pelo usuário.  |
 |Passos:	 |1) Visualizar a página principal
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
-|Critérios de Êxito:  |A página todos os dados fornecidos pelo usuário em seu perfil.|
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá os dados fornecidos pelo usuário em seu perfil.|
+
+|  **Caso de Teste**  |  **CT-03 - Visualizar cadastro do  usúario**  |
+|--|--|
+|Requisitos Associados:	|RF-03 - O site deve permitir ao usuário visualizar a pagina de cadastro do site  |
+|Objetivo do Teste:	 |Possibilitar o cadastro do usuário com a inserção de informações prestadas por ele para a conclusão de seu perfil  |
+|Passos:	 |1) Visualizar a página principal
+||2) Inserir usuário e senha nos campos determinados para o inicio de seu cadastro 
+||3) Acessar perfil do usuário
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá os dados fornecidos pelo usuário em seu perfil.|
 
 |  **Caso de Teste**  |  **CT-03 – Enviar mensagem para perfil encontrado**  |
 |--|--|
