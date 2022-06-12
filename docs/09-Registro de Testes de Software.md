@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
 |Resultado:  | Aplicação concluída com sucesso|
-|resultado:  | ![Printtela](img/ct2.png)|
+|Evidência:  | ![Printtela](img/ct2.png)|
 
 
 |  **Caso de Teste**  |  **CT-03 - Visualizar cadastro do  usúario**  |
@@ -38,7 +38,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||3) Acessar perfil de cadastro de informações do usuario e preencher com as informações
 ||4) Concluir cadastro do Usuario
 |Resultado:  | Passos 1 e 2 realizados com sucesso , Passos 3 e 4 não responsivo|
-|Resultado:  | ![Printtela](img/ct3.png)|
+|Evidência:  | ![Printtela](img/ct3.png)|
 
 
 
