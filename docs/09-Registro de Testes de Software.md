@@ -25,4 +25,22 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos:	 |1) Visualizar a página inicial
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
+|Resultado:  | Aplicação concluída com sucesso|
 |resultado:  | [Printtela](img/ct2.png)|
+
+
+|  **Caso de Teste**  |  **CT-03 - Visualizar cadastro do  usúario**  |
+|--|--|
+|Requisitos Associados:	|RF-03 - O site deve permitir ao usuário visualizar a pagina de cadastro do site  |
+|Objetivo do Teste:	 |Possibilitar o cadastro do usuário com a inserção de informações prestadas por ele para a conclusão de seu perfil  |
+|Passos:	 |1) Visualizar a página inicial
+||2) Inserir usuário e senha nos campos determinados para o inicio de seu cadastro 
+||3) Acessar perfil de cadastro de informações do usuario e preencher com as informações
+||4) Concluir cadastro do Usuario
+|Resultado:  | Aplicação concluída com sucesso|
+|Resultado:  |A página se comportará como esperado e surgirá os campos para preenchimento do usuario para a conclusão do seu cadastro.|
+
+
+
+
+
