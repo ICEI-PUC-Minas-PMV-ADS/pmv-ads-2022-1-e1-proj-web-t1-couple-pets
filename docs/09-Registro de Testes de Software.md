@@ -96,4 +96,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Evidência:  |![Printtela](img/ct7.png)|
 
 
+|  **Caso de Teste**  |  **CT-08 – Responsividade do site**  |
+|--|--|
+|Requisitos Associados:	|RF-08 - O site deve permitir ao usuário acessar as paginas do site de forma responsiva |
+|Objetivo do Teste:	 |Possibilitar o usuario a adaptação a qualquer ferramenta que estejam usando para facilitar a visualização do site |
+|Passos:	 |1) Visualizar a página inicial
+||2) diminuir a tela do navegador
+||3) visualizar a pagina do site de maneira eficiente funcional e inteligível
+|Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o sit|Resultado:  |Aplicação concluída com sucesso|
+|Evidência:  ||
 
