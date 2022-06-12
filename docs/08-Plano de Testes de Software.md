@@ -98,7 +98,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | **Caso de Teste** | **CT-09 – O Site Apresentar Navegabilidade** | 
 |--|--| 
-|Requisitos Associados:	|RF-02 - O site deve ser intuitivo. | 
+|Requisitos Associados:	|RF-09 - O site deve ser intuitivo. | 
 |Objetivo do Teste:	 |Verificar se as páginas apresentam uma navegabilidade que possa mostrar ao usuário de onde ele veio, como voltar e qual passo dar a seguir.  | 
 |Passos:	 |1) Acessar qualquer página do site. 
 ||2) Verificar a disponibilidade dos botões e se são funcionais. 

@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <script src="../JS/login.js"></script>
-    <link rel="stylesheet" href="../CSS/Cadastro de Pets João.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../CSS/Cadastro de Pets.css">
+
     <title>Couple Pet</title>
 </head>
 
-<body>
+<body onload="Carregar ();">
     <header>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
@@ -56,16 +54,8 @@
         </main>
     </header>
     <aside>
-        <div class="fotoperfil">
-            <img src="../img/joaopedro.png" class="img-responsive" width="190" style="border-radius: 30%;" alt="">
-            <h5>João Pedro</h5>
-        </div>
         <section class="wrapper grid grid-template row-gap">
             <div class="box-lateral nav-lateral">
-                  <div class="container">
-                    <img src="../img/joaopedro.png" class="img-responsive" width="190" style="border-radius: 30%;">
-                    <h5>João Pedro</h5> 
-                  </div>
                 <ul>
                     <a href="editar-info-joao.html"><button class="botao botao-desativado">Perfil</button></a><br>
                     <a href="Meu Pet.html"><button class="botao botao-ativo">Meu Pet</button></a><br>
@@ -77,15 +67,15 @@
                 <div class="">
                     <div class="perfil">
                         <nav class="perfil">
-                            <h2>Meu Pet > Cadastrar Pet</h2>
+                            <h2>Meu Pet</h2>
                         </nav>
                     </div>
                 </div>
                 <div class="content">
-                    <form action="" id="bloco">
+                    <form action="/Meu Pet.html" id="bloco">
                         <div class="enviar-foto">
                             <input accept="image/*" type='file' id="imgInp" style="padding-top: 10px;" required />
-                            <img src="../img/user-profile.png" alt="profile-image" id="blah" style="width: 190px; height: 190px; border-radius: 20%;">
+                            <img src="../img/fotopetpadrao.png" alt="profile-image" id="blah" style="width: 190px; height: 190px; border-radius: 20%;">
                         </div>
                         <div class="alinhamento">
                             <div class="box-noticia1">
@@ -144,68 +134,73 @@
                                     <input type="text" name="nome" id="nome" placeholder="Ex: Duck" required>
                                 </div>
                                 <div class="bloco2-raça">
-                                    <select id="RACA" name="RACA">
+                                    <select id="racas" onchange="buscaRacas(this.value)" required>
                                         <option value="...Selecione" selected="selected">Selecione...</option>
-                                        <option value="1">Afghan Hound</option>
-                                        <option value="2">Airedale Terrier</option>
-                                        <option value="3">Akita Inu</option>
-                                        <option value="4">American Pitbull</option>
-                                        <option value="5">Bassethound</option>
-                                        <option value="6">Beagle</option>
-                                        <option value="7">Bichon Frisé</option>
-                                        <option value="8">Boxer</option>
-                                        <option value="9">Bull Terrier</option>
-                                        <option value="10">Bulldog</option>
-                                        <option value="11">Bullmastiff</option>
-                                        <option value="12">Chihuahua</option>
-                                        <option value="13">Chow Chow</option>
-                                        <option value="14">Cocker</option>
-                                        <option value="15">Collie</option>
-                                        <option value="16">Dálmata</option>
-                                        <option value="17">Dobermann</option>
-                                        <option value="18">Dogue Alemão</option>
-                                        <option value="19">Fila</option>
-                                        <option value="20">Fox Terrier Duro</option>
-                                        <option value="21">Fox Terrier Liso</option>
-                                        <option value="22">Foxhound</option>
-                                        <option value="23">Golden Retriever</option>
-                                        <option value="24">Husky</option>
-                                        <option value="25">Labrador</option>
-                                        <option value="26">Lhasa Apso</option>
-                                        <option value="27">Maltês</option>
-                                        <option value="28">Mastiff</option>
-                                        <option value="29">O.E.Sheepdog</option>
-                                        <option value="30">Pastor Alemão</option>
-                                        <option value="31">Pequinês</option>
-                                        <option value="32">Pinscher</option>
-                                        <option value="33">Pointer Inglês</option>
-                                        <option value="34">Poodle</option>
-                                        <option value="35">Rottweiler</option>
-                                        <option value="36">São Bernardo</option>
-                                        <option value="37">Schnauzer</option>
-                                        <option value="38">Setter</option>
-                                        <option value="39">Shar Pei</option>
-                                        <option value="40">Shih Tzu</option>
-                                        <option value="41">Spitz Alemão</option>
-                                        <option value="42">Staff Bull Terrier</option>
-                                        <option value="43">Teckel</option>
-                                        <option value="44">Terrier Brasileiro</option>
-                                        <option value="45">Vira-Lata</option>
-                                        <option value="46">West Highland White Terrier</option>
-                                        <option value="47">Yorkshire Terrier</option>
-                                        <option value="99">Outra</option>
+                                        <option value="Afghan Hound">Afghan Hound</option>
+                                        <option value="Airedale Terrier">Airedale Terrier</option>
+                                        <option value="Akita Inu">Akita Inu</option>
+                                        <option value="American Pitbull">American Pitbull</option>
+                                        <option value="Bassethound">Bassethound</option>
+                                        <option value="Beagle">Beagle</option>
+                                        <option value="Bichon Frisé">Bichon Frisé</option>
+                                        <option value="Boxer">Boxer</option>
+                                        <option value="Bull Terrier">Bull Terrier</option>
+                                        <option value="Bulldog">Bulldog</option>
+                                        <option value="Bullmastiff">Bullmastiff</option>
+                                        <option value="Chihuahua">Chihuahua</option>
+                                        <option value="Chow Chow">Chow Chow</option>
+                                        <option value="Cocker">Cocker</option>
+                                        <option value="Collie">Collie</option>
+                                        <option value="Dálmata">Dálmata</option>
+                                        <option value="Dobermann">Dobermann</option>
+                                        <option value="Dogue Alemão">Dogue Alemão</option>
+                                        <option value="Fila">Fila</option>
+                                        <option value="Fox Terrier Duro">Fox Terrier Duro</option>
+                                        <option value="Fox Terrier Liso">Fox Terrier Liso</option>
+                                        <option value="Foxhound">Foxhound</option>
+                                        <option value="Golden Retriever">Golden Retriever</option>
+                                        <option value="Husky">Husky</option>
+                                        <option value="Labrador">Labrador</option>
+                                        <option value=">Lhasa Apso">Lhasa Apso</option>
+                                        <option value="Maltês">Maltês</option>
+                                        <option value="Mastiff">Mastiff</option>
+                                        <option value="O.E.Sheepdog">O.E.Sheepdog</option>
+                                        <option value="Pastor Alemão">Pastor Alemão</option>
+                                        <option value="Pequinês">Pequinês</option>
+                                        <option value="Pinscher">Pinscher</option>
+                                        <option value="Pointer Inglês">Pointer Inglês</option>
+                                        <option value="Poodle">Poodle</option>
+                                        <option value="Rottweiler">Rottweiler</option>
+                                        <option value="São Bernardo">São Bernardo</option>
+                                        <option value="Schnauzer">Schnauzer</option>
+                                        <option value="Setter">Setter</option>
+                                        <option value="Shar Pei">Shar Pei</option>
+                                        <option value="Shih Tzu">Shih Tzu</option>
+                                        <option value="Spitz Alemão">Spitz Alemão</option>
+                                        <option value="Staff Bull Terrier">Staff Bull Terrier</option>
+                                        <option value="Teckel">Teckel</option>
+                                        <option value="Terrier Brasileiro">Terrier Brasileiro</option>
+                                        <option value="Vira-Lata">Vira-Lata</option>
+                                        <option value="West Highland White Terrier">West Highland White Terrier</option>
+                                        <option value="Yorkshire Terrier">Yorkshire Terrier</option>
+                                        <option value="Outra">Outra</option>
                                     </select>
                                 </div>
+
                                 <div class="bloco2-date ">
                                     <label for="date"></label>
-                                    <input type="date" name="nome" id="nome">
+                                    <input type="date" name="nome" id="dtaNasc">
                                 </div>
                                 <div class="bloco2-genero ">
-                                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" required> Macho
-                                    <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" required> Fêmea
+                                    <form id="gender" class="pe" onclick="Salvar ();">
+                                        <input type="radio" name="gender" id="rMale"
+                                            onchange="localStorage.setItem('gender', 'Macho');"> Macho
+                                        <input type="radio" name="gender" id="rFemale"
+                                            onchange="localStorage.setItem('gender', 'Fêmea');"> Fêmea
+                                    </form>
                                 </div>
                                 <div class="bloco2-vive ">
-                                    <select name="local-onde-vive" id="local-onde-vive">
+                                    <select id="localVive" onchange="buscalocalVive(this.value)" required>
                                         <option value="...Selecione" selected="selected">Selecione...</option>
                                         <option value="Canil">Canil</option>
                                         <option value="Dentro de Casa">Dentro de Casa</option>
@@ -217,12 +212,17 @@
                                 </div>
 
                                 <div class="bloco2-porte">
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op1" required> Pequeno
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op2" required> Médio
-                                    <INPUT TYPE="RADIO" NAME="OPÇAO-PORTE" VALUE="op3" required> Grande
+                                    <form id="porte" class="pe">
+                                        <input type="radio" name="porte" id="rgrande"
+                                            onchange="localStorage.setItem('porte', 'Grande');"> Grande
+                                        <input type="radio" name="porte" id="rmédio"
+                                            onchange="localStorage.setItem('porte', 'Médio');"> Médio
+                                        <input type="radio" name="porte" id="rpequeno"
+                                            onchange="localStorage.setItem('porte', 'Pequeno');"> Pequeno
+                                    </form>
                                 </div>
-                                <div class="bloco2-comportamento campo">
-                                    <select name="Comportamento" id="Comportamento">
+                                <div class="bloco2-comportamento">
+                                    <select id="comportamento" required>
                                         <option value="...Selecione" selected="selected">Selecione...</option>
                                         <option value="Agitado">Agitado</option>
                                         <option value="Agressivo">Agressivo</option>
@@ -231,10 +231,61 @@
                                         <option value="Extrovertido">Extrovertido</option>
                                     </select>
                                 </div>
-                                <button class="button-sub" type="submit">Concluído</button>
+                                <button class="button-sub" type="submit"
+                                        onclick="Salvar();">Concluído</button>
                             </div>
                         </div>
                     </form>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                    <script>
+                        document.querySelector('#imgInp').addEventListener("change", function () {
+                            const reader = new FileReader();
+
+                            reader.addEventListener("load", () => {
+                                localStorage.setItem("imagem-recente", reader.result)
+                            });
+
+                            reader.readAsDataURL(this.files[0]);
+                        })
+
+
+                        document.addEventListener("DOMContentLoaded", () => {
+                            const dadoUrlImagemRecente = localStorage.getItem("imagem-recente");
+                            if (dadoUrlImagemRecente) {
+                                document.querySelector("#blah").setAttribute("src", dadoUrlImagemRecente);
+                            }
+                        });
+
+
+                        imgInp.onchange = evt => {
+                            const [file] = imgInp.files
+                            if (file) {
+                                blah.src = URL.createObjectURL(file)
+                            }
+                        }
+
+                        function Salvar() {
+                            localStorage.setItem("nome", document.getElementById("nome").value);
+                            localStorage.setItem("racas", document.getElementById("racas").value);
+                            localStorage.setItem("dtaNasc", document.getElementById("dtaNasc").value);
+                            localStorage.setItem("localVive", document.getElementById("localVive").value);
+                            localStorage.setItem("vacinas", document.getElementById("vacinas").value);
+                            localStorage.setItem("comportamento", document.getElementById("comportamento").value);
+                            
+                        }
+
+                        function Carregar() {
+                            document.getElementById("nome").value = localStorage.getItem("nome");
+                            document.getElementById("racas").value = localStorage.getItem("racas");
+                            document.getElementById("dtaNasc").value = localStorage.getItem("dtaNasc");
+                            document.getElementsByName("gender").value = localStorage.getItem("gender");
+                            document.getElementById("localVive").value = localStorage.getItem("localVive");
+                            document.getElementById("vacinas").value = localStorage.getItem("vacinas");
+                            document.getElementById("comportamento").value = localStorage.getItem("comportamento");
+                           
+                        }
+
+                    </script>    
                 </div>
             </section>
         </section>
@@ -243,7 +294,7 @@
         <footer class="bg-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
+                © 2022 Copyright:
                 <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
             </div>
             <!-- Copyright -->
