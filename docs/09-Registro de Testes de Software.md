@@ -80,7 +80,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) visualizar link para o envio de mensagens
 ||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
 |Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  ||
+|Evidência:  |![Printtela](img/ct6.1.png)  ![Printtela](img/ct6.2.png)|
 
 
 
