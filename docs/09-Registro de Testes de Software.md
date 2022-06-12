@@ -14,5 +14,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos:  | 1) Acessar o Navegador  
 ||2) Informar o endereço do Site  
 ||3) Visualizar a página inicial  |
-|Resultado:  | o sistema se comportará como esperado acessando o endereço do site inserido e o usuario visualizará a home page do site.|
-|Evidência:  | o sistema se comportará como esperado acessando o endereço do site inserido e o usuario visualizará a home page do site.|
+|Resultado:  | Aplicação concluída com sucesso|
+|Evidência:  |  |
