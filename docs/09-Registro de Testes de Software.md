@@ -116,5 +116,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||3) Verificar o desempenho ao buscar informações dentro da página. 
 ||4) Verificar se há organização das informações disponíveis para que haja uma navegação de forma intuitiva.
 |Critérios de Êxito:  |Deve organizar as informações disponíveis para que o visitante navegue de forma intuitiva e saiba de onde ele veio, como voltar e qual passo dar a seguir.|Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  |![Printtela](img/Registro%20de%20teste%20Responsividade.png)
+|Evidência:  |![Printtela](img/Registro%20de%20teste%20Navegabilidade.png)
 
