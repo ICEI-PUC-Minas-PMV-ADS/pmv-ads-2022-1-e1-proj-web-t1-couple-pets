@@ -73,12 +73,8 @@
                 <div class="content">
                     <form id="bloco">
                         <div class="enviar-foto">
-<<<<<<< HEAD
-                            <img id="imgPreview" src="../img/user-profile.png" alt="preview" style="width: 190px; height: 190px; border-radius: 20%;">
-=======
-                            <img src="../img/foto padrao pet.png" alt="profile-image" id="blah" 
-                                style="width: 190px; height: 190px; border-radius: 20%;">
->>>>>>> e1e36b0f81de2a3c9fed594cc85ec84a00950d25
+                            <img id="imgPreviewPet" src="../img/foto padrao pet.png" alt="preview" style="width: 190px; height: 190px; border-radius: 20%;">
+                            
                         </div>
                         <div class="alinhamento">
                             <div class="box-noticia1">
@@ -108,10 +104,10 @@
                                 </div>
                             </div>
                             <div class="box-noticia2">
-                                <p id="nome"></p>
+                                <p id="nomePet"></p>
                                 <p id="racas"></p>
-                                <p id="dtaNasc"></p>
-                                <p id="gender"></p>
+                                <p id="dtaNascPet"></p>
+                                <p id="genderPet"></p>
                                 <p id="localVive"></p>
                                 <p id="vacinas"></p>
                                 <p id="porte"></p>
@@ -138,17 +134,17 @@
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const dadoUrlImagemRecente = localStorage.getItem("imagem-recente");
-            if (dadoUrlImagemRecente) {
-                document.querySelector("#imgPreview").setAttribute("src", dadoUrlImagemRecente);
+            const dadoUrlImagemRecentePet = localStorage.getItem("imagem-recente-pet");
+            if (dadoUrlImagemRecentePet) {
+                document.querySelector("#imgPreviewPet").setAttribute("src", dadoUrlImagemRecentePet);
             }
         });
 
         function Carregar () {
-            document.getElementById("nome").innerHTML = "<p>" + localStorage.getItem("nome"); + "</p>";
+            document.getElementById("nomePet").innerHTML = "<p>" + localStorage.getItem("nomePet"); + "</p>";
             document.getElementById("racas").innerHTML = "<p>" + localStorage.getItem("racas"); + "</p>";
-            document.getElementById("dtaNasc").innerHTML = "<p>" + localStorage.getItem("dtaNasc"); + "</p>";
-            document.getElementById("gender").innerHTML = "<p>" + localStorage.getItem("gender"); + "</p>";
+            document.getElementById("dtaNascPet").innerHTML = "<p>" + localStorage.getItem("dtaNascPet"); + "</p>";
+            document.getElementById("genderPet").innerHTML = "<p>" + localStorage.getItem("genderPet"); + "</p>";
             document.getElementById("localVive").innerHTML = "<p>" + localStorage.getItem("localVive"); + "</p>";
             document.getElementById("vacinas").innerHTML = "<p>" + localStorage.getItem("vacinas"); + "</p>";
             document.getElementById("porte").innerHTML = "<p>" + localStorage.getItem("porte"); + "</p>";

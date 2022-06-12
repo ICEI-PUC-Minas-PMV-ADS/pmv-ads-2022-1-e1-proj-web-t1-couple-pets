@@ -71,15 +71,11 @@
                         </nav>
                     </div>
                 </div>
-                <div class="content">
-<<<<<<< HEAD
-                    <form action="Meu Pet.html" id="bloco">
-=======
+                <div class="content">                    
                     <form action="./Meu Pet.html" id="bloco">
->>>>>>> e1e36b0f81de2a3c9fed594cc85ec84a00950d25
                         <div class="enviar-foto">
-                            <input accept="image/*" type='file' id="imgInp" style="padding-top: 10px;" required />
-                            <img src="../img/foto padrao pet.png" alt="profile-image" id="blah" style="width: 190px; height: 190px; border-radius: 20%;">
+                            <input accept="image/*" type='file' id="imgInpPet" style="padding-top: 10px;" required />
+                            <img src="../img/foto padrao pet.png" alt="profile-image" id="blahPet" style="width: 190px; height: 190px; border-radius: 20%;">
                         </div>
                         <div class="alinhamento">
                             <div class="box-noticia1">
@@ -135,7 +131,7 @@
                             <div class="box-noticia2">
                                 <div class="bloco2-nome campo">
                                     <label for="nome "></label>
-                                    <input type="text" name="nome" id="nome" placeholder="Ex: Duck" required>
+                                    <input type="text" name="nome" id="nomePet" placeholder="Ex: Duck" required>
                                 </div>
                                 <div class="bloco2-raça">
                                     <select id="racas" onchange="buscaRacas(this.value)" required>
@@ -193,14 +189,14 @@
 
                                 <div class="bloco2-date ">
                                     <label for="date"></label>
-                                    <input type="date" name="nome" id="dtaNasc">
+                                    <input type="date" name="nome" id="dtaNascPet">
                                 </div>
                                 <div class="bloco2-genero ">
-                                    <form id="gender" class="pe" onclick="Salvar ();">
-                                        <input type="radio" name="gender" id="rMale"
-                                            onchange="localStorage.setItem('gender', 'Macho');"> Macho
-                                        <input type="radio" name="gender" id="rFemale"
-                                            onchange="localStorage.setItem('gender', 'Fêmea');"> Fêmea
+                                    <form id="genderPet" class="pe" onclick="Salvar ();">
+                                        <input type="radio" name="genderPet" id="rMale"
+                                            onchange="localStorage.setItem('genderPet', 'Macho');"> Macho
+                                        <input type="radio" name="genderPet" id="rFemale"
+                                            onchange="localStorage.setItem('genderPet', 'Fêmea');"> Fêmea
                                     </form>
                                 </div>
                                 <div class="bloco2-vive ">
@@ -242,11 +238,11 @@
                     </form>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                     <script>
-                        document.querySelector('#imgInp').addEventListener("change", function () {
+                        document.querySelector('#imgInpPet').addEventListener("change", function () {
                             const reader = new FileReader();
 
                             reader.addEventListener("load", () => {
-                                localStorage.setItem("imagem-recente", reader.result)
+                                localStorage.setItem("imagem-recente-pet", reader.result)
                             });
 
                             reader.readAsDataURL(this.files[0]);
@@ -254,24 +250,24 @@
 
 
                         document.addEventListener("DOMContentLoaded", () => {
-                            const dadoUrlImagemRecente = localStorage.getItem("imagem-recente");
+                            const dadoUrlImagemRecente = localStorage.getItem("imagem-recente-pet");
                             if (dadoUrlImagemRecente) {
-                                document.querySelector("#blah").setAttribute("src", dadoUrlImagemRecente);
+                                document.querySelector("#blahPet").setAttribute("src", dadoUrlImagemRecente);
                             }
                         });
 
 
-                        imgInp.onchange = evt => {
-                            const [file] = imgInp.files
+                        imgInpPet.onchange = evt => {
+                            const [file] = imgInpPet.files
                             if (file) {
-                                blah.src = URL.createObjectURL(file)
+                                blahPet.src = URL.createObjectURL(file)
                             }
                         }
 
                         function Salvar() {
-                            localStorage.setItem("nome", document.getElementById("nome").value);
+                            localStorage.setItem("nomePet", document.getElementById("nomePet").value);
                             localStorage.setItem("racas", document.getElementById("racas").value);
-                            localStorage.setItem("dtaNasc", document.getElementById("dtaNasc").value);
+                            localStorage.setItem("dtaNascPet", document.getElementById("dtaNascPet").value);
                             localStorage.setItem("localVive", document.getElementById("localVive").value);
                             localStorage.setItem("vacinas", document.getElementById("vacinas").value);
                             localStorage.setItem("comportamento", document.getElementById("comportamento").value);
@@ -279,10 +275,10 @@
                         }
 
                         function Carregar() {
-                            document.getElementById("nome").value = localStorage.getItem("nome");
+                            document.getElementById("nomePet").value = localStorage.getItem("nomePet");
                             document.getElementById("racas").value = localStorage.getItem("racas");
-                            document.getElementById("dtaNasc").value = localStorage.getItem("dtaNasc");
-                            document.getElementsByName("gender").value = localStorage.getItem("gender");
+                            document.getElementById("dtaNascPet").value = localStorage.getItem("dtaNascPet");
+                            document.getElementsByName("genderPet").value = localStorage.getItem("genderPet");
                             document.getElementById("localVive").value = localStorage.getItem("localVive");
                             document.getElementById("vacinas").value = localStorage.getItem("vacinas");
                             document.getElementById("comportamento").value = localStorage.getItem("comportamento");
