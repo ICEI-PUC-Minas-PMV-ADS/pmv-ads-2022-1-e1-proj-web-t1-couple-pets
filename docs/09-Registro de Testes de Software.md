@@ -55,4 +55,16 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Evidência:  | ![Printtela](img/ct4.png)|
 
 
+|  **Caso de Teste**  |  **CT-05 – Resultado de pesquisa de pet**  |
+|--|--|
+|Requisitos Associados:	|RF-05 - O site deve permitir ao usuário visualizar o perfil do pet idealizado  |
+|Objetivo do Teste:	 |Possibilitar a visualização do perfil do pet pesquisado com as informações pertinentes|
+|Passos:	 |1) Visualizar a página principal
+||2) Inserir usuário e senha nos campos determinados
+||3) Acessar perfil do usuário
+||4) Acessar busca de pet
+||5) encontrar pet idealizado
+||6) acessar perfil do pet
+|Resultado:  |Passos 1 e 2 realizados com sucesso , Passos 3, 4, 5 e 6 não responsivo|
+|Evidência:  ||
 
