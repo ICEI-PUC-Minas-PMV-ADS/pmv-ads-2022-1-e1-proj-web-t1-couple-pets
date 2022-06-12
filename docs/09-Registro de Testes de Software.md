@@ -25,4 +25,4 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos:	 |1) Visualizar a página inicial
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
-|resultado:  ||
+|resultado:  | [Printtela](img/ct2.png)|
