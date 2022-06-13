@@ -13,11 +13,7 @@ CURSO ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
 Leonardo Siqueira Menezes
 
-Lorran de França Marins
-
 Mariana Júlia Estevam Corrêa
-
-Matheus Henrique Garcia Queiroz
 
 Pedro Henrique Caetano Soares
 
