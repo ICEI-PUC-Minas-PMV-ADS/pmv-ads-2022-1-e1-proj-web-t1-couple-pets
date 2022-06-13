@@ -1,21 +1,24 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../CSS/perfil.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Couple Pets.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/sobre.css">
+    <script src="../JS/login.js"></script>
+    <title>Couple Pets</title>
 </head>
 
-<body>
-    <header class="menu-principal">
+<body onload="Carregar();">
+    <header>
         <main>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(127, 211, 248, 0.77);">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="../img/logo.png" width="285" height="103" alt></a>
+                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo"
+                            style="max-width: 285px; max-height: 103px"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -24,67 +27,78 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Perfil</a>
+                                <a class="nav-link" aria-current="page" href="#">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Meus Pets</a>
+                                <a class="nav-link" href="Meu Pet.html">Meu Pet</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos</a>
+                                <a class="nav-link" href="Contatos.html">Contato</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Sobre</a>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Sair</a>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                    
-
+                            <li class="nav-item sobre">
+                                <a class="nav-link active" href="Sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="deslogar()" href="PaginaInicial.html">Sair</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Busque pets"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
             </nav>
-    <section class="content">
-        <div class="">
-            <div class="Perfil">
-                <nav class="Sobre">
-                    <h2>Sobre</h2>
-    
-                                        Achar o parceiro ideal para seu animal de estimação pode ser um transtorno. A falta de uma plataforma que ofereça o serviço de forma adequada pode gerar perda de tempo, prejuízos financeiros e até danos ao animal, haja vista não ser fácil encontrar um parceiro(a) compatível para realizar o cruzamento.
-
-                                        Isto posto, é importante que exista uma plataforma onde os tutores possam buscar parceiros para seus animais e ter acesso à informações importantes, tanto do animal como de seu tutor, garantindo o máximo de segurança na busca.
-
-                                        Seja bem vindo(a) ao nosso portal.
         </main>
     </header>
-    
-        </article>
-        <article id="perfil-info"></article>
-        <article id="main-humano">
-
-            
-            <div id="main-human-header">
-                <article id="main-human-header-titulo">
-                    <div class="perfil">
-                        <div id="user-perfil">
-                            <h1>
-                            </h1>
-
-                        </nav>
-                </article>
+    <aside>
+        <section class="wrapper grid grid-template row-gap">
+            <div class="box-lateral nav-lateral">
+                <ul>
+                    <a href="editar-info.html"><button class="botao botao-desativado">Perfil</button></a><br>
+                    <a href="Meu Pet.html"><button class="botao botao-desativado">Meu
+                            Pet</button></a><br>
+                    <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
+                    <a href="Sobre.html"><button class="botao botao-ativo">Sobre</button></a><br>
+                </ul>
             </div>
+            <section class="content">
+                <div class="">
+                    <div class="perfil">
+                        <nav class="perfil">
+                            <h2>Perfil</h2>
+                        </nav>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>
+                        Achar o parceiro ideal para seu animal de estimação pode ser um transtorno. A falta de uma
+                        plataforma que ofereça o serviço de forma adequada pode gerar perda de tempo, prejuízos
+                        financeiros e até danos ao animal, haja vista não ser fácil encontrar um parceiro(a) compatível
+                        para realizar o cruzamento.<br><br>
 
-    </section>
-    </section>
+                        Isto posto, é importante que exista uma plataforma onde os tutores possam buscar parceiros para
+                        seus animais e ter acesso à informações importantes, tanto do animal como de seu tutor,
+                        garantindo o máximo de segurança na busca.<br><br>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../JS/login.js"></script>
-    <title>Counple Pets</title>
-
-</head>
-<body>
-    
+                        Seja bem vindo(a) ao nosso portal.
+                    </p>
+                </div>
+            </section>
+        </section>
+    </aside>
+    <div class="item footer">
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
 </body>
+
 </html>
