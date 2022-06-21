@@ -185,7 +185,7 @@
     </div>
 
     <script>
-        document.querySelector('#imgInp').addEventListener("change", function () {
+        /*document.querySelector('#imgInp').addEventListener("change", function () {
             const reader = new FileReader();
 
             reader.addEventListener("load", () => {
@@ -209,7 +209,7 @@
             if (file) {
                 blah.src = URL.createObjectURL(file)
             }
-        }
+        }*/
 
         function Salvar() {
             
@@ -231,15 +231,7 @@
             });
             
             console.log(cadastrosArmazenado[0])
-            localStorage.setItem('cadastro',JSON.stringify(cadastrosArmazenado));
-            
-
-            // localStorage.setItem("nome", document.getElementById("nome").value);
-            // localStorage.setItem("dtaNasc", document.getElementById("dtaNasc").value);
-            // localStorage.setItem("gender", document.getElementsByName("gender", checked).value);
-            // localStorage.setItem("endereco", document.getElementById("endereco").value);
-            // localStorage.setItem("tel", document.getElementById("tel").value);
-            // localStorage.setItem("cidade", document.getElementById("cidade").value);
+            localStorage.setItem('cadastro',JSON.stringify(cadastrosArmazenado));       
         }
 
         function Carregar () {
@@ -247,8 +239,7 @@
             const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
             const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
             document.getElementById("nome").value = dadosUsuarioLogado.nome  || "&nbsp"
-            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"
-            //document.getElementById("gender").value = dadosUsuarioLogado.gender || "&nbsp"
+            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"            
             const radio = document.getElementById(dadosUsuarioLogado.gender)
             radio.checked = true;            
             document.getElementById("endereco").value = dadosUsuarioLogado.endereco || "&nbsp"

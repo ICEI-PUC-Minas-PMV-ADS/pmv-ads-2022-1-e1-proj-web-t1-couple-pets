@@ -35,12 +35,12 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Contatos.html">Contato</a>
-                            </li>                            
+                            </li>
                             <li class="nav-item sobre">
                                 <a class="nav-link" href="Sobre.html">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick= "deslogar()" href="PaginaInicial.html">Sair</a>
+                                <a class="nav-link" onclick="deslogar()" href="PaginaInicial.html">Sair</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -71,11 +71,12 @@
                         </nav>
                     </div>
                 </div>
-                <div class="content">                    
+                <div class="content">
                     <form action="./Meu Pet.html" id="bloco">
                         <div class="enviar-foto">
                             <input accept="image/*" type='file' id="imgInpPet" style="padding-top: 10px;" required />
-                            <img src="../img/foto padrao pet.png" alt="profile-image" id="blahPet" style="width: 190px; height: 190px; border-radius: 20%;">
+                            <img src="../img/foto padrao pet.png" alt="profile-image" id="blahPet"
+                                style="width: 190px; height: 190px; border-radius: 20%;">
                         </div>
                         <div class="alinhamento">
                             <div class="box-noticia1">
@@ -231,14 +232,13 @@
                                         <option value="Extrovertido">Extrovertido</option>
                                     </select>
                                 </div>
-                                <button class="button-sub" type="submit"
-                                        onclick="Salvar();">Concluído</button>
+                                <button class="button-sub" type="submit" onclick="Salvar();">Concluído</button>
                             </div>
                         </div>
                     </form>
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                     <script>
-                        document.querySelector('#imgInpPet').addEventListener("change", function () {
+                        /*document.querySelector('#imgInpPet').addEventListener("change", function () {
                             const reader = new FileReader();
 
                             reader.addEventListener("load", () => {
@@ -262,30 +262,44 @@
                             if (file) {
                                 blahPet.src = URL.createObjectURL(file)
                             }
-                        }
+                        }*/
 
                         function Salvar() {
-                            localStorage.setItem("nomePet", document.getElementById("nomePet").value);
-                            localStorage.setItem("racas", document.getElementById("racas").value);
-                            localStorage.setItem("dtaNascPet", document.getElementById("dtaNascPet").value);
-                            localStorage.setItem("localVive", document.getElementById("localVive").value);
-                            localStorage.setItem("vacinas", document.getElementById("vacinas").value);
-                            localStorage.setItem("comportamento", document.getElementById("comportamento").value);
-                            
+
+                            let cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
+                            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+                            const novosDados = {
+                                nomePet: document.getElementById("nomePet").value,
+                                racas: document.getElementById("racas").value,
+                                dtaNascPet: document.getElementById("dtaNascPet").value,
+                                localVive: document.getElementById("localVive").value,
+                                vacinas: document.getElementById("vacinas").value,
+                                comportamento: document.getElementById("comportamento").value
+                            }
+                            cadastrosArmazenado.forEach(item => {
+
+                                if (item.id == usuarioLogado) {
+                                    Object.assign(item, novosDados)
+                                }
+                            });
+
+                            console.log(cadastrosArmazenado[0])
+                            localStorage.setItem('cadastro', JSON.stringify(cadastrosArmazenado));
                         }
 
                         function Carregar() {
-                            document.getElementById("nomePet").value = localStorage.getItem("nomePet");
-                            document.getElementById("racas").value = localStorage.getItem("racas");
-                            document.getElementById("dtaNascPet").value = localStorage.getItem("dtaNascPet");
-                            document.getElementsByName("genderPet").value = localStorage.getItem("genderPet");
-                            document.getElementById("localVive").value = localStorage.getItem("localVive");
-                            document.getElementById("vacinas").value = localStorage.getItem("vacinas");
-                            document.getElementById("comportamento").value = localStorage.getItem("comportamento");
-                           
-                        }
-
-                    </script>    
+                            const cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
+                            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+                            const dadosUsuarioLogado = cadastrosArmazenado.find(item => item.id == usuarioLogado)
+                            document.getElementById("nome").value = dadosUsuarioLogado.nome || "&nbsp"
+                            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"
+                            const radio = document.getElementById(dadosUsuarioLogado.gender)
+                            radio.checked = true;
+                            document.getElementById("endereco").value = dadosUsuarioLogado.endereco || "&nbsp"
+                            document.getElementById("tel").value = dadosUsuarioLogado.tel || "&nbsp"
+                            document.getElementById("cidade").value = dadosUsuarioLogado.cidade || "&nbsp"
+                        }             
+                    </script>
                 </div>
             </section>
         </section>
