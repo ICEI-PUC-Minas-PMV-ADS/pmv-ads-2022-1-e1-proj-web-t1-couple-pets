@@ -140,20 +140,20 @@
                                     <input type="date" name="nome" id="dtaNasc">
                                 </div>
                                 <div class="bloco2-genero ">
-                                    <form id="gender" class="pe" onclick="Salvar ();">
-                                        <input type="radio" name="gender" id="rMale"
-                                            value="masculino" required> Masculino
-                                        <input type="radio" name="gender" id="rFemale"
-                                            value="feminino" required> Feminino
+                                    <form name="genderForm" class="pe" >
+                                        <input type="radio" name="gender" id="Masculino"
+                                            value="Masculino" required> Masculino
+                                        <input type="radio" name="gender" id="Feminino"
+                                            value="Feminino" required> Feminino
                                     </form>
                                 </div>
                                 <div class="bloco2-adress ">
                                     <label for="adress"></label>
-                                    <input type="text" name="nome" id="endereco" required>
+                                    <input type="text" id="endereco" required>
                                 </div>
                                 <div class="bloco2-tel">
                                     <label for="tel"></label>
-                                    <input type="tel" name="nome" id="tel" required>
+                                    <input type="number" id="tel" required>
                                 </div>
 
                                 <div class="bloco2-state ">
@@ -212,19 +212,26 @@
         }
 
         function Salvar() {
-
+            
             let cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
             const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const usuarioEncontrado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
             const novosDados = {
                 nome: document.getElementById("nome").value,
                 dtaNasc: document.getElementById("dtaNasc").value,
-                gender:  document.getElementsByName("gender").value,
+                gender:  document.querySelector('input[name="gender"]:checked').value,
                 endereco: document.getElementById("endereco").value,
                 tel: document.getElementById("tel").value,
                 cidade: document.getElementById("cidade").value
             }
-            Object.assign(usuarioEncontrado,novosDados)
+            cadastrosArmazenado.forEach(item => {
+                
+                if (item.id==usuarioLogado){
+                    Object.assign(item, novosDados)
+                }
+            });
+            
+            console.log(cadastrosArmazenado[0])
+            localStorage.setItem('cadastro',JSON.stringify(cadastrosArmazenado));
             
 
             // localStorage.setItem("nome", document.getElementById("nome").value);
@@ -235,13 +242,18 @@
             // localStorage.setItem("cidade", document.getElementById("cidade").value);
         }
 
-        function Carregar() {
-            document.getElementById("nome").value = localStorage.getItem("nome");
-            document.getElementById("dtaNasc").value = localStorage.getItem("dtaNasc");
-            document.getElementsByName("gender").value = localStorage.getItem("gender");
-            document.getElementById("endereco").value = localStorage.getItem("endereco");
-            document.getElementById("tel").value = localStorage.getItem("tel");
-            document.getElementById("cidade").value = localStorage.getItem("cidade");
+        function Carregar () {
+            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
+            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
+            document.getElementById("nome").value = dadosUsuarioLogado.nome  || "&nbsp"
+            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"
+            //document.getElementById("gender").value = dadosUsuarioLogado.gender || "&nbsp"
+            const radio = document.getElementById(dadosUsuarioLogado.gender)
+            radio.checked = true;            
+            document.getElementById("endereco").value = dadosUsuarioLogado.endereco || "&nbsp"
+            document.getElementById("tel").value = dadosUsuarioLogado.tel || "&nbsp"
+            document.getElementById("cidade").value = dadosUsuarioLogado.cidade  || "&nbsp"           
         }
     </script>
 </body>

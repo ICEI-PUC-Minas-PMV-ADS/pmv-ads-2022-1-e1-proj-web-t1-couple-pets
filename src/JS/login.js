@@ -42,15 +42,17 @@ function armazenar(){
 function entrar(){
   const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
   var eMailUsuario = document.getElementById('Email');
-  console.log(eMailUsuario.value)
+ 
   var usuarioPw = document.getElementById('senha');
-  console.log(usuarioPw.value)
+  
   const usuarioEncontrado = cadastrosArmazenado.find(item=>item.email==eMailUsuario.value)
 
   if(usuarioEncontrado&&usuarioEncontrado.pwd==usuarioPw.value){
       alert('Você entrou!');
       localStorage.setItem("usuarioLogado",usuarioEncontrado.id)
-      location.href = "../HTML/Perfil.html";
+      "nome" in usuarioEncontrado 
+        ? location.href = "../HTML/editar-info.html"
+        : location.href = "../HTML/Perfil.html";        
   }else{
       alert('Usuário ou senha não encontrados');
   }
