@@ -1,4 +1,5 @@
 function armazenar(){
+    const cadastro =JSON.parse(localStorage.getItem("cadastro"))||[]
 
   var email = document.getElementById('email');
   var pwd = document.getElementById('pwd');
@@ -28,22 +29,27 @@ function armazenar(){
       alert('A senha deve ter ao menos uma letra minúscula');
 
   }else{
-      localStorage.setItem('email', email.value);
-      localStorage.setItem('pwd', pwd.value);
+      cadastro.push({
+        email: email.value,
+        pwd: pwd.value,
+        id: Date.now()
+      })
+      localStorage.setItem('cadastro',JSON.stringify(cadastro));
       alert('Sua conta foi criada, por favor, realize o login');
   }
 }
 
 function entrar(){
-  var emailArmazenado = localStorage.getItem('email');
-  var senhaArmazenada = localStorage.getItem('pwd');
-
+  const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
   var eMailUsuario = document.getElementById('Email');
+  console.log(eMailUsuario.value)
   var usuarioPw = document.getElementById('senha');
-  
+  console.log(usuarioPw.value)
+  const usuarioEncontrado = cadastrosArmazenado.find(item=>item.email==eMailUsuario.value)
 
-  if(eMailUsuario.value == emailArmazenado && usuarioPw.value == senhaArmazenada){
+  if(usuarioEncontrado&&usuarioEncontrado.pwd==usuarioPw.value){
       alert('Você entrou!');
+      localStorage.setItem("usuarioLogado",usuarioEncontrado.id)
       location.href = "../HTML/Perfil.html";
   }else{
       alert('Usuário ou senha não encontrados');
