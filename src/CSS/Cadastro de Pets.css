@@ -44,14 +44,16 @@ div.container-fluid logo {
     display: none;
 }
 
+#vacinas, #dtaNascPet, #racas, #nomePet, select {
+    width: 150px;
+}
+
 .bloco2-raça {
     padding: 20px 0px 0px 5px;
 }
-
 .bloco2-date {
-    padding: 20px 0px 0px 7px;
+    padding: 20px 0px 0px 0px;
 }
-
 .bloco2-genero {
     padding: 26px 0px 0px 5px;
     font-size: 13px;
@@ -66,6 +68,12 @@ div.container-fluid logo {
 }
 
 .bloco2-porte {
+    padding: 10px 0px 15px 5px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.bloco2-comportamento {
     padding: 10px 0px 27px 5px;
 }
 
@@ -172,6 +180,10 @@ nav.perfil h2 {
         float: left;
     }
 
+    #vacinas, #dtaNascPet, #racas, #nomePet, select {
+        width: 200px;
+    }
+
     #nome {
         min-width: 200px;
     }
@@ -211,6 +223,7 @@ nav.perfil h2 {
         grid-area: content;
         margin-top: 10px;
         padding: 0px 0px 20px 0px;
+        min-width: 600px;
     }
 
     .sidenav {
@@ -226,44 +239,6 @@ nav.perfil h2 {
         margin: 0 auto;
     }
 
-    .campo {
-        grid-area: conteudo;
-        padding: 3px 0px 10px 30px;
-    }
-
-    #state {
-        width: 199px;
-    }
-
-    .bloco2-raça {
-        padding: 5px 0px 0px 34px;
-    }
-    
-    .bloco2-date {
-        padding: 20px 0px 0px 30px;
-    }
-    
-    .bloco2-genero {
-        padding: 26px 0px 0px 35px;
-        font-size: 13px;
-    }
-    
-    .bloco2-vive {
-        padding: 25px 0px 10px 35px;
-    }
-    
-    .bloco2-vacinas {
-        padding: 11px 0px 10px 35px;
-    }
-    
-    .bloco2-porte {
-        padding: 15px 0px 27px 35px;
-        font-size: 13px;
-    }
-
-    .bloco2-comportamento {
-        padding: 0px 0px 25px 35px;
-    }
     
 
     div.box-lateral {
