@@ -63,8 +63,8 @@ function entrar() {
         alert('Você entrou!');
         localStorage.setItem("usuarioLogado", usuarioEncontrado.id)
         "nome" in usuarioEncontrado
-            ? location.href = "."
-            : location.href = "./src/HTML";
+            ? location.href = "./pmv-ads-2022-1-e1-proj-web-t1-couple-pets/src/HTML/Perfil.html"
+            : location.href = "./pmv-ads-2022-1-e1-proj-web-t1-couple-pets/src/HTML/Perfil.html";
     } else {
         alert('Usuário ou senha não encontrados');
     }
