@@ -140,13 +140,15 @@
     </div>
     <script>
         function Carregar () {
-            document.getElementById("nome").innerHTML = localStorage.getItem("nome");
-            document.getElementById("dtaNasc").innerHTML = localStorage.getItem("dtaNasc");
-            document.getElementById("gender").innerHTML = localStorage.getItem("gender");
-            document.getElementById("endereco").innerHTML = localStorage.getItem("endereco");
-            document.getElementById("tel").innerHTML = localStorage.getItem("tel");
-            document.getElementById("cidade").innerHTML = localStorage.getItem("cidade");
-            document.getElementById("nome").innerHTML = localStorage.getItem("nome");
+            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
+            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
+            document.getElementById("nome").innerHTML = dadosUsuarioLogado.nome  || "&nbsp"
+            document.getElementById("dtaNasc").innerHTML = dadosUsuarioLogado.dtaNasc || "&nbsp"
+            document.getElementById("gender").innerHTML = dadosUsuarioLogado.gender || "&nbsp"
+            document.getElementById("endereco").innerHTML = dadosUsuarioLogado.endereco || "&nbsp"
+            document.getElementById("tel").innerHTML = dadosUsuarioLogado.tel || "&nbsp"
+            document.getElementById("cidade").innerHTML = dadosUsuarioLogado.cidade  || "&nbsp"           
         }
         
         document.addEventListener("DOMContentLoaded", () => {

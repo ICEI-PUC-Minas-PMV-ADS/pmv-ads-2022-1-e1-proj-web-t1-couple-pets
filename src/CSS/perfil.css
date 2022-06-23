@@ -141,6 +141,10 @@ img#blah {
     
 }
 
+input#dtaNasc {
+    width: 146px;
+}
+
 input[type="file"] {
     display: none;        
 }
@@ -206,25 +210,9 @@ label {
         float: left;
     }
 
-    #nome {
+    #nome, #dtaNasc, #endereco, #tel, #cidade{
         min-width: 200px;
-    }
-
-    #dtaNasc {
-        min-width: 200px;
-    }
-
-    #endereco {
-        min-width: 200px;
-    }
-
-    #tel {
-        min-width: 200px;
-    }
-
-    #cidade {
-        min-width: 200px;
-    }
+    }   
 
     div>ul>li.sobre {
         display: none;
@@ -251,7 +239,7 @@ label {
 
     .gap {
         gap: 20px;
-    }
+    }   
 
     .column-gap {
         gap: 2px;

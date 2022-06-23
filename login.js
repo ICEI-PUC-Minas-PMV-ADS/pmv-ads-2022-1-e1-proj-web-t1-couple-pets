@@ -63,8 +63,8 @@ function entrar() {
         alert('Você entrou!');
         localStorage.setItem("usuarioLogado", usuarioEncontrado.id)
         "nome" in usuarioEncontrado
-            ? location.href = "../HTML/editar-info.html"
-            : location.href = "../HTML/Perfil.html";
+            ? location.href = "."
+            : location.href = "./src/HTML";
     } else {
         alert('Usuário ou senha não encontrados');
     }

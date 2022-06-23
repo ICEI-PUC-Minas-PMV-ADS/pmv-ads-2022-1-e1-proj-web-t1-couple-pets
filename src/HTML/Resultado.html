@@ -12,7 +12,7 @@
     <title>Couple Pets</title>
 </head>
 
-<body>
+<body onload="mostrarContatos()">
     <header>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
@@ -30,22 +30,20 @@
                                 <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Meus Pets.html">Meu Pet</a>
+                                <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Contatos.html">Contato</a>
-                            </li>                            
+                            </li>
                             <li class="nav-item sobre">
                                 <a class="nav-link" href="Sobre.html">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick= "deslogar()" href="PaginaInicial.html">Sair</a>
+                                <a class="nav-link" onclick="deslogar()" href="PaginaInicial.html">Sair</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Busque pets"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <form class="d-flex" role="search">                            
+                            <button class="btn btn-outline-success" type="submit">Encontre um pet</button>
                         </form>
                     </div>
                 </div>
@@ -57,7 +55,7 @@
             <div class="box-lateral nav-lateral">
                 <ul>
                     <a href="Perfil.html"><button class="botao botao-desativado">Perfil</button></a><br>
-                    <a href="Meus Pets.html"><button class="botao botao-desativado">Meu
+                    <a href="Cadastro de Pet.html"><button class="botao botao-desativado">Meu
                             Pet</button></a><br>
                     <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
                     <a href="Sobre.html"><button class="botao botao-desativado">Sobre</button></a><br>
@@ -67,30 +65,105 @@
                 <div class="">
                     <div>
                         <nav class="perfil">
-                            <h2>Resultado da Pesquisa</h2>
+                            <h2>Encontre um Pet</h2>
                         </nav>
                     </div>
                 </div>
-                <div class="content">
-                    <form action="" id="bloco ">
-                        <article class="contatos alinhamento">
-                            <img src="../img/lolapet.png" style="display: block; width: 137px; height: 140px; border-radius: 10%; " />    
-                            <p>
-                                <label for="">Pet:</label> Lolla
-                                
-                            </p>
-                            <p>
-                                <label for="">Raça:</label> Chow Chow
-                                
-                            </p>
-                            <p>
-                                <label for="">Tutor:</label> Laura
-                                
-                            </p>
-                            <input type="button" class="button-sub" value="Adicionar Pet">                  
-                        </article>                                          
-                    </form>                    
+                <form id="form-contato">            
+                    <div class="form-group row">
+                        <div class="col-sm-4">
+                            <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
+                                <option value="">Selecione a Cidade</option>
+                                <option value="Betim">Betim</option>
+                                <option value="Belo Horizonte">Belo Horizonte</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <option value="São Paulo">São Paulo</option>
+                                <option value="Goiânia">Goiânia</option>
+                            </select>                    
+                        </div>
+                        <div class="col-sm-8">
+                            <select name="filtro_raça" id="filtro_raça" onchange="ListaContatos()"  class="form-control">
+                                <option value="">Selecione a Raça</option>
+                                <option value="Afghan Hound">Afghan Hound</option>
+                                <option value="Airedale Terrier">Airedale Terrier</option>
+                                <option value="Akita Inu">Akita Inu</option>
+                                <option value="American Pitbull">American Pitbull</option>
+                                <option value="Bassethound">Bassethound</option>
+                                <option value="Beagle">Beagle</option>
+                                <option value="Bichon Frisé">Bichon Frisé</option>
+                                <option value="Boxer">Boxer</option>
+                                <option value="Bull Terrier">Bull Terrier</option>
+                                <option value="Bulldog">Bulldog</option>
+                                <option value="Bullmastiff">Bullmastiff</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="Chow Chow">Chow Chow</option>
+                                <option value="Cocker">Cocker</option>
+                                <option value="Collie">Collie</option>
+                                <option value="Dálmata">Dálmata</option>
+                                <option value="Dobermann">Dobermann</option>
+                                <option value="Dogue Alemão">Dogue Alemão</option>
+                                <option value="Fila">Fila</option>
+                                <option value="Fox Terrier Duro">Fox Terrier Duro</option>
+                                <option value="Fox Terrier Liso">Fox Terrier Liso</option>
+                                <option value="Foxhound">Foxhound</option>
+                                <option value="Golden Retriever">Golden Retriever</option>
+                                <option value="Husky">Husky</option>
+                                <option value="Labrador">Labrador</option>
+                                <option value="Lhasa Apso">Lhasa Apso</option>
+                                <option value="Maltês">Maltês</option>
+                                <option value="Mastiff">Mastiff</option>
+                                <option value="O.E.Sheepdog">O.E.Sheepdog</option>
+                                <option value="Pastor Alemão">Pastor Alemão</option>
+                                <option value="Pequinês">Pequinês</option>
+                                <option value="Pinscher">Pinscher</option>
+                                <option value="Pointer Inglês">Pointer Inglês</option>
+                                <option value="Poodle">Poodle</option>
+                                <option value="Rottweiler">Rottweiler</option>
+                                <option value="São Bernardo">São Bernardo</option>
+                                <option value="Schnauzer">Schnauzer</option>
+                                <option value="Setter">Setter</option>
+                                <option value="Shar Pei">Shar Pei</option>
+                                <option value="Shih Tzu">Shih Tzu</option>
+                                <option value="Spitz Alemão">Spitz Alemão</option>
+                                <option value="Staff Bull Terrier">Staff Bull Terrier</option>
+                                <option value="Teckel">Teckel</option>
+                                <option value="Terrier Brasileiro">Terrier Brasileiro</option>
+                                <option value="Vira-Lata">Vira-Lata</option>
+                                <option value="West Highland White Terrier">West Highland White Terrier</option>
+                                <option value="Yorkshire Terrier">Yorkshire Terrier</option>
+                                <option value="Outra">Outra</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <table id="grid-contatos" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">E-mail</th>
+                                    <th scope="col">Nome do Pet</th>
+                                    <th scope="col">Cidade</th>
+                                    <th scope="col">Raça</th>
+                                    <th scope="col">Telefone</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-contatos">
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+            </div>
             </section>
         </section>
     </aside>
@@ -104,8 +177,60 @@
             <!-- Copyright -->
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../JS/app.js"></script>
+    <script>
+        function mostrarContatos() {
+         // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
 
+         // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];    
+                $("#table-contatos").append(`<tr>
+                    <td>${contato.nome}</td>
+                    <td>${contato.email}</td>
+                    <td>${contato.nomeDoPet}</td>
+                    <td>${contato.cidade}</td>
+                    <td>${contato.raça}</td>
+                    <td>${contato.telefone}</td>
+                    </tr>`);
+                }
+        }
 
+       // função para listar na tabela os contatos que estão associados aos filtros 
+       function ListaContatos() {
+            
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_raça').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.data.length; index++) {
+                const contato = db.data[index];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.cidade == fc) || (fc == '')) &&
+                    ((contato.raça == fcg) || (fcg == ''))) {
+                    
+                    // Inclui o contato na tabela    
+                    $("#table-contatos").append(`<tr>
+                    <td>${contato.nome}</td>
+                    <td>${contato.email}</td>
+                    <td>${contato.nomeDoPet}</td>
+                    <td>${contato.cidade}</td>
+                    <td>${contato.raça}</td>
+                    <td>${contato.telefone}</td>
+                    </tr>`);
+                }
+            }
+
+        } 
+        
+    </script>
 </body>
 
 </html>

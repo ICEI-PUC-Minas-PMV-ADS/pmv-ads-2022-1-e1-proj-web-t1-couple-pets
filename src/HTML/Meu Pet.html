@@ -141,6 +141,20 @@
         });
 
         function Carregar () {
+            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
+            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
+            document.getElementById("nomePet").innerHTML = dadosUsuarioLogado.nomePet  || "&nbsp"
+            document.getElementById("racas").innerHTML = dadosUsuarioLogado.racas || "&nbsp"
+            document.getElementById("dtaNascPet").innerHTML = dadosUsuarioLogado.dtaNascPet || "&nbsp"
+            document.getElementById("genderPet").innerHTML = dadosUsuarioLogado.genderPet || "&nbsp"
+            document.getElementById("localVive").innerHTML = dadosUsuarioLogado.localVive || "&nbsp"
+            document.getElementById("vacinas").innerHTML = dadosUsuarioLogado.vacinas || "&nbsp"
+            document.getElementById("porte").innerHTML = dadosUsuarioLogado.porte  || "&nbsp"  
+            document.getElementById("comportamento").innerHTML = dadosUsuarioLogado.comportamento  || "&nbsp"         
+        }
+
+        /*function Carregar () {
             document.getElementById("nomePet").innerHTML = "<p>" + localStorage.getItem("nomePet"); + "</p>";
             document.getElementById("racas").innerHTML = "<p>" + localStorage.getItem("racas"); + "</p>";
             document.getElementById("dtaNascPet").innerHTML = "<p>" + localStorage.getItem("dtaNascPet"); + "</p>";
@@ -149,7 +163,7 @@
             document.getElementById("vacinas").innerHTML = "<p>" + localStorage.getItem("vacinas"); + "</p>";
             document.getElementById("porte").innerHTML = "<p>" + localStorage.getItem("porte"); + "</p>";
             document.getElementById("comportamento").innerHTML = "<p>" + localStorage.getItem("comportamento"); + "</p>";
-        }        
+        }*/
     </script>
 
 

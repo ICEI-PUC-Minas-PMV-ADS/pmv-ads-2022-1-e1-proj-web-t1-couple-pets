@@ -44,11 +44,8 @@
                                 <a class="nav-link" onclick="deslogar()" href="PaginaInicial.html">Sair</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Busque pets"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
+                        <form action="../HTML/Resultado.html" class="d-flex" role="search">                            
+                            <button class="btn btn-outline-success" type="submit">Encontre um pet</button>
                     </div>
                 </div>
             </nav>
@@ -58,8 +55,8 @@
         <section class="wrapper grid grid-template row-gap">
             <div class="box-lateral nav-lateral">
                 <ul>
-                    <a href="Perfil.html"><button class="botao botao-ativo">Perfil</button></a><br>
-                    <a href="Meu Pet.html"><button class="botao botao-desativado">Meu
+                    <a href="#"><button class="botao botao-ativo">Perfil</button></a><br>
+                    <a href="Cadastro de Pet.html"><button class="botao botao-desativado">Meu
                             Pet</button></a><br>
                     <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
                     <a href="Sobre.html"><button class="botao botao-desativado">Sobre</button></a><br>
@@ -74,7 +71,7 @@
                     </div>
                 </div>
                 <div class="content">
-                    <form action="./editar-info.html" id="bloco">
+                    <form id="bloco">
                         <div>
                             <figure>
 
@@ -140,20 +137,20 @@
                                     <input type="date" name="nome" id="dtaNasc">
                                 </div>
                                 <div class="bloco2-genero ">
-                                    <form id="gender" class="pe" onclick="Salvar ();">
-                                        <input type="radio" name="gender" id="rMale"
-                                            value="masculino" required> Masculino
-                                        <input type="radio" name="gender" id="rFemale"
-                                            value="feminino" required> Feminino
+                                    <form name="genderForm" class="pe" >
+                                        <input type="radio" name="gender" id="Masculino"
+                                            value="Masculino" required> Masculino
+                                        <input type="radio" name="gender" id="Feminino"
+                                            value="Feminino" required> Feminino
                                     </form>
                                 </div>
                                 <div class="bloco2-adress ">
                                     <label for="adress"></label>
-                                    <input type="text" name="nome" id="endereco" required>
+                                    <input type="text" id="endereco" required>
                                 </div>
                                 <div class="bloco2-tel">
                                     <label for="tel"></label>
-                                    <input type="tel" name="nome" id="tel" required>
+                                    <input type="number" id="tel" required>
                                 </div>
 
                                 <div class="bloco2-state ">
@@ -185,7 +182,7 @@
     </div>
 
     <script>
-        document.querySelector('#imgInp').addEventListener("change", function () {
+        /*document.querySelector('#imgInp').addEventListener("change", function () {
             const reader = new FileReader();
 
             reader.addEventListener("load", () => {
@@ -209,39 +206,42 @@
             if (file) {
                 blah.src = URL.createObjectURL(file)
             }
-        }
+        }*/
 
         function Salvar() {
-
+            
             let cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
             const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const usuarioEncontrado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
             const novosDados = {
                 nome: document.getElementById("nome").value,
                 dtaNasc: document.getElementById("dtaNasc").value,
-                gender:  document.getElementsByName("gender").value,
+                gender:  document.querySelector('input[name="gender"]:checked').value,
                 endereco: document.getElementById("endereco").value,
                 tel: document.getElementById("tel").value,
                 cidade: document.getElementById("cidade").value
             }
-            Object.assign(usuarioEncontrado,novosDados)
+            cadastrosArmazenado.forEach(item => {
+                
+                if (item.id==usuarioLogado){
+                    Object.assign(item, novosDados)
+                }
+            });
             
-
-            // localStorage.setItem("nome", document.getElementById("nome").value);
-            // localStorage.setItem("dtaNasc", document.getElementById("dtaNasc").value);
-            // localStorage.setItem("gender", document.getElementsByName("gender", checked).value);
-            // localStorage.setItem("endereco", document.getElementById("endereco").value);
-            // localStorage.setItem("tel", document.getElementById("tel").value);
-            // localStorage.setItem("cidade", document.getElementById("cidade").value);
+            console.log(cadastrosArmazenado[0])
+            localStorage.setItem('cadastro',JSON.stringify(cadastrosArmazenado));       
         }
 
-        function Carregar() {
-            document.getElementById("nome").value = localStorage.getItem("nome");
-            document.getElementById("dtaNasc").value = localStorage.getItem("dtaNasc");
-            document.getElementsByName("gender").value = localStorage.getItem("gender");
-            document.getElementById("endereco").value = localStorage.getItem("endereco");
-            document.getElementById("tel").value = localStorage.getItem("tel");
-            document.getElementById("cidade").value = localStorage.getItem("cidade");
+        function Carregar () {
+            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
+            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
+            document.getElementById("nome").value = dadosUsuarioLogado.nome  || "";
+            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"            
+            const radio = document.getElementById(dadosUsuarioLogado.gender)
+            radio.checked = true;            
+            document.getElementById("endereco").value = dadosUsuarioLogado.endereco || "&nbsp"
+            document.getElementById("tel").value = dadosUsuarioLogado.tel || "&nbsp"
+            document.getElementById("cidade").value = dadosUsuarioLogado.cidade  || "&nbsp"           
         }
     </script>
 </body>

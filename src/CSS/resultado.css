@@ -266,4 +266,9 @@ nav.perfil h2 {
     footer {
         padding-top: 10px;
     }
+
+    #form-contato {
+        padding: 0px 10px 0px 10px;
+        
+    }
 }
