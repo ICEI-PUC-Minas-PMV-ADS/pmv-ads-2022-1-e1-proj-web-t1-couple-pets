@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-You can use the [editor on GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../pmv-ads-2022-1-e1-proj-web-t1-couple-pets/src/CSS/PaginaInicial.css">
+    <script src="./JS/login.js"></script>
+    
+    <title>Couple Pets</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <div class="header">
+        <img src="./src/img/logo.png" width=200px>
+    </div>
 
-### Markdown
+    <div id="section">
+        <div class="h1">
+            <p>
+            <h1>Está em busca de um parceiro para o seu pet?</h1>
+            </p>
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <p>
+        <h2>Com o propósito de auxiliar nessas buscas, a plataforma Couple Pet's atende aos requisitos que mais importam
+            na escolha desse parceiro, baseado nos benefícios que os tutores estão procurando </h2>
+             
+        <h2>Faça já o seu cadastro e descubra como</h2>
+        </p>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+        <!-- horizontal -->
 
-- Bulleted
-- List
+        <form class="form-inline">
+            
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="pwd" placeholder="Senha">
+            <button class="btn" type="submit" value="Register" onclick="armazenar()">Cadastro</button>
+        </form>
 
-1. Numbered
-2. List
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <div id=vl>
+    </div>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <div id="col">
+        <div class="h1">
+            <h1>Já possui uma conta?</h1>
+            <h3>Faça o Login</h3>
+        </div>
 
-### Jekyll Themes
+        <div class="container">
+            <form class="form-inline">
+                <div class="oil">
+                    <input type="email" id="Email" placeholder="E-mail" required>
+                    <input type="password" id="senha" placeholder="Senha" required>
+                </div>
+            </form>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t1-couple-pets/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <div class="form-group row">
+            <label class="col-sm-2"></label>
+            <div class="col-sm-10">
+            </div>
+        </div>
+        <div class="form-group row">
+            <button class="btn"  type="submit" value="Login" onclick="entrar()">Entrar</button>
+        </div>
+    </div>
+    
+    <div id="footer">
+        </footer>
+</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
