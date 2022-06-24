@@ -9,11 +9,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../CSS/Cadastro de Pets.css">
     <script src="../JS/login.js"></script>
+    <script src="../JS/app.js"></script>
 
     <title>Couple Pet</title>
 </head>
 
-<body onload="meuPet();">
+<body onload="meuPet(), Carregar();">
     <header>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
@@ -27,20 +28,20 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="Cadastro de Pet.html">Meu Pet</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Contatos.html">Contato</a>
+                            <li class="nav-item sobre">
+                                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
                             </li>
                             <li class="nav-item sobre">
-                                <a class="nav-link" href="Sobre.html">Sobre</a>
+                                <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
+                            </li>
+                            <li class="nav-item sobre">
+                                <a class="nav-link" href="Contatos.html">Contato</a>
+                            </li>
+                            <li class="nav-item ">
+                                <p id="" class="nav-link" name="nomeUser" style="font-weight: bolder;"></p>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="deslogar()" href="../../index.html">Sair</a>
+                                <a class="nav-link" href="../../index.html">Sair</a>
                             </li>
                         </ul>
                         <form action="../HTML/Resultado.html" class="d-flex" role="search">                            
@@ -228,7 +229,7 @@
                                         <option value="Extrovertido">Extrovertido</option>
                                     </select>
                                 </div>
-                                <button class="button-sub" type="submit" onclick="Salvar();">Concluído</button>
+                                <button class="button-sub" type="submit" onclick="salvarPet();">Concluído</button>
                             </div>
                         </div>
                     </form>
@@ -272,50 +273,7 @@
             if (file) {
                 blahPet.src = URL.createObjectURL(file)
             }
-        }*/
-
-        function Salvar() {
-            let cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
-            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const novosDados = {
-                nomePet: document.getElementById("nomePet").value,
-                racas: document.getElementById("racas").value,
-                dtaNascPet: document.getElementById("dtaNascPet").value,
-                genderPet: document.querySelector('input[name="genderPet"]:checked').value,
-                localVive: document.getElementById("localVive").value,
-                vacinas: document.getElementById("vacinas").value,
-                porte: document.querySelector('input[name="porte"]:checked').value,
-                comportamento: document.getElementById("comportamento").value
-            }
-            cadastrosArmazenado.forEach(item => {
-
-                if (item.id == usuarioLogado) {
-                    Object.assign(item, novosDados)
-                }
-            });
-
-
-            localStorage.setItem('cadastro', JSON.stringify(cadastrosArmazenado));
-
-
-        }
-
-        function meuPet() {
-            const cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
-            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const dadosUsuarioLogado = cadastrosArmazenado.find(item => item.id == usuarioLogado)
-            console.log(dadosUsuarioLogado)
-            document.getElementById("nomePet").value = dadosUsuarioLogado.nomePet || ""
-            const radio = document.getElementById(dadosUsuarioLogado.genderPet)
-            radio.checked = true;
-            const radioPorte = document.getElementById(dadosUsuarioLogado.porte)
-            radioPorte.checked = true;
-            document.getElementById("racas").value = dadosUsuarioLogado.racas || "&nbsp"
-            document.getElementById("dtaNascPet").value = dadosUsuarioLogado.dtaNascPet || "&nbsp"            
-            document.getElementById("localVive").value = dadosUsuarioLogado.localVive || "&nbsp"
-            document.getElementById("vacinas").value = dadosUsuarioLogado.vacinas || "&nbsp"            
-            document.getElementById("comportamento").value = dadosUsuarioLogado.comportamento || "&nbsp"
-        }             
+        }*/                    
     </script>
 </body>
 

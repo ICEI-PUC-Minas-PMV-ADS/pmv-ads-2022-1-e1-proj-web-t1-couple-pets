@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../CSS/perfil.css">
     <script src="../JS/login.js"></script>
+    <script src="../JS/app.js"></script>
 
     <title>Couple Pets</title>
 </head>
@@ -27,24 +28,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
+                            <li class="nav-item sobre">
                                 <a class="nav-link active" aria-current="page" href="#">Perfil</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item sobre">
                                 <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item sobre">
                                 <a class="nav-link" href="Contatos.html">Contato</a>
                             </li>
-
-                            <li class="nav-item sobre">
-                                <a class="nav-link" href="Sobre.html">Sobre</a>
+                            <li class="nav-item ">
+                                <p id="" class="nav-link" name="nomeUser" style="font-weight: bolder;"></p>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="deslogar()" href="../../index.html">Sair</a>
+                                <a class="nav-link" href="../../index.html">Sair</a>
                             </li>
                         </ul>
-                        <form action="../HTML/Resultado.html" class="d-flex" role="search">                            
+                        <form action="../HTML/Resultado.html" class="d-flex" role="search">
                             <button class="btn btn-outline-success" type="submit">Encontre um pet</button>
                         </form>
                     </div>
@@ -91,7 +91,7 @@
                         <div class="alinhamento">
                             <div class="box-noticia1">
                                 <div id="main-form-perfil-bloco1-campo">
-                                    Nome
+                                    Nome e Sobrenome
                                     <span style="color: cadetblue" ;>*</span>
                                     :
                                 </div>
@@ -138,11 +138,11 @@
                                     <input type="date" name="nome" id="dtaNasc">
                                 </div>
                                 <div class="bloco2-genero ">
-                                    <form name="genderForm" class="pe" >
-                                        <input type="radio" name="gender" id="Masculino"
-                                            value="Masculino" required> Masculino
-                                        <input type="radio" name="gender" id="Feminino"
-                                            value="Feminino" required> Feminino
+                                    <form name="genderForm" class="pe">
+                                        <input type="radio" name="gender" id="Masculino" value="Masculino" required>
+                                        Masculino
+                                        <input type="radio" name="gender" id="Feminino" value="Feminino" required>
+                                        Feminino
                                     </form>
                                 </div>
                                 <div class="bloco2-adress ">
@@ -180,8 +180,7 @@
             </div>
             <!-- Copyright -->
         </footer>
-    </div>
-
+    </div>    
     <script>
         /*document.querySelector('#imgInp').addEventListener("change", function () {
             const reader = new FileReader();
@@ -208,42 +207,6 @@
                 blah.src = URL.createObjectURL(file)
             }
         }*/
-
-        function Salvar() {
-            
-            let cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
-            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const novosDados = {
-                nome: document.getElementById("nome").value,
-                dtaNasc: document.getElementById("dtaNasc").value,
-                gender:  document.querySelector('input[name="gender"]:checked').value,
-                endereco: document.getElementById("endereco").value,
-                tel: document.getElementById("tel").value,
-                cidade: document.getElementById("cidade").value
-            }
-            cadastrosArmazenado.forEach(item => {
-                
-                if (item.id==usuarioLogado){
-                    Object.assign(item, novosDados)
-                }
-            });
-            
-            console.log(cadastrosArmazenado[0])
-            localStorage.setItem('cadastro',JSON.stringify(cadastrosArmazenado));       
-        }
-
-        function Carregar () {
-            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
-            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
-            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
-            document.getElementById("nome").value = dadosUsuarioLogado.nome  || "";
-            document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"            
-            const radio = document.getElementById(dadosUsuarioLogado.gender)
-            radio.checked = true;            
-            document.getElementById("endereco").value = dadosUsuarioLogado.endereco || "&nbsp"
-            document.getElementById("tel").value = dadosUsuarioLogado.tel || "&nbsp"
-            document.getElementById("cidade").value = dadosUsuarioLogado.cidade  || "&nbsp"           
-        }
     </script>
 </body>
 
