@@ -94,7 +94,12 @@ function Carregar() {
     const cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
     const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
     const dadosUsuarioLogado = cadastrosArmazenado.find(item => item.id == usuarioLogado)
-    document.querySelector('p[name="nomeUser"]').innerHTML = "Bem-vindo(a): " + dadosUsuarioLogado.nome + " | " || "&nbsp";
+    if(dadosUsuarioLogado.nome == undefined){
+        document.querySelector('p[name="nomeUser"]').innerHTML = "Bem-vindo(a): " + " | " || "";
+    }else {
+        document.querySelector('p[name="nomeUser"]').innerHTML = "Bem-vindo(a): " + dadosUsuarioLogado.nome + " | " || "";
+    }
+    //document.querySelector('p[name="nomeUser"]').innerHTML = "Bem-vindo(a): " + dadosUsuarioLogado.nome + " | " || "";
     document.getElementById("nome").value = dadosUsuarioLogado.nome || "";
     document.getElementById("dtaNasc").value = dadosUsuarioLogado.dtaNasc || "&nbsp"
     const radio = document.getElementById(dadosUsuarioLogado.gender)
