@@ -251,9 +251,7 @@ label {
         row-gap: 20px;
     }
 
-    .nav-link a {
-        border-right: 1px solid gray;
-    }
+
 
     .content {
         grid-area: content;

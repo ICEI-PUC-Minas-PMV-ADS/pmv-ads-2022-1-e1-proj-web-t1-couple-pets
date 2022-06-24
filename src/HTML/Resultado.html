@@ -8,12 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../JS/login.js"></script>
-    <script src="../JS/app.js"></script>
     <link rel="stylesheet" href="../CSS/resultado.css">
     <title>Couple Pets</title>
 </head>
 
-<body onload="mostrarContatos(), Carregar()">
+<body onload="mostrarContatos()">
     <header>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
@@ -27,23 +26,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item sobre">
-                                <a class="nav-link active" aria-current="page" href="#">Perfil</a>
-                            </li>
-                            <li class="nav-item sobre">
-                                <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
-                            </li>
-                            <li class="nav-item sobre">
-                                <a class="nav-link" href="Contatos.html">Contato</a>
-                            </li>
-                            <li class="nav-item ">
-                                <p id="" class="nav-link" name="nomeUser" style="font-weight: bolder;"></p>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../../index.html">Sair</a>
+                                <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contatos.html">Contato</a>
+                            </li>
+                            <li class="nav-item sobre">
+                                <a class="nav-link" href="Sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="deslogar()" href="../../index.html">Sair</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <form class="d-flex" role="search">                            
                             <button class="btn btn-outline-success" type="submit">Encontre um pet</button>
                         </form>
                     </div>
@@ -70,21 +69,20 @@
                         </nav>
                     </div>
                 </div>
-                <form id="form-contato">
+                <form id="form-contato">            
                     <div class="form-group row">
                         <div class="col-sm-4">
-                            <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()"
-                                class="form-control">
+                            <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
                                 <option value="">Selecione a Cidade</option>
                                 <option value="Betim">Betim</option>
                                 <option value="Belo Horizonte">Belo Horizonte</option>
                                 <option value="Rio de Janeiro">Rio de Janeiro</option>
                                 <option value="São Paulo">São Paulo</option>
                                 <option value="Goiânia">Goiânia</option>
-                            </select>
+                            </select>                    
                         </div>
                         <div class="col-sm-8">
-                            <select name="filtro_raça" id="filtro_raça" onchange="ListaContatos()" class="form-control">
+                            <select name="filtro_raça" id="filtro_raça" onchange="ListaContatos()"  class="form-control">
                                 <option value="">Selecione a Raça</option>
                                 <option value="Afghan Hound">Afghan Hound</option>
                                 <option value="Airedale Terrier">Airedale Terrier</option>
@@ -165,7 +163,7 @@
                         </table>
                     </div>
                 </div>
-                </div>
+            </div>
             </section>
         </section>
     </aside>
@@ -183,12 +181,12 @@
     <script src="../JS/app.js"></script>
     <script>
         function mostrarContatos() {
-            // Remove todas as linhas do corpo da tabela
+         // Remove todas as linhas do corpo da tabela
             $("#table-contatos").html("");
 
-            // Popula a tabela com os registros do banco de dados
+         // Popula a tabela com os registros do banco de dados
             for (i = 0; i < db.data.length; i++) {
-                let contato = db.data[i];
+                let contato = db.data[i];    
                 $("#table-contatos").append(`<tr>
                     <td>${contato.nome}</td>
                     <td>${contato.email}</td>
@@ -197,12 +195,12 @@
                     <td>${contato.raça}</td>
                     <td>${contato.telefone}</td>
                     </tr>`);
-            }
+                }
         }
 
-        // função para listar na tabela os contatos que estão associados aos filtros 
-        function ListaContatos() {
-
+       // função para listar na tabela os contatos que estão associados aos filtros 
+       function ListaContatos() {
+            
             // Obtem os dados informados pelo usuário nos filtros
             let fc = document.getElementById('filtro_cidade').value;
             let fcg = document.getElementById('filtro_raça').value;
@@ -217,7 +215,7 @@
                 // Verifica se os dados do contato batem com os filtros
                 if (((contato.cidade == fc) || (fc == '')) &&
                     ((contato.raça == fcg) || (fcg == ''))) {
-
+                    
                     // Inclui o contato na tabela    
                     $("#table-contatos").append(`<tr>
                     <td>${contato.nome}</td>
@@ -230,7 +228,8 @@
                 }
             }
 
-        }        
+        } 
+        
     </script>
 </body>
 
