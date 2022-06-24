@@ -105,8 +105,8 @@ function Carregar() {
 }
 
 function Salvar() {
-
-    let cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
+    //
+    let  cadastrosArmazenado = JSON.parse(localStorage.getItem('cadastro'));
     const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
     const novosDados = {
         nome: document.getElementById("nome").value,

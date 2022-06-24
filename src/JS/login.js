@@ -79,6 +79,6 @@ function deslogar() {
     localStorage.removeItem('nome');
     localStorage.removeItem('tel');
     localStorage.removeItem('imagem-recente');
-
+    //
     window.location.href = "PaginaInicial.html"
 }
