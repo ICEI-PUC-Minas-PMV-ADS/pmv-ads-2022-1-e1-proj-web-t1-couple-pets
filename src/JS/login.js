@@ -63,7 +63,7 @@ function entrar() {
         alert('Você entrou!');
         localStorage.setItem("usuarioLogado", usuarioEncontrado.id)
         "nome" in usuarioEncontrado
-            ? location.href = "../HTML/editar-info.html"
+            ? location.href = "../HTML/Perfil.html"
             : location.href = "../HTML/Perfil.html";
     } else {
         alert('Usuário ou senha não encontrados');
@@ -79,6 +79,6 @@ function deslogar() {
     localStorage.removeItem('nome');
     localStorage.removeItem('tel');
     localStorage.removeItem('imagem-recente');
-    //
+
     window.location.href = "PaginaInicial.html"
 }
