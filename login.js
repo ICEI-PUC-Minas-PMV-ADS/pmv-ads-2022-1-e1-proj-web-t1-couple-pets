@@ -63,6 +63,7 @@ function entrar() {
         alert('Você entrou!');
         localStorage.setItem("usuarioLogado", usuarioEncontrado.id)
         "nome" in usuarioEncontrado
+
             ? location.href = "./src/HTML/Perfil.html"
             : location.href = "./src/HTML/Perfil.html";
     } else {
