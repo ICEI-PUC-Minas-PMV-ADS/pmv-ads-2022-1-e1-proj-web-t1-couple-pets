@@ -153,7 +153,7 @@
                             </thead>
                             <tbody id="table-contatos">
                                 <tr>
-                                    <td scope="row">1</td>
+                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -230,7 +230,21 @@
                 }
             }
 
-        }        
+        }
+        
+        function LinkTel() {
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];
+                $("#table-contatos").append(`<tr>
+                    <td>${contato.nome}</td>
+                    <td>${contato.email}</td>
+                    <td>${contato.nomeDoPet}</td>
+                    <td>${contato.cidade}</td>
+                    <td>${contato.raça}</td>
+                    <td>${contato.telefone}</td>
+                    </tr>`);
+            }
+        }
     </script>
 </body>
 

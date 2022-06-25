@@ -6,7 +6,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Lucky",
             "cidade": "Belo Horizonte",
             "raça": "Golden Retriever",
-            "telefone": "1-770-736-8031",
+            "telefone": "(31) 99865-5487",
         },
         {
             "nome": "Ervin Howell",
@@ -14,7 +14,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Simba",
             "cidade": "Betim",
             "raça": "Bulldog",
-            "telefone": "010-692-6593",
+            "telefone": "(31) 95732-1535",
         },
         {
             "nome": "Clementine Bauch",
@@ -22,7 +22,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Mike",
             "cidade": "Rio de Janeiro",
             "raça": "Foxhound",
-            "telefone": "1-463-123-4447",
+            "telefone": "(21) 96815-3245",
         },
         {
             "nome": "Patricia Lebsack",
@@ -30,7 +30,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Amora",
             "cidade": "Betim",
             "raça": "Husky",
-            "telefone": "493-170-9623 x156",
+            "telefone": "(31) 99658-1555",
         },
         {
             "nome": "Chelsey Dietrich",
@@ -38,7 +38,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Cacau",
             "cidade": "São Paulo",
             "raça": "Pinscher",
-            "telefone": "(254)954-1289",
+            "telefone": "(11) 92187-3245",
         },
         {
             "nome": "Mrs. Dennis Schulist",
@@ -46,7 +46,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Scooby",
             "cidade": "Rio de Janeiro",
             "raça": "Vira-Lata",
-            "telefone": "1-477-935-8478",
+            "telefone": "(21) 94924-5626",
         },
         {
             "nome": "Kurtis Weissnat",
@@ -54,7 +54,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Boris",
             "cidade": "Belo Horizonte",
             "raça": "Yorkshire Terrier",
-            "telefone": "210.067.6132",
+            "telefone": "(31) 91928-7532",
         },
         {
             "nome": "Nicholas Runolfsdottir V",
@@ -62,7 +62,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Maya",
             "cidade": "Betim",
             "raça": "Chihuahua",
-            "telefone": "586.493.6943",
+            "telefone": "(31) 91568-0357",
         },
         {
             "nome": "Laura",
@@ -70,7 +70,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Lolla",
             "cidade": "Belo Horizonte",
             "raça": "Chow Chow",
-            "telefone": "(775)976-6794",
+            "telefone": "(31) 99242-1452",
         },
         {
             "nome": "Clementina DuBuque",
@@ -78,7 +78,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Zeus",
             "cidade": "São Paulo",
             "raça": "Akita Inu",
-            "telefone": "024-648-3804",
+            "telefone": "(11) 92635-3356",
         }
     ]
 }
