@@ -66,9 +66,20 @@ nav.perfil h2 {
 }
 .alinhamento {
     padding-top: 10px;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.alinhamentoFoto {
+    padding-top: 10px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     text-align: center;
     font-size: 13px;
 }
