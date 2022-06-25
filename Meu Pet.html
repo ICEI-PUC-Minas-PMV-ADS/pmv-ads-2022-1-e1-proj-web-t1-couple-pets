@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Meu Pet.css">
+    <script src="../JS/login.js"></script>
+
+    <title>Couple Pet</title>
+</head>
+
+<body onload="Carregar();">
+    <header>
+        <main>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(127, 212, 248);">
+                <div class="container-fluid">
+                    <a class="logo" href="#"><img src="../img/logo.png" alt="logo" style="max-width: 285px; max-height: 103px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Meu Pet.html">Meu Pet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contatos.html">Contato</a>
+                            </li>                            
+                            <li class="nav-item sobre">
+                                <a class="nav-link" href="Sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick= "deslogar()" href="PaginaInicial.html">Sair</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Busque pets"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </main>
+    </header>
+    <aside>
+        <section class="wrapper grid grid-template row-gap">
+            <div class="box-lateral nav-lateral">
+                <ul>
+                    <a href="editar-info.html"><button class="botao botao-desativado">Perfil</button></a><br>
+                    <a href="Meu Pet.html"><button class="botao botao-ativo">Meu Pet</button></a><br>
+                    <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
+                    <a href="Sobre.html"><button class="botao botao-desativado">Sobre</button></a><br>
+                </ul>
+            </div>
+            <section class="content">
+                <div class="">
+                    <div class="perfil">
+                        <nav class="perfil">
+                            <h2>Meu Pet</h2>
+                        </nav>
+                    </div>
+                </div>
+                <div class="content">
+                    <form id="bloco">
+                        <div class="enviar-foto">
+                            <img id="imgPreviewPet" src="../img/foto padrao pet.png" alt="preview" style="width: 190px; height: 190px; border-radius: 20%;">
+                            
+                        </div>
+                        <div class="alinhamento">
+                            <div class="box-noticia1">
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Nome do Pet:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Raça:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Data de nascimento:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Gênero:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Local onde Vive:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Vacinas:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Porte:
+                                </div>
+                                <div id="main-form-perfil-bloco1-campo">
+                                    Comportamento:
+                                </div>
+                            </div>
+                            <div class="box-noticia2">
+                                <p id="nomePet"></p>
+                                <p id="racas"></p>
+                                <p id="dtaNascPet"></p>
+                                <p id="genderPet"></p>
+                                <p id="localVive"></p>
+                                <p id="vacinas"></p>
+                                <p id="porte"></p>
+                                <p id="comportamento"></p>
+                            </div>
+                        </div>
+                        <div class="submit-b">
+                            <button class="button-sub" type="submit"><a href="Cadastro de Pet.html">Editar
+                                    informações</a></button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </aside>
+    <div class="item footer">
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dadoUrlImagemRecentePet = localStorage.getItem("imagem-recente-pet");
+            if (dadoUrlImagemRecentePet) {
+                document.querySelector("#imgPreviewPet").setAttribute("src", dadoUrlImagemRecentePet);
+            }
+        });
+
+        function Carregar () {
+            const cadastrosArmazenado =JSON.parse(localStorage.getItem('cadastro'));
+            const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"))
+            const dadosUsuarioLogado = cadastrosArmazenado.find(item=>item.id==usuarioLogado)
+            document.getElementById("nomePet").innerHTML = dadosUsuarioLogado.nomePet  || "&nbsp"
+            document.getElementById("racas").innerHTML = dadosUsuarioLogado.racas || "&nbsp"
+            document.getElementById("dtaNascPet").innerHTML = dadosUsuarioLogado.dtaNascPet || "&nbsp"
+            document.getElementById("genderPet").innerHTML = dadosUsuarioLogado.genderPet || "&nbsp"
+            document.getElementById("localVive").innerHTML = dadosUsuarioLogado.localVive || "&nbsp"
+            document.getElementById("vacinas").innerHTML = dadosUsuarioLogado.vacinas || "&nbsp"
+            document.getElementById("porte").innerHTML = dadosUsuarioLogado.porte  || "&nbsp"  
+            document.getElementById("comportamento").innerHTML = dadosUsuarioLogado.comportamento  || "&nbsp"         
+        }
+
+        /*function Carregar () {
+            document.getElementById("nomePet").innerHTML = "<p>" + localStorage.getItem("nomePet"); + "</p>";
+            document.getElementById("racas").innerHTML = "<p>" + localStorage.getItem("racas"); + "</p>";
+            document.getElementById("dtaNascPet").innerHTML = "<p>" + localStorage.getItem("dtaNascPet"); + "</p>";
+            document.getElementById("genderPet").innerHTML = "<p>" + localStorage.getItem("genderPet"); + "</p>";
+            document.getElementById("localVive").innerHTML = "<p>" + localStorage.getItem("localVive"); + "</p>";
+            document.getElementById("vacinas").innerHTML = "<p>" + localStorage.getItem("vacinas"); + "</p>";
+            document.getElementById("porte").innerHTML = "<p>" + localStorage.getItem("porte"); + "</p>";
+            document.getElementById("comportamento").innerHTML = "<p>" + localStorage.getItem("comportamento"); + "</p>";
+        }*/
+    </script>
+
+
+</body>
+
+</html>
