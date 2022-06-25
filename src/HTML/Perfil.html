@@ -151,7 +151,7 @@
                                 </div>
                                 <div class="bloco2-tel">
                                     <label for="tel"></label>
-                                    <input type="number" id="tel" required>
+                                    <input id="tel" onkeyup="mascaraFone(event)" />
                                 </div>
 
                                 <div class="bloco2-state ">
@@ -176,11 +176,11 @@
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2022 Copyright:
-                <a class="text-dark"  href="https://pucminas.br">PUC Minas</a>
+                <a class="text-dark" href="https://pucminas.br">PUC Minas</a>
             </div>
             <!-- Copyright -->
         </footer>
-    </div>    
+    </div>
     <script>
         /*document.querySelector('#imgInp').addEventListener("change", function () {
             const reader = new FileReader();
@@ -207,6 +207,28 @@
                 blah.src = URL.createObjectURL(file)
             }
         }*/
+
+        // function mascaraFone(event) {
+        //     var valor = document.getElementById("tel").attributes[0].ownerElement['value'];
+        //     var retorno = valor.replace(/\D/g, "");
+        //     retorno = retorno.replace(/^0/, "");
+        //     if (retorno.length > 10) {
+        //         retorno = retorno.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+        //     } else if (retorno.length > 5) {
+        //         if (retorno.length == 6 && event.code == "Backspace") {
+        //             // necessário pois senão o "-" fica sempre voltando ao dar backspace
+        //             return;
+        //         }
+        //         retorno = retorno.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+        //     } else if (retorno.length > 2) {
+        //         retorno = retorno.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+        //     } else {
+        //         if (retorno.length != 0) {
+        //             retorno = retorno.replace(/^(\d*)/, "($1");
+        //         }
+        //     }
+        //     document.getElementById("tel").attributes[0].ownerElement['value'] = retorno;
+        // }
     </script>
 </body>
 
