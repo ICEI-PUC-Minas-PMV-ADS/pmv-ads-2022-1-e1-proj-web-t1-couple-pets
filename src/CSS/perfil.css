@@ -1,0 +1,370 @@
+body {
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabecalho"
+        "conteudo"
+        "periferico"
+        "rodape";
+    grid-gap: 5px 0px;
+
+}
+
+header {
+    grid-area: cabecalho;
+}
+
+aside {
+    grid-area: conteudo;
+
+}
+
+div.footer {
+    grid-area: rodape;
+}
+
+.logo {
+    width: 285px;
+    height: 103px;
+}
+
+div.container-fluid logo {
+    float: left;
+}
+
+.box-lateral {
+    display: none;
+}
+
+#nome {
+    width: auto;
+    max-width: 125px;
+}
+
+#state {
+    width: 125px;
+    height: 30px;
+}
+
+.bloco2-date {
+    padding: 17px 0px 0px 5px;
+}
+
+.bloco2-genero {
+    padding: 26px 0px 0px 5px;
+    font-size: 13px;
+}
+
+.bloco2-adress {
+    padding: 20px 0px 10px 5px;
+}
+
+.bloco2-tel {
+    padding: 10px 0px 10px 5px;
+}
+
+#nome {
+    min-width: 146px;
+}
+
+#dtaNasc {
+    min-width: 146px;
+}
+
+#endereco {
+    width: 146px;
+}
+
+#tel {
+    width: 146px;
+}
+
+#cidade {
+    min-width: 146px;
+}
+
+
+.bloco2-state {
+    padding: 4px 0px 27px 5px;
+}
+
+.enviar {
+    width: auto;
+}
+
+.content {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding-top: 5px;
+
+}
+
+nav.perfil {
+    background-color: rgb(127, 212, 248);
+    border-radius: 12px;
+}
+
+nav.perfil h2 {
+    width: 95%;
+    background-color: rgb(127, 212, 248);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.box-noticia1 {
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
+}
+
+.box-noticia2 {
+    float: left;
+    padding: 20px 0px 0px 5px;
+    flex-direction: column;
+}
+
+.alinhamento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+img#blah {    
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+input#dtaNasc {
+    width: 146px;
+}
+
+input[type="file"] {
+    display: none;        
+}
+
+label {
+    cursor: pointer;
+}
+
+.enviar-foto {
+    padding: 0px 0px 0px 5px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.button-sub {
+    border-radius: 10px;
+    background-color: rgb(127, 212, 248);
+    outline: white;
+    border: none;
+    padding: 8px;
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+@media (min-width: 991px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+
+    header {
+        background-color: rgb(127, 212, 248);
+        ;
+    }
+
+    main {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    nav.perfil {
+        background-color: rgb(127, 212, 248);
+        border-radius: 12px;
+    }
+
+    nav.perfil h2 {
+        width: 95%;
+        background-color: rgb(127, 212, 248);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .box-noticia {
+
+        padding-top: 10px;
+        float: left;
+    }
+
+    #nome, #dtaNasc, #endereco, #tel, #cidade{
+        min-width: 200px;
+    }   
+
+    div>ul>li.sobre {
+        display: none;
+    }
+
+    input[type="file"] {
+        display: none;        
+    }
+    
+    label {
+        cursor: pointer;
+    }
+
+    /* Grid */
+    .grid {
+        display: grid;
+        max-width: 1024px;
+    }
+
+    .grid-template {
+        grid-template:
+            "sidenav content" 300fr;
+    }
+
+    .gap {
+        gap: 20px;
+    }   
+
+    .column-gap {
+        gap: 2px;
+        column-gap: 40px;
+    }
+
+    .row-gap {
+        gap: 2px;
+        row-gap: 20px;
+    }
+
+
+
+    .content {
+        grid-area: content;
+        margin-top: 10px;
+        padding: 0px 0px 20px 0px;
+        min-width: 600px;
+    }
+
+    .sidenav {
+        grid-area: sidenav;
+    }
+
+    .nav-lateral {
+        margin-top: 10px;
+    }
+
+    /* Grid Item */
+    .grid {
+        margin: 0 auto;
+    }
+
+    .campo {
+        grid-area: conteudo;
+        padding: 3px 0px 10px 30px;
+    }
+
+    #state {
+        width: 199px;
+    }
+
+    .bloco2-date {
+        padding: 9px 0px 6px 30px;
+    }
+
+    .bloco2-genero {
+        padding: 14px 0px 0px 30px;
+    }
+
+    .bloco2-adress {
+        padding: 20px 0px 10px 30px;
+    }
+
+    .bloco2-tel {
+        padding: 10px 0px 10px 30px;
+    }
+
+    .bloco2-state {
+        padding: 5px 0px 27px 34px;
+    }
+
+    div.box-lateral {
+        background-color: white;
+        box-shadow: none;
+        text-align: center;
+        display: list-item;
+        list-style: none;
+    }
+
+    div.box-lateral ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* botoes e perfil barra lateral WEB*/
+    aside>.box-lateral {
+        display: list-item;
+    }
+
+    :root {
+        --cor-primaria-ativo: rgb(127, 212, 248);
+        --cor-secundaria-ativo: white;
+        --cor-hover-ativo: rgba(92, 162, 192, 0.77);
+    }
+
+    .botao {
+
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background .3s;
+        width: 200px;
+        height: 46px;
+    }
+
+    .button-group {
+        padding-top: 30px;
+    }
+
+    .botao-ativo {
+        background-color: var(--cor-primaria-ativo);
+        outline: none;
+        color: white;
+        padding: 12px;
+    }
+
+    .botao-desativado {
+        background-color: var(--cor-secundaria-ativo);
+        outline: none;
+        color: black;
+        padding: 12px;
+    }
+
+    .botao-ativo:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    .botao-desativado:hover {
+        background-color: var(--cor-hover-ativo);
+
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+}
