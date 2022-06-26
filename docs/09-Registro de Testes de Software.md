@@ -17,7 +17,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Resultado:  | Aplicação concluída com sucesso|
 |Evidência:  | ![Printtela](img/ct1.png) 
 
-|  **Caso de Teste**  |  **CT-01.1  - Usuário não cadastrado realizar login**  |
+|  **Caso de Teste**  |  **CT-01.1  - Usuário não cadastrado impedido de realizar login**  |
 |--|--|
 |Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
 |Objetivo do Teste:  | Impedir que um usuário não cadastrado seja um usuário logado.  | 
