@@ -57,7 +57,7 @@ O Perfil apresenta diversas funcionalidades que estarão descritas separadamente
 A pagina de contatos apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
 
 
-![tela de cadastrodepet](img/ct6.png)
+![tela de contatos](img/ct7.png)
 
 
 
