@@ -9,7 +9,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do Site ou APP. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros da equipe.
 
-![FLUXOGRAMA](img/Fluxodeusuario.png)
+![FLUXOGRAMA](img/Fluxograma.png)
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
 
@@ -26,11 +26,8 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 03- Cadastro do Pet
 ![Wireframe](img/03cadastrarpets.png)
 
-04- Contatos
-![Wireframe](img/04Contatos.png)
-
-05- Resultado das buscas pelos pets
+04- Resultado das buscas pelos pets
 ![Wireframe](img/05resultadodabusca.png)
 
-06- Sobre o Site
+05- Sobre o Site
 ![Wireframe](img/06Sobreosite.png)
