@@ -71,7 +71,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Lolla",
             "cidade": "Belo Horizonte",
             "raça": "Chow Chow",
-            "telefone": "(775)976-6794",
+            "telefone": "(31) 999242-1452",
         },
         {
             "nome": "Clementina DuBuque",

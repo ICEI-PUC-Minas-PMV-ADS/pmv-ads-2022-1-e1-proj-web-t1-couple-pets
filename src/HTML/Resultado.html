@@ -33,9 +33,9 @@
                             <li class="nav-item sobre">
                                 <a class="nav-link" href="Cadastro de Pet.html">Meu Pet</a>
                             </li>
-                            <li class="nav-item sobre">
+                            <!-- <li class="nav-item sobre">
                                 <a class="nav-link" href="Contatos.html">Contato</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item sobre">
                                 <a class="nav-link" href="Sobre.html">Sobre</a>
                             </li>
@@ -61,7 +61,7 @@
                     <a href="Perfil.html"><button class="botao botao-desativado">Perfil</button></a><br>
                     <a href="Cadastro de Pet.html"><button class="botao botao-desativado">Meu
                             Pet</button></a><br>
-                    <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br>
+                    <!-- <a href="Contatos.html"><button class="botao botao-desativado">Contatos</button></a><br> -->
                     <a href="Sobre.html"><button class="botao botao-desativado">Sobre</button></a><br>
                 </ul>
             </div>
@@ -145,7 +145,7 @@
                     <div class="col-sm-12">
                         <table id="grid-contatos" class="table table-striped">
                             <thead>
-                                <tr>                                    
+                                <tr>
                                     <th scope="col">Nome</th>
                                     <th scope="col">E-mail</th>
                                     <th scope="col">Nome do Pet</th>
@@ -192,18 +192,18 @@
             // Popula a tabela com os registros do banco de dados
             for (i = 0; i < db.data.length; i++) {
                 let contato = db.data[i];
-                $("#table-contatos").append(`<tr>                    
+                $("#table-contatos").append(`<tr>
                     <td><a href="editar-info.html">${contato.nome}</a></td>
                     <td>${contato.email}</td>
                     <td>${contato.nomeDoPet}</td>
                     <td>${contato.cidade}</td>
                     <td>${contato.raça}</td>
-                    <td><a href="Contatos.html">${contato.telefone}</td>
+                    <td><a href="https://api.whatsapp.com/send?phone=5531992421452&text=Olá, encontrei seu pet no Couple Pet's gostaria de saber mais sobre ele!">${contato.telefone}</td>
                     </tr>`);
             }
         }
 
-        // função para listar na tabela os contatos que estão associados aos filtros 
+        // função para listar na tabela os contatos que estão associados aos filtros
         function ListaContatos() {
 
             // Obtem os dados informados pelo usuário nos filtros
@@ -221,19 +221,19 @@
                 if (((contato.cidade == fc) || (fc == '')) &&
                     ((contato.raça == fcg) || (fcg == ''))) {
 
-                    // Inclui o contato na tabela    
-                    $("#table-contatos").append(`<tr>                    
+                    // Inclui o contato na tabela
+                    $("#table-contatos").append(`<tr>
                     <td><a href="editar-info.html">${contato.nome}</a></td>
                     <td>${contato.email}</td>
                     <td>${contato.nomeDoPet}</td>
                     <td>${contato.cidade}</td>
                     <td>${contato.raça}</td>
-                    <td><a href="Contatos.html">${contato.telefone}</td>
+                    <td><a href="https://api.whatsapp.com/send?phone=5531992421452&text=Olá, encontrei seu pet no Couple Pet's gostaria de saber mais sobre ele!">${contato.telefone}</td>
                     </tr>`);
                 }
             }
 
-        }        
+        }
     </script>
 </body>
 
