@@ -17,8 +17,30 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Resultado:  | Aplicação concluída com sucesso|
 |Evidência:  | ![Printtela](img/ct1.png) 
 
+|  **Caso de Teste**  |  **CT-01.1  - Usuário não cadastrado realizar login**  |
+|--|--|
+|Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
+|Objetivo do Teste:  | Impedir que um usuário não cadastrado seja um usuário logado.  | 
+|Passos:  | 1) Acessar o Navegador  
+||2) Informar o endereço do Site  
+||3) Visualizar a página inicial  |
+||4) Usuário sem cadastro inserir um e-mail e/ou senha não cadastrado  |
+|Resultado:  | Usuário ou senha não encontrados|
+|Evidência:  | ![Printtela](img/ct1.1.png) 
 
- |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
+|  **Caso de Teste**  |  **CT-01.1  - Usuário com e-mail cadastrado**  |
+|--|--|
+|Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
+|Objetivo do Teste:  | Impedir que um usuário cadastrado realize um novo cadastro  | 
+|Passos:  | 1) Acessar o Navegador  
+||2) Informar o endereço do Site  
+||3) Visualizar a página inicial  |
+||4) Na parte do cadastro o usuário deve informar um e-mail cadastrado  |
+||5) Se o e-mail estiver cadastrado, o usuário não poderá cadastrar o mesmo e-mail  |
+|Resultado:  | E-mail já cadastrado|
+|Evidência:  | ![Printtela](img/ct1.2.png) 
+
+|  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
 |--|--|
 |Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil  |
 |Objetivo do Teste:	 |Verificar se os dados do perfil do usuário estão condizentes com as informações prestadas pelo usuário.  |
