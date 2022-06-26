@@ -54,11 +54,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |João Pedro | Quero encontrar um parceiro pet que seja extrovertido.         | Para ter maior chance de uma ninhada nesse mesmo traço de personalidade.           |
-|João Pedro      | Encontrar um parceiro pet na mesma região que reside.                | Para não ter que se deslocar por grandes distancias. |
-|Laura |Encontrar um parceiro pet da mesma raça e de até 8 anos.       | Para ter a mesma idade e raça de seu pet.               |
+|João Pedro      | Encontrar um parceiro pet na mesma região que eu reside.                | Para não ter que se deslocar por grandes distancias. |
+|Laura |Encontrar um parceiro pet da mesma raça.       | Para ter a mesma raça de seu pet.               |
 |Laura  |Encontrar um parceiro pet com histórico médico bom e com todas as vacinas tomadas.          | Para ter ciencia da saúde do pet.              |
-|João Pedro  | Quero encontrar perfis com galería de fotos do animal.          | Para confirmar as características do animal informadas no perfil.               |
-|Laura  | Quero encontrar nos perfis, informações relevantes do dono de pets com foto.          | Para gerar confianca e credibilidade.             |
+|João Pedro  | Quero encontrar perfis com no mínimo uma foto.          | Para confirmar as características do animal informadas no perfil.               |
+|Laura  | Quero encontrar nos perfis, informações relevantes do dono do pet com foto.          | Para gerar confianca e credibilidade.             |
 |Laura  | Gostaria que o site de alguma forma unissem as duas partes, por um meio de comunicação via mensagem de texto ex: WhatsApp        | Para melhorar, facilitar e ter um meio de comunicação popular.               |
 
 ## Requisitos
@@ -70,11 +70,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O site deve oferecer um campo de preenchimento com os dados  do pet com as seguintes informações: Nome, sexo, personalidade, idade e foto. | MÉDIA | 
-|RF-002| O site deve apresentar, obrigatoriamente, 3 fotos do pet no cadastro.  | ALTA  |
+|RF-002| O site deve apresentar, obrigatoriamente, no mínimo uma foto.  | ALTA  |
 |RF-003| O site deve possibilitar ao usuário visualizar detalhes do perfil tanto do pet, quanto informações do tutor.  | ALTA | 
 |RF-004| O site deve oferecer um campo de preenchimento obrigatório para a inclusão da cidade que reside o usuário.    | ALTA |
 |RF-005|O site deve oferecer uma funcionalidade de filtro/pesquisa da raça do pet.  | ALTA | 
-|RF-006|O site deve oferecer uma funcionalidade de filtro/pesquisa da idade do pet. | ALTA |
+|RF-006|O site deve oferecer uma funcionalidade de filtro/pesquisa da cidade onde reside. | ALTA |
 |RF-007| O site deve oferecer um campo de informações médicas do pet.    | BAIXA |
 |RF-008| O site deve oferecer um campo de preenchimento com os dados do dono do pet com as seguintes informações: Nome, e-mail, telefone e foto do dono (usuário). | ALTA | 
 |RF-009| O site deve oferecer um meio de comunicação por mensagem de texto via whatsapp.    | ALTA |
