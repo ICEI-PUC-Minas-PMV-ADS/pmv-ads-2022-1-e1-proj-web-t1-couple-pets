@@ -145,7 +145,7 @@
                     <div class="col-sm-12">
                         <table id="grid-contatos" class="table table-striped">
                             <thead>
-                                <tr>
+                                <tr>                                    
                                     <th scope="col">Nome</th>
                                     <th scope="col">E-mail</th>
                                     <th scope="col">Nome do Pet</th>
@@ -192,13 +192,13 @@
             // Popula a tabela com os registros do banco de dados
             for (i = 0; i < db.data.length; i++) {
                 let contato = db.data[i];
-                $("#table-contatos").append(`<tr>
-                    <td>${contato.nome}</td>
+                $("#table-contatos").append(`<tr>                    
+                    <td><a href="editar-info.html">${contato.nome}</a></td>
                     <td>${contato.email}</td>
                     <td>${contato.nomeDoPet}</td>
                     <td>${contato.cidade}</td>
                     <td>${contato.raça}</td>
-                    <td>${contato.telefone}</td>
+                    <td><a href="Contatos.html">${contato.telefone}</td>
                     </tr>`);
             }
         }
@@ -222,13 +222,13 @@
                     ((contato.raça == fcg) || (fcg == ''))) {
 
                     // Inclui o contato na tabela    
-                    $("#table-contatos").append(`<tr>
-                    <td>${contato.nome}</td>
+                    $("#table-contatos").append(`<tr>                    
+                    <td><a href="editar-info.html">${contato.nome}</a></td>
                     <td>${contato.email}</td>
                     <td>${contato.nomeDoPet}</td>
                     <td>${contato.cidade}</td>
                     <td>${contato.raça}</td>
-                    <td>${contato.telefone}</td>
+                    <td><a href="Contatos.html">${contato.telefone}</td>
                     </tr>`);
                 }
             }
