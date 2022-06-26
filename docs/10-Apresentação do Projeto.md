@@ -32,7 +32,12 @@ https://sgapucminasbr.sharepoint.com/:p:/s/team_sga_2418_2022_1_5012101-Grupo1-P
 ![Sl6](img/Slide6.PNG)
 ![Sl7](img/Slide7.PNG)
 
+# Apresentação
 
+Segue link para visualização do vídeo com a apresentação da solução:
+
+
+https://youtu.be/cOdGcTN1n4A
 
 
 
