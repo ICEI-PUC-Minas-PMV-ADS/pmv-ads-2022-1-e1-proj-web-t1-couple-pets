@@ -28,11 +28,7 @@ A tela principal apresenta diversas funcionalidades que estarão descritas separ
 O Cadastro de Pet apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Cadastro de Pet:
 
 
-
-
-
-
-
+![tela de cadastrodepet](img/ct4.png)
 
 
 
