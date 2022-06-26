@@ -19,7 +19,7 @@ A solução implementada conta com os seguintes módulos:
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Perfil** - seção que mostra as informações do usuário.
      - **Cadastro** - registro de dados cadastrais de cada usuário.
-     - **Contatos** - lista de perfis encontrados que despertaram interesse.
+     - **Resultado da Pesquisa** - lista de perfis encontrados que despertaram interesse.
  - **WhatsApp API** - plataforma que permite o redirecionamento do usuário para troca de mensagens pelo WhatsApp.
  - **Hospedagem** - GitHub Pages.
 ## Tecnologias Utilizadas
