@@ -66,9 +66,9 @@ A pagina de contatos apresenta diversas funcionalidades que estarão descritas s
 1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Contatos.html
 
 
-## Visualização da tela de Contatos
+## Visualização da tela de resultado de pesquisa
 
-A pagina de contatos apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+A pagina de resultado de pesquisa apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
 
 
 ![tela de contatos](img/ct5.png)
@@ -80,4 +80,15 @@ A pagina de contatos apresenta diversas funcionalidades que estarão descritas s
 1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Resultado.html
 
 
+## Visualização da tela sobre
 
+A pagina sobre apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de contatos](img/ct7.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Sobre.html
