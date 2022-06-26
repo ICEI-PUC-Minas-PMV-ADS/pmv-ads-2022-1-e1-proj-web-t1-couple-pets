@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||3) Visualizar a página inicial  |
 ||4) Usuário sem cadastro inserir um e-mail e/ou senha não cadastrado  |
 |Resultado:  | Usuário ou senha não encontrados|
-|Evidência:  | ![Printtela](img/ct1.1.png) 
+|Evidência:  | ![Printtela](img/c1.1.png) 
 
 |  **Caso de Teste**  |  **CT-01.1  - Usuário com e-mail cadastrado**  |
 |--|--|
@@ -38,7 +38,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) Na parte do cadastro o usuário deve informar um e-mail cadastrado  |
 ||5) Se o e-mail estiver cadastrado, o usuário não poderá cadastrar o mesmo e-mail  |
 |Resultado:  | E-mail já cadastrado|
-|Evidência:  | ![Printtela](img/ct1.2.png) 
+|Evidência:  | ![Printtela](img/c1.2.png) 
 
 |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
 |--|--|
