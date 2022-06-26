@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Inserir usuário e senha nos campos determinados para usuario já cadastrado
 ||3) Acessar perfil do usuário
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | ![Printtela](img/ct2.png)|
+|Evidência:  | ![Printtela](img/perfil2.png)|
 
 
 |  **Caso de Teste**  |  **CT-03 - Visualizar cadastro do  usúario**  |
@@ -38,7 +38,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||3) Acessar perfil de cadastro de informações do usuario e preencher com as informações
 ||4) Concluir cadastro do Usuario
 |Resultado:  | Passos 1 e 2 realizados com sucesso , Passos 3 e 4 não responsivo|
-|Evidência:  | ![Printtela](img/ct3.png)|
+|Evidência:  | ![Printtela](img/perfil.png)|
 
 
 |  **Caso de Teste**  |  **CT-04 – Cadastro de pet**  |
@@ -52,7 +52,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) realizar cadastro do pet
 ||6) concluir cadastro do pet
 |Resultado:  |Passos 1, 2 e 3 realizados com sucesso , Passos 4, 5 e 6 não responsivo|
-|Evidência:  | ![Printtela](img/ct4.png)|
+|Evidência:  | ![Printtela](img/cadastrodepet.png)|
 
 
 |  **Caso de Teste**  |  **CT-05 – Resultado de pesquisa de pet**  |
@@ -66,7 +66,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) encontrar pet idealizado
 ||6) acessar perfil do pet
 |Resultado:  |Passos 1, 2 e 3 realizados com sucesso , Passos 4, 5 e 6 não responsivo|
-|Evidência:  |![Printtela](img/ct5.png)|
+|Evidência:  |![Printtela](img/resultadodepesquisa.png)|
 
 
 |  **Caso de Teste**  |  **CT-06 – Enviar mensagem para perfil encontrado**  |
@@ -80,7 +80,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||5) visualizar link para o envio de mensagens
 ||6) acessar link e ser direcionado para o app WhatsApp do tutor do pet encontrado
 |Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  |![Printtela](img/ct6.1.png)  ![Printtela](img/ct6.2.png)|
+|Evidência:  |![Printtela](img/resultadodepesquisa.png)  ![Printtela](img/ct6.2.png)|
 
 
 |  **Caso de Teste**  |  **CT-07 – Visualizar pagina Sobre**  |
@@ -93,7 +93,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||4) acessar a pagina sobre
 ||5) visualizar a pagina contendo informações sobre o site
 |Critérios de Êxito:  |A página se comportará como esperado e surgirá a descrição com informações sobre o sit|Resultado:  |Aplicação concluída com sucesso|
-|Evidência:  |![Printtela](img/ct7.png)|
+|Evidência:  |![Printtela](img/sobre.png)|
 
 
 |  **Caso de Teste**  |  **CT-08 – Responsividade do site**  |
