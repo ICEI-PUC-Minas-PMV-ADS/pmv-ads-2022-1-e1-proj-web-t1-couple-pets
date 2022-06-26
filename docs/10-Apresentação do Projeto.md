@@ -18,4 +18,6 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 ## Conjunto de Slides (Estrutura)
 
 
-Link dos slides da apresentação do projeto: https://sgapucminasbr.sharepoint.com/:p:/s/team_sga_2418_2022_1_5012101-Grupo1-Pets/EbZFoI-KCxtOtLAPQxVIdLMBuH5DRQ_4jz9XtNCsOpurxQ?e=MADXI7
+Link dos slides da apresentação do projeto: 
+
+https://sgapucminasbr.sharepoint.com/:p:/s/team_sga_2418_2022_1_5012101-Grupo1-Pets/EbZFoI-KCxtOtLAPQxVIdLMBuH5DRQ_4jz9XtNCsOpurxQ?e=MADXI7
