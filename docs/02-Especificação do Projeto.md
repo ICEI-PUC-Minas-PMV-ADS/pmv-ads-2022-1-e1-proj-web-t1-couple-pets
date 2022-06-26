@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma d
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários. Dessa forma se obteve um portal na qual pode-se encontrar um parceiro para o pet do usuaria que mais lhe agrada.
 
 ## Personas
 
