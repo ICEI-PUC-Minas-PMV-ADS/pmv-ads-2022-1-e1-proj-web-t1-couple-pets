@@ -40,6 +40,18 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Resultado:  | E-mail já cadastrado|
 |Evidência:  | ![Printtela](img/c1.2.png) 
 
+|  **Caso de Teste**  |  **CT-01.3  - Usuário devidamente cadastrado realizando login**  |
+|--|--|
+|Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
+|Objetivo do Teste:  | Caso de sucesso demonstrando um usuário devidamente cadastrado realizando o login  | 
+|Passos:  | 1) Acessar o Navegador  
+||2) Informar o endereço do Site  
+||3) Visualizar a página inicial  |
+||4) Na parte do login o usuário deve inserir o e-mail e senha cadastrado nos campos correspondentes  |
+||5) Se o e-mail e senha estiverem cadastrados e armazenados no local Storage, o usuário realiza o login com sucesso  |
+|Resultado:  | Você entrou! |
+|Evidência:  | ![Printtela](img/c1.3.png)
+
 |  **Caso de Teste**  |  **CT-02 - Visualizar perfil do usuário**  |
 |--|--|
 |Requisitos Associados:	|RF-02 - O site deve permitir ao usuário visualizar seu perfil  |
