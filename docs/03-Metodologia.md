@@ -33,8 +33,11 @@ A equipe está organizada da seguinte maneira:
     - Silvia Cristina De Oliveira Teixeira
     - Leonardo Siqueira Menezes..
 - **Equipe de Design**
-    - Matheus Henrique Garcia Queiroz
-    - Lorran de França Marins
+  - Mariana Júlia Estevam Corrêa
+    - Rafael Alves de Souza
+    - Pedro Henrique Caetano Soares    
+    - Silvia Cristina De Oliveira Teixeira
+    - Leonardo Siqueira Menezes..
 
 Para organização e distribuição das tarefas, será utilizado a ferramenta Projects do GitHub, estruturado conforme listado abaixo:
 - **Backlog:** Representa as tarefas que não estão previstas para serem realizadas no sprint em andamento.
