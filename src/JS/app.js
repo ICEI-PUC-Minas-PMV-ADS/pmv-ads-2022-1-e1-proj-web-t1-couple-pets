@@ -70,11 +70,7 @@ var db_contatos_inicial = {
             "nomeDoPet": "Lolla",
             "cidade": "Belo Horizonte",
             "raça": "Chow Chow",
-<<<<<<< HEAD
-            "telefone": "(31) 999242-1452",
-=======
             "telefone": "(31) 99242-1452",
->>>>>>> 184117de81c2866aeb725e8666ad8f324145fe81
         },
         {
             "nome": "Clementina DuBuque",
