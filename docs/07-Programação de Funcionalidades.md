@@ -37,3 +37,21 @@ O Cadastro de Pet apresenta diversas funcionalidades que estarão descritas sepa
 1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/HTML/Cadastro%20de%20Pet.html
 
 
+## Visualização da tela de Perfil
+
+O Perfil apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de cadastrodepet](img/ct2.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Perfil.html
+
+
+
+
+
+
