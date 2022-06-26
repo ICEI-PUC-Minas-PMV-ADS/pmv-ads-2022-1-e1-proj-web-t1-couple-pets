@@ -25,3 +25,17 @@ https://sgapucminasbr.sharepoint.com/:p:/s/team_sga_2418_2022_1_5012101-Grupo1-P
 
 
 ![Sl1](img/Slide1.PNG)
+![Sl2](img/Slide2.PNG)
+![Sl3](img/Slide3.PNG)
+![Sl4](img/Slide4.PNG)
+![Sl5](img/Slide5.PNG)
+![Sl6](img/Slide6.PNG)
+![Sl7](img/Slide7.PNG)
+
+
+
+
+
+
+
+
