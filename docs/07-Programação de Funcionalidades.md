@@ -66,7 +66,18 @@ A pagina de contatos apresenta diversas funcionalidades que estarão descritas s
 1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Contatos.html
 
 
+## Visualização da tela de Contatos
 
+A pagina de contatos apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de contatos](img/ct4.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Resultado.html
 
 
 
