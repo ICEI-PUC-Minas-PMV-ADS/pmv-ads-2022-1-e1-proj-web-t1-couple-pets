@@ -28,7 +28,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Resultado:  | Usuário ou senha não encontrados|
 |Evidência:  | ![Printtela](img/c1.1.png) 
 
-|  **Caso de Teste**  |  **CT-01.1  - Usuário com e-mail cadastrado**  |
+|  **Caso de Teste**  |  **CT-01.2  - Usuário com e-mail cadastrado**  |
 |--|--|
 |Requisitos Associados:  |RF-01 - O site deve apresentar na página principal o local para cadastro de novo usuário e para login dos usuários já cadastrados.  | 
 |Objetivo do Teste:  | Impedir que um usuário cadastrado realize um novo cadastro  | 
