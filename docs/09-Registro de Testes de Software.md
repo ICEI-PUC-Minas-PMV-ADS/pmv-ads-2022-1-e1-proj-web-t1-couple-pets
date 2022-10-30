@@ -15,7 +15,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 ||2) Informar o endereço do Site  
 ||3) Visualizar a página inicial  |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | ![Printtela](img/print1.png) 
+
 
 |  **Caso de Teste**  |  **CT-01.1  - Usuário não cadastrado impedido de realizar login**  |
 |--|--|
