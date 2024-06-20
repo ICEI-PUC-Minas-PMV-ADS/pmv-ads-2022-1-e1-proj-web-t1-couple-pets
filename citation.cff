@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title:COUPLE PET'S
+authors:
+  - family-names: Siqueira Menezes
+    given-names: Leonardo
+  - family-names: Júlia Estevam Corrêa
+    given-names: Mariana
+  - family-names: Henrique Caetano Soares
+    given-names: Pedro
+  - family-names: Alves de Souza
+    given-names: Rafael
+  - family-names: Cristina De Oliveira Teixeira
+    given-names: Silvia
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce
+ 
+keywords:
+  - encontro
+  - pet's
+  - busca
+repository-code: 
+version: 1.0.0
+date-released: 2022-26-06
